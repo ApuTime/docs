@@ -134,8 +134,6 @@ nav:
     - Customization: customization.md
     - Troubleshooting: troubleshooting.md
     - Data privacy: data-privacy.md
-    - Insiders: insiders.md
-    - License: license.md
   - Setup:
     - Changing the colors: setup/changing-the-colors.md
     - Changing the fonts: setup/changing-the-fonts.md
