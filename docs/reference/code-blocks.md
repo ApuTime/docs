@@ -311,14 +311,14 @@ _Example_:
 
 ```` markdown
 ```
---8<--​ ".browserslistrc"
+--8<--​ "readme.md"
 ```
 ````
 
 _Result_:
 
 ```
---8<-- ".browserslistrc"
+--8<-- "readme.md"
 ```
 
 Note that [Snippets][21] is not limited to code blocks, but can be used anywhere

@@ -245,17 +245,6 @@ export default (_env: never, args: Configuration): Configuration[] => {
             }))
           }),
 
-          /* GitHub octicons */
-          new CopyPlugin({
-            patterns: [
-              { to: ".icons/octicons", from: "*.svg" },
-              { to: ".icons/octicons", from: "../../LICENSE" }
-            ].map(pattern => ({
-              context: "node_modules/@primer/octicons/build/svg",
-              ...pattern
-            }))
-          }),
-
           /* Search stemmers and segmenters */
           new CopyPlugin({
             patterns: [
