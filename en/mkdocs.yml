@@ -1,0 +1,23 @@
+# In this case, we use the site_name to figure out how we should merge
+# this with the root documentation. It should refer to a folder structure.
+# The example below will merge documentation as following:
+#
+#   reference.md -> docs/versions/v1/reference.md -> http://localhost:8000/versions/v1/reference/
+#   changelog.md -> docs/versions/v1/changelog.md -> http://localhost:8000/versions/v1/changelog/
+#
+
+site_name: en
+
+plugins:
+    - search:
+        lang: eng
+
+nav:
+  - Index: "index.md"
+  - Project: "project/project.md"
+  - People: "people/people.md"
+  - My schedule: "my_schedule/my_schedule.md"
+  - Time spent: "time_spend/time_spend.md"
+  - ProjectFormation™: "projectFormation/projectformation.md"
+  - Gantt.AI™: "gantt/gantt_ai.md"
+  - Changelog: "changelog/changelog.md"

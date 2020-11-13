@@ -62,8 +62,9 @@ theme:
 # Plugins
 plugins:
   - search
+  - monorepo
   - minify:
-      minify_html: true
+      minify_html: false # TODO change to TRUE
 
 # Extensions
 markdown_extensions:
@@ -108,7 +109,10 @@ markdown_extensions:
 
 # Page tree
 nav:
-  - Home: index.md
+  - Intro: 'index.md'
+  - Typography: 'typography.md'
+  - CS: '!include ./cs/mkdocs.yml'
+  - EN: '!include ./en/mkdocs.yml'
 
 # Google Analytics
 # google_analytics: ['UA-?', 'docs.aputime.com']

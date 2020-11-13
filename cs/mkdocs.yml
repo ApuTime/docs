@@ -1,0 +1,16 @@
+# It works the same as above, but with relative to the site_name we use here:
+#
+#   migrating.md -> docs/versions/v2/migrating.md -> http://localhost:8000/versions/v2/migrating/
+#   reference.md -> docs/versions/v2/reference.md -> http://localhost:8000/versions/v2/reference/
+#   changelog.md -> docs/versions/v2/changelog.md -> http://localhost:8000/versions/v2/changelog/
+
+site_name: cs
+
+plugins:
+    - search:
+        lang: cs
+
+nav:
+  - Index: "index.md"
+  - Časová osa Gantt.AI™: "casova_osa_gantt/casova_osa_gantt.md"
+  - Changelog: "changelog/changelog.md"
