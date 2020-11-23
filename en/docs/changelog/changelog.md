@@ -1,3 +1,7 @@
+---
+hreflang: 1
+---
+
 # Changelog
 
 ## Material for MkDocs Insiders

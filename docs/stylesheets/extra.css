@@ -1,0 +1,18 @@
+/* Colors */
+:root {
+  --apu-primary-fg-color:        #1578FB;
+  --apu-primary-fg-color--light: #ECB7B7;
+  --apu-primary-fg-color--dark:  #90030C;
+}
+
+.md-header {
+  background-color: #000;
+}
+
+/* .md-tabs {
+  display: none;
+} */
+
+.md-header-nav__button.md-logo img, .md-header-nav__button.md-logo svg {
+  width: 5rem;
+}

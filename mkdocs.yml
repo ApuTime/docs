@@ -35,6 +35,7 @@ copyright: Copyright &copy; 2016 - 2020 ApuTime
 theme:
   name: null
   custom_dir: material
+  font: false
 
   # 404 page
   static_templates:
@@ -45,7 +46,7 @@ theme:
   search_index_only: true
 
   # Default values, taken from mkdocs_theme.yml
-  language: en
+  language: cs
   features:
     - navigation.tabs
   palette:
@@ -53,7 +54,7 @@ theme:
     primary: indigo
     accent: indigo
   font:
-    text: Roboto
+    text: Manrope
     code: Roboto Mono
   favicon: assets/favicon.png
   icon:
@@ -63,8 +64,14 @@ theme:
 plugins:
   - search
   - monorepo
+  - macros
+  - markdownextradata
   - minify:
       minify_html: false # TODO change to TRUE
+
+# Custom variable
+extra:
+  hreflang:
 
 # Extensions
 markdown_extensions:
@@ -113,6 +120,10 @@ nav:
   - Typography: 'typography.md'
   - CS: '!include ./cs/mkdocs.yml'
   - EN: '!include ./en/mkdocs.yml'
+
+# Extra CSS
+extra_css:
+  - stylesheets/extra.css
 
 # Google Analytics
 # google_analytics: ['UA-?', 'docs.aputime.com']

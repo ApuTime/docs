@@ -3,7 +3,7 @@
 -#}
 {% import "partials/language.html" as lang with context %}
 <footer class="md-footer">
-  {% if page.previous_page or page.next_page %}
+  {# {% if page.previous_page or page.next_page %}
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid" aria-label="{{ lang.t('footer.title') }}">
         {% if page.previous_page %}
@@ -38,7 +38,7 @@
         {% endif %}
       </nav>
     </div>
-  {% endif %}
+  {% endif %} #}
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
       <div class="md-footer-copyright">
@@ -47,6 +47,8 @@
             {{ config.copyright }}
           </div>
         {% endif %}
+      </div>
+      <div class="md-footer-copyright">
         Made with
         <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
           Material for MkDocs
