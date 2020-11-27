@@ -12,6 +12,6 @@ plugins:
 
 nav:
   - Index: "index.md"
-  - Můj plán: "muj_plan/muj_plan.md"
-  - Časová osa Gantt.AI™: "casova_osa_gantt/casova_osa_gantt.md"
+  - Můj plán: "muj-plan/muj-plan.md"
+  - Časová osa Gantt.AI™: "casova-osa-gantt/casova-osa-gantt.md"
   - Changelog: "changelog/changelog.md"

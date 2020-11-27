@@ -20,7 +20,7 @@
 
 # Project information
 site_name: APUtime Docs
-site_url: https://docs.aputime.com
+site_url: https://docs.aputime.com/cs
 site_author: ApuTime
 site_description:
 
@@ -63,7 +63,7 @@ theme:
 # Plugins
 plugins:
   - search
-  - monorepo
+  #- monorepo
   - macros
   - markdownextradata
   - minify:
@@ -71,7 +71,8 @@ plugins:
 
 # Custom variable
 extra:
-  hreflang:
+    version:
+    hreflang:
 
 # Extensions
 markdown_extensions:
@@ -116,10 +117,17 @@ markdown_extensions:
 
 # Page tree
 nav:
-  - Intro: 'index.md'
+  - Nabídka v hlavičce: './cs/nabidka-v-hlavicce.md'
+  - Váš profil: './cs/vas-profil.md'
+  - Můj plán: './cs/muj-plan'
+  - Gantt.AI™ časová osa: './cs/gantt-casova-osa.md'
+  - Projekty: './cs/projekty'
+  - ProjectFormation™: './cs/projectformation.md'
+  - Strávený čas: './cs/straveny-cas'
+  - Štítky a kategorie: './cs/stitky-a-kategorie'
+  - Lidé: './cs/lide.md'
+  - Changelog: './cs/changelog.md'
   - Typography: 'typography.md'
-  - CS: '!include ./cs/mkdocs.yml'
-  - EN: '!include ./en/mkdocs.yml'
 
 # Extra CSS
 extra_css:
