@@ -15,7 +15,7 @@ V sekci ‘Můj plán’ najdete všechny vaše úkoly v přehledném Kanbanu. K
 Práci na úkolu zahájíte přetažením jeho dlaždice do modře ohraničeného pole nad sloupci. Po přetažení se spustí časomíra.
 
 <figure>
-	<a href="../assets/images/muj-plan/zahajeni-prace.PNG">
+	<a href="../assets/images/muj-plan/zahajeni-prace.PNG" title="Zahájení práce na úkolu">
 		<img src="../assets/images/muj-plan/zahajeni-prace.PNG" alt="Zahájení práce na úkolu" />
 	</a>
 </figure>
@@ -29,7 +29,7 @@ Práci na úkolu můžete kdykoliv pozastavit přetažením dlaždice zpět do s
 Když je práce na úkolu dokončena, přetažením do sloupce ‘Hotovo’ úkol uzavřete.
 
 <figure>
-	<a href="../assets/images/muj-plan/dokonceni-ukolu.PNG">
+	<a href="../assets/images/muj-plan/dokonceni-ukolu.PNG" title="Dokončení úkolu">
 		<img src="../assets/images/muj-plan/dokonceni-ukolu.PNG" alt="Dokončení úkolu" />
 	</a>
 </figure>
@@ -39,7 +39,7 @@ Když je práce na úkolu dokončena, přetažením do sloupce ‘Hotovo’ úko
 Pokud na úkolu nemůžete pracovat, přetáhněte jej do pravého sloupce ‘Odloženo’. Po přetažení se zobrazí nabídka, ve které vyplníte důvod a dobu pro jeho odložení a potvrdíte tlačítkem ‘Odložit’.
 
 <figure>
-	<a href="../assets/images/muj-plan/odlozeni-ukolu.PNG">
+	<a href="../assets/images/muj-plan/odlozeni-ukolu.PNG" title="Odložení úkolu">
 		<img src="../assets/images/muj-plan/odlozeni-ukolu.PNG" alt="Odložení úkolu" />
 	</a>
 </figure>
@@ -71,7 +71,7 @@ Kliknutím na tlačítko ‘+’ v pravém dolním rohu projektu otevřete okno 
 - V nabídce ‘Projekt’ (ikona složky) vyberte, ke kterému projektu bude úkol přiřazen, otevřením nabídky a výběrem požadovaného projektu ze seznamu.
 - Nabídka řešitele (ikona panáčka) ukazuje uživatele přiřazeného k úkolu. Kliknutím na ikonu otevřete seznam uživatelů a vyberete příslušného řešitele úkolu. K úkolu je možné přiřadit i více řešitelů. V takovém případě rolujte až na konec seznamu a zapněte tlačítko ‘Spolupráce skupiny ve stejný čas.’
 <figure>
-	<a href="../assets/images/muj-plan/spoluprace-skupiny.PNG">
+	<a href="../assets/images/muj-plan/spoluprace-skupiny.PNG" title="Spolupráce skupiny">
 		<img src="../assets/images/muj-plan/spoluprace-skupiny.PNG" alt="Spolupráce skupiny" />
 	</a>
 </figure>
@@ -79,7 +79,7 @@ Kliknutím na tlačítko ‘+’ v pravém dolním rohu projektu otevřete okno 
 - Popis slouží k upřesnění daného úkolu.
 - Pomocí tlačítka ‘Vyberte soubor’ přiložíte k úkolu jakýkoliv soubor z vašeho zařízení. Také jsou zobrazeny možnosti přidání souboru z Google Drive, OneDrive či Dropboxu.
 <figure>
-	<a href="../assets/images/muj-plan/vybrat-soubor.PNG">
+	<a href="../assets/images/muj-plan/vybrat-soubor.PNG" title="Vybrat soubor">
 		<img src="../assets/images/muj-plan/vybrat-soubor.PNG" alt="Vybrat soubor" />
 	</a>
 </figure>

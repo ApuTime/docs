@@ -129,9 +129,12 @@ nav:
   - Changelog: './cs/changelog.md'
   - Typography: 'typography.md'
 
-# Extra CSS
+# Extra Files
 extra_css:
   - stylesheets/extra.css
+extra_javascript:
+  - javascripts/simple-lightbox.js
+  - javascripts/extra.js
 
 # Google Analytics
 # google_analytics: ['UA-?', 'docs.aputime.com']
