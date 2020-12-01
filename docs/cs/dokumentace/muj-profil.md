@@ -1,18 +1,18 @@
-# Váš profil
+# Můj profil
 
-Vedle nabídky naleznete také ikonu vašeho profilu. Po kliku na ní se dostanete k vašemu nastavení, podpoře, affiliate programu a podmínkám zpracování osobních údajů.
+> Vedle nabídky naleznete také ikonu vašeho profilu. Po kliku na ní se dostanete k vašemu nastavení, podpoře, affiliate programu a podmínkám zpracování osobních údajů.
 
 <figure>
-	<a href="../assets/images/vas-profil/profil-rolldown.PNG">
-		<img src="../assets/images/vas-profil/profil-rolldown.PNG" alt="Váš profil" />
+	<a href="../../assets/images/vas-profil/profil-rolldown.PNG" title="Můj profil">
+		<img src="../../assets/images/vas-profil/profil-rolldown.PNG" alt="Můj profil" />
 	</a>
 </figure>
 
-## Provizní program ![Můj plán](../assets/icons/local_activity.svg)
+## Provizní program ![Můj plán](../../assets/icons/local_activity.svg)
 
 Našim uživatelům nabízíme provizní program. Můžete doporučit APU společnostem ve vašem okolí a získat až 30% provizi z každé platby. APU se tak může stát zdrojem vašeho pasivního příjmu.
 
-## Nastavení ![Nastavení](../assets/icons/settings.svg)
+## Nastavení ![Nastavení](../../assets/icons/settings.svg)
 
 V nastavení můžete upravit svého avatara, jméno, e-mail, či si změnit nebo resetovat heslo.
 

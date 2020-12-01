@@ -1,8 +1,8 @@
 # Lidé
 
-Tato sekce slouží ke přehledu nad všemi uživateli v aplikaci a k jejich správě. Uživatelé se dají smazat z aktuálního pracovního prostoru, ale vždy se archivují a zůstanou v podsložce smazání. Kdykoliv jsou tedy zpětně dohledat informace o uživateli, jako je jeho hodinová sazba, e-mail nebo úkoly, které mu byly přiděleny. Smazání uživatelé se také kdykoliv obnovit zpátky.
+> Tato sekce slouží ke přehledu nad všemi uživateli v aplikaci a k jejich správě. Uživatelé se dají smazat z aktuálního pracovního prostoru, ale vždy se archivují a zůstanou v podsložce smazání. Kdykoliv jsou tedy zpětně dohledat informace o uživateli, jako je jeho hodinová sazba, e-mail nebo úkoly, které mu byly přiděleny. Smazání uživatelé se také kdykoliv obnovit zpátky.
 
-Je zde mnoho možností:
+## Je zde mnoho možností:
 
 - Přidání uživatele provedete pomocí tlačítka ‘nový uživatel’ nebo tlačítka ‘+’ v pravém dolním rohu;
 - Smazání či obnovení uživatele provedete skrze nabídku ‘Více’ (tři tečky) v pravém horním rohu po kliknutí na ‘Smazání’. Uživatele obnovíte tím, že si jej rozkliknete a v levém dolním rohu vybere tlačítko ‘Obnovit’.
@@ -12,7 +12,7 @@ Je zde mnoho možností:
     - Nastavení oprávnění v jednotlivém projektu;
     * Nastavení hodinové sazby a měny.
 
-## Přidání uživatele
+### Přidání uživatele
 
 Nového uživatele přidáte do aplikace kliknutím na tlačítko Nový uživatel, nebo tlačítkem ‘+’ v pravém dolním rohu.
 
@@ -24,11 +24,11 @@ Nového uživatele přidáte do aplikace kliknutím na tlačítko Nový uživate
 
 Uživatele a jeho nastavení uložte tlačítkem Přidat nového uživatele.
 
-## Import uživatelů
+### Import uživatelů
 
 Pod nabídkou více (tři tečky) v pravém horním rohu najdete možnost importování uživatelů z Google a Microsoft Directory.
 
-## Upravit uživatele
+### Upravit uživatele
 
 Klikněte na ikonu daného uživatele a tím otevřete nabídku nastavení (stejné možnosti jako u přidání uživatele).
 

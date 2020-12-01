@@ -1,6 +1,6 @@
 # ProjectFormation™
 
-V tomto grafickém nástroji se vizualizují procesy jednotlivých projektů. Díky rozkreslení každého projektu je naše AI optimalizuje jejich správu a vedení zakázek a postará se o hladký chod práce.
+> V tomto grafickém nástroji se vizualizují procesy jednotlivých projektů. Díky rozkreslení každého projektu je naše AI optimalizuje jejich správu a vedení zakázek a postará se o hladký chod práce.
 
 ## Vytvoření procesní mapy
 

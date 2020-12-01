@@ -19,7 +19,7 @@
 # IN THE SOFTWARE.
 
 # Project information
-site_name: APUtime Docs
+site_name: Uživatelská dokumentace
 site_url: https://docs.aputime.com/
 site_author: ApuTime
 site_description:
@@ -70,9 +70,9 @@ plugins:
       minify_html: false # TODO change to TRUE
 
 # Custom variable
-extra:
-    version:
-    hreflang:
+#extra:
+  #  version:
+  #  hreflang:
 
 # Extensions
 markdown_extensions:
@@ -117,17 +117,32 @@ markdown_extensions:
 
 # Page tree
 nav:
-  - Nabídka v hlavičce: './cs/nabidka-v-hlavicce.md'
-  - Váš profil: './cs/vas-profil.md'
-  - Můj plán: './cs/muj-plan'
-  - Gantt.AI™ časová osa: './cs/gantt-casova-osa.md'
-  - Projekty: './cs/projekty'
-  - ProjectFormation™: './cs/projectformation.md'
-  - Strávený čas: './cs/straveny-cas'
-  - Štítky a kategorie: './cs/stitky-a-kategorie'
-  - Lidé: './cs/lide.md'
-  - Changelog: './cs/changelog.md'
-  - Typography: 'typography.md'
+#- Home: index.md
+- Dokumentace:
+    - Nabídka v hlavičce: ./cs/dokumentace/nabidka-v-hlavicce.md
+    - Můj profil: ./cs/dokumentace/muj-profil.md
+    - Můj plán: ./cs/dokumentace/muj-plan.md
+    - Gantt.AI™ časová osa: ./cs/dokumentace/gantt-casova-osa.md
+    - Projekty: ./cs/dokumentace/projekty.md
+    - ProjectFormation™: ./cs/dokumentace/projectformation.md
+    - Strávený čas: ./cs/dokumentace/straveny-cas.md
+    - Štítky a kategorie: ./cs/dokumentace/stitky-a-kategorie.md
+    - Lidé: ./cs/dokumentace/lide.md
+- Changelog:
+    - Obsah: ./cs/changelog.md
+- Typography:
+    - Obsah: typography.md
+ # - Návody: ./cs/navody'
+ # - Nabídka v hlavičce: ./cs/navody/nabidka-v-hlavicce.md'
+ # - Můj profil: ./cs/navody/muj-profil.md'
+ # - Můj plán: ./cs/navody/muj-plan.md'
+ # - Gantt.AI™ časová osa: ./cs/navody/gantt-casova-osa.md'
+ # - Projekty: ./cs/navody/projekty.md'
+ # - ProjectFormation™: ./cs/navody/projectformation.md'
+ # - Strávený čas: navody/cs/straveny-cas.md'
+ # - Štítky a kategorie: ./cs/navody/stitky-a-kategorie.md'
+ # - Lidé: ./cs/navody/lide.md'
+
 
 # Extra Files
 extra_css:

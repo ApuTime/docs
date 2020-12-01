@@ -4,7 +4,7 @@
 	--apu-primary-fg-color--light: #ecb7b7;
 	--apu-primary-fg-color--dark: #90030c;
 }
-
+.md-tabs,
 .md-header {
 	background-color: #000;
 }
@@ -13,8 +13,45 @@
 .md-header-nav__button.md-logo svg {
 	width: 5rem;
 }
-.md-typeset {
-	font-size: 0.7rem;
+
+.md-typeset figure {
+	margin-left: 0;
+	margin-right: auto;
+}
+
+.md-typeset figure a {
+	display: block;
+	position: relative;
+	overflow: hidden;
+	border-radius: 25px;
+	border: 1px solid lightgrey;
+	-webkit-transition: all 321ms ease-in;
+	-moz-transition: all 321ms ease-in;
+	-ms-transition: all 321ms ease-in;
+	-o-transition: all 321ms ease-in;
+	transition: all 321ms ease-in;
+}
+
+.md-typeset figure a:hover {
+	border-color: #1578fb;
+}
+
+.md-typeset figure a {
+	display: block;
+	overflow: hidden;
+	line-height: 1;
+	font-size: 0;
+}
+.md-typeset h2 {
+	font-weight: 700;
+}
+
+.md-header-nav__button.md-logo svg {
+	-moz-transform: translateX(-7px);
+	-webkit-transform: translateX(-7px);
+	-o-transform: translateX(-7px);
+	-ms-transform: translateX(-7px);
+	transform: translateX(-7px);
 }
 
 /* Lightbox */
@@ -312,4 +349,7 @@ body.hidden-scroll {
 /* Simple lightbox override */
 .sl-wrapper {
 	background-color: rgba(41, 41, 41, 0.8);
+}
+.sl-wrapper .sl-image .sl-caption {
+	font-size: 0.6rem;
 }

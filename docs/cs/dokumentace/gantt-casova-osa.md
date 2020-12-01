@@ -1,46 +1,46 @@
 # Gantt.AI™ časová osa
 
-## Časová osa Gantt.AI™
+> Časová osa Gantt.AI™ poskytuje vždy aktuální přehled nad prioritizací úkolů jednotlivých uživatelů. Je na ní zaznačeno kdo, kdy a na čem má pracovat, kdy se na jednotlivých úkolech skutečně pracovalo a kdy byly dokončeny. Priority úkolů jsou nastaveny umělou inteligencí na základě mnoha parametrů. Pokud dojde k jakékoliv změně, např. zaměstnanec nedorazí do práce, umělá inteligence najde optimální řešení a celý harmonogram naplánuje tak, aby bylo vše dokončeno v termínu.
 
-Časová osa Gantt.AI™ poskytuje vždy aktuální přehled nad prioritizací úkolů jednotlivých uživatelů. Je na ní zaznačeno kdo, kdy a na čem má pracovat, kdy se na jednotlivých úkolech skutečně pracovalo a kdy byly dokončeny. Priority úkolů jsou nastaveny umělou inteligencí na základě mnoha parametrů. Pokud dojde k jakékoliv změně, např. zaměstnanec nedorazí do práce, umělá inteligence najde optimální řešení a celý harmonogram naplánuje tak, aby bylo vše dokončeno v termínu.
+## Jak na to?
 
-## Výběr projektu
+### Výběr projektu
 
 Pomocí rozbalovací nabídky můžete vybrat konkrétní projekt, který vás zajímá. Tím zobrazíte pouze ty uživatele, kteří jsou v daném projektu zainteresovaní a úkoly v něm obsažené se barevně zvýrazní. Zůstanou ale viditelné úkoly i z ostatních projektů, aby bylo vidět, co ovlivnilo plánování vybraného projektu.
 
 <figure>
-	<a href="../assets/images/casova-osa-gantt/vyber_projektu.JPG">
-		<img src="../assets/images/casova-osa-gantt/vyber_projektu.JPG" alt="Výběr projektu" />
+	<a href="../../assets/images/gantt-casova-osa/vyber_projektu.JPG">
+		<img src="../../assets/images/gantt-casova-osa/vyber_projektu.JPG" alt="Výběr projektu" />
 	</a>
 </figure>
 
-## Datum
+### Výběr data
 
 Pro zobrazení konkrétního časového rozmezí zvolte datum šipkami, nebo jej rovnou upravte. Kliknutím na tlačítko “Dnes” se rychle dostanete zpět na aktuální den.
 
 <figure>
-	<a href="../assets/images/casova-osa-gantt/datum.JPG">
-		<img src="../assets/images/casova-osa-gantt/datum.JPG" alt="Datum" />
+	<a href="../../assets/images/gantt-casova-osa/datum.JPG">
+		<img src="../../assets/images/gantt-casova-osa/datum.JPG" alt="Datum" />
 	</a>
 </figure>
 
-## Formát zobrazení
+### Formát zobrazení
 
 Časovou osu můžete zobrazit po dnech, týdnech nebo měsících. Můžete tak získat nadhled nad celým projektem a zjistit, kdy se na projektu bude pracovat intenzivně a kdy je naplánováno méně úkolů.
 
 <figure>
-	<a href="../assets/images/casova-osa-gantt/format-zobrazeni.JPG">
-		<img src="../assets/images/casova-osa-gantt/format-zobrazeni.JPG" alt="Formát zobrazení" />
+	<a href="../../assets/images/gantt-casova-osa/format-zobrazeni.JPG">
+		<img src="../../assets/images/gantt-casova-osa/format-zobrazeni.JPG" alt="Formát zobrazení" />
 	</a>
 </figure>
 
-## Lupa
+### Lupa
 
 Časovou osu přiblížite či oddálíte pomocí lupy.
 
 <figure>
-	<a href="../assets/images/casova-osa-gantt/lupa.JPG">
-		<img src="../assets/images/casova-osa-gantt/lupa.JPG" alt="Lupa" />
+	<a href="../../assets/images/gantt-casova-osa/lupa.JPG">
+		<img src="../../assets/images/gantt-casova-osa/lupa.JPG" alt="Lupa" />
 	</a>
 </figure>
 

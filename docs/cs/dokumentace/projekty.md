@@ -1,8 +1,8 @@
 # Projekty
 
-![Projekty](../assets/icons/inbox.svg)
+<!-- ![Projekty](../../assets/icons/inbox.svg) -->
 
-V této sekci naleznete přehled všech vámi vytvořených, popř. vám zpřístupněných projektů, seřazené dle deadlinů. Také na nich rovnou můžete vidět, kolik procent úkolů z projektu je již splněno, a do jaké kategorie daný projekt spadá.
+> V této sekci naleznete přehled všech vámi vytvořených, popř. vám zpřístupněných projektů, seřazené dle deadlinů. Také na nich rovnou můžete vidět, kolik procent úkolů z projektu je již splněno, a do jaké kategorie daný projekt spadá.
 
 ## Dlaždice projektu
 
@@ -29,8 +29,8 @@ Můžete zde také nastavit odložený začátek (datum od kterého se má zač�
 Pod názvem projektu naleznete možnost určit projektu kategorii. Podle nich se vám pak bude lépe filtrovat, do jakého celku dané projekty patří.
 
 <figure>
-	<a href="../assets/images/projekty/kategorie.PNG">
-		<img src="../assets/images/projekty/kategorie.PNG" alt="Role" />
+	<a href="../../assets/images/projekty/kategorie.PNG">
+		<img src="../../assets/images/projekty/kategorie.PNG" alt="Role" />
 	</a>
 </figure>
 
@@ -39,8 +39,8 @@ Poté tlačítkem ‘Lidé’ přidáte uživatele do projektu. [Tlačítko lid�
 Jakmile je uživatel přidán, zobrazí se u jeho jména přidělená role (práva) v daném projektu. Přiřazenou roli můžete změnit kliknutím na nabídku a následně výběrem ze tří možností (správce/účastník/účastník s omezením).
 
 <figure>
-	<a href="../assets/images/projekty/lide.PNG">
-		<img src="../assets/images/projekty/lide.PNG" alt="Role" />
+	<a href="../../assets/images/projekty/lide.PNG">
+		<img src="../../assets/images/projekty/lide.PNG" alt="Role" />
 	</a>
 </figure>
 
@@ -71,8 +71,8 @@ Pomocí rolovací nabídky, v levém horním rohu, se můžete jednoduše přep�
 - Zobrazení v ProjectFormation™ – kliknutím na symbol procesu, otevřete projekt v grafickém zobrazení přímo v nástroji ProjectFormation™, ve kterém můžete upravovat procesy projektu. Zpět do detailu projektu a na seznam jeho úkolů se vrátíte kliknutím na nabídku ‘více’ (tři tečky) na ovládacím panelu a volbou „Zobrazit úkoly v projektu“.
 - Filtry – filtrování úkolů podle vybraných údajů (např dle řešitele, autora, stavu apod.
 <figure>
-	<a href="../assets/images/projekty/filtr.PNG">
-		<img src="../assets/images/projekty/filtr.PNG" alt="Filtr" />
+	<a href="../../assets/images/projekty/filtr.PNG">
+		<img src="../../assets/images/projekty/filtr.PNG" alt="Filtr" />
 	</a>
 </figure>
 - Seznam úkolů – přehled všech úkolů přiřazených k projektu
