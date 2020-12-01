@@ -1,5 +1,6 @@
 ---
 title: APUtime
+template: overrides/home.html
 ---
 
 # Hlavní strana české dokumentace
