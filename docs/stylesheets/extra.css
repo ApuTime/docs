@@ -51,11 +51,11 @@
 }
 
 .md-header-nav__button.md-logo svg {
-	-moz-transform: translateX(-7px);
-	-webkit-transform: translateX(-7px);
-	-o-transform: translateX(-7px);
-	-ms-transform: translateX(-7px);
-	transform: translateX(-7px);
+	-moz-transform: translateX(-7px) translateY(2px);
+	-webkit-transform: translateX(-7px) translateY(2px);
+	-o-transform: translateX(-7px) translateY(2px);
+	-ms-transform: translateX(-7px) translateY(2px);
+	transform: translateX(-7px) translateY(2px);
 }
 
 /* Lightbox */
