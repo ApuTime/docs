@@ -119,6 +119,7 @@ markdown_extensions:
 nav:
 #- Home: index.md
 - Dokumentace:
+    - Index: .cs/index.md
     - Nabídka v hlavičce: ./cs/dokumentace/nabidka-v-hlavicce.md
     - Můj profil: ./cs/dokumentace/muj-profil.md
     - Můj plán: ./cs/dokumentace/muj-plan.md
@@ -146,10 +147,10 @@ nav:
 
 # Extra Files
 extra_css:
-  - stylesheets/extra.css
+  - ./assets/stylesheets/extra.css
 extra_javascript:
-  - javascripts/simple-lightbox.js
-  - javascripts/extra.js
+  - ./assets/javascripts/simple-lightbox.js
+  - ./assets/javascripts/extra.js
 
 # Google Analytics
 # google_analytics: ['UA-?', 'docs.aputime.com']

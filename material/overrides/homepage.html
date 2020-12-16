@@ -1,0 +1,349 @@
+{% import "partials/language.html" as lang with context %}
+<!doctype html>
+<html lang="{{ lang.t('language') }}" class="no-js">
+  <head>
+    {% block site_meta %}
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      {% if page and page.meta and page.meta.description %}
+        <meta name="description" content="{{ page.meta.description }}">
+      {% elif config.site_description %}
+        <meta name="description" content="{{ config.site_description }}">
+      {% endif %}
+      {% if page.canonical_url %}
+        <link rel="canonical" href="{{ page.canonical_url }}">
+      {% endif %}
+      {% if page and page.meta and page.meta.author %}
+        <meta name="author" content="{{ page.meta.author }}">
+      {% elif config.site_author %}
+        <meta name="author" content="{{ config.site_author }}">
+      {% endif %}
+      <link rel="shortcut icon" href="{{ config.theme.favicon | url }}">
+      <meta name="generator" content="mkdocs-{{ mkdocs_version }}, mkdocs-material-6.1.0">
+    {% endblock %}
+    {% block htmltitle %}
+      {% if page and page.meta and page.meta.title %}
+        <title>{{ page.meta.title }} - {{ config.site_name }}</title>
+      {% elif page and page.title and not page.is_homepage %}
+        <title>{{ page.title | striptags }} - {{ config.site_name }}</title>
+      {% else %}
+        <title>{{ config.site_name }}</title>
+      {% endif %}
+    {% endblock %}
+    {% block styles %}
+      <link rel="stylesheet" href="{{ 'assets/stylesheets/main.ce7da9e3.min.css' | url }}">
+      {% if config.theme.palette %}
+        {% set palette = config.theme.palette %}
+        <link rel="stylesheet" href="{{ 'assets/stylesheets/palette.31e6bbac.min.css' | url }}">
+        {% if palette.primary %}
+          {% import "partials/palette.html" as map %}
+          {% set primary = map.primary(
+            palette.primary | replace(" ", "-") | lower
+          ) %}
+          <meta name="theme-color" content="{{ primary }}">
+        {% endif %}
+      {% endif %}
+    {% endblock %}
+    {% block libs %}{% endblock %}
+    {% block fonts %}
+      {% if config.theme.font != false %}
+        {% set font = config.theme.font %}
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family={{
+            font.text | replace(' ', '+') + ':300,400,400i,700%7C' +
+            font.code | replace(' ', '+')
+          }}&display=fallback">
+        <style>body,input{font-family:"{{ font.text }}",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"{{ font.code }}",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      {% endif %}
+    {% endblock %}
+    {% if config.extra.manifest %}
+      <link rel="manifest" href="{{ config.extra.manifest | url }}" crossorigin="use-credentials">
+    {% endif %}
+    {% for path in config["extra_css"] %}
+      <link rel="stylesheet" href="{{ path | url }}">
+    {% endfor %}
+    {% block analytics %}
+      {% if config.google_analytics %}
+        {% include "partials/integrations/analytics.html" %}
+      {% endif %}
+    {% endblock %}
+	{% block extrahead %}
+		{% set title = config.site_name %}
+		{% if page and page.title and not page.is_homepage %}
+			{% set title = config.site_name ~ " - " ~ page.title | striptags %}
+		{% endif %}
+		{% set image = config.site_url ~ 'assets/images/banner.png' %}
+		<meta property="og:type" content="website">
+		<meta property="og:title" content="{{ title }}">
+		<meta property="og:description" content="{{ config.site_description }}">
+		<meta property="og:url" content="{{ page.canonical_url }}">
+		<meta property="og:image" content="{{ image }}">
+		<meta property="og:image:type" content="image/png">
+		<meta property="og:image:width" content="1080">
+		<meta property="og:image:height" content="568">
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:site" content="@squidfunk">
+		<meta name="twitter:creator" content="@squidfunk">
+		<meta name="twitter:title" content="{{ title }}">
+		<meta name="twitter:description" content="{{ config.site_description }}">
+		<meta name="twitter:image" content="{{ image }}">
+		<link rel="stylesheet" href="{{ 'assets/stylesheets/overrides.2a4bbe42.min.css' | url }}">
+	{% endblock %}
+  </head>
+  {% set direction = config.theme.direction or lang.t('direction') %}
+  {% if config.theme.palette %}
+    {% set palette = config.theme.palette %}
+    {% if not palette is mapping %}
+      {% set palette = palette | first %}
+    {% endif %}
+    {% set scheme  = palette.scheme  | replace(" ", "-") | lower %}
+    {% set primary = palette.primary | replace(" ", "-") | lower %}
+    {% set accent  = palette.accent  | replace(" ", "-") | lower %}
+    <body dir="{{ direction }}" data-md-color-scheme="{{ scheme }}" data-md-color-primary="{{ primary }}" data-md-color-accent="{{ accent }}" class="homepage page-home">
+      {% if "preference" == scheme %}
+        <script>matchMedia("(prefers-color-scheme: dark)").matches&&document.body.setAttribute("data-md-color-scheme","slate")</script>
+      {% endif %}
+  {% else %}
+    <body dir="{{ direction }}">
+  {% endif %}
+
+	<img class="body__background-people" src="./assets/images/homepage_people.png" alt="Homepage background people" />
+	<img class="body__dots-top" src="./assets/images/dots_grid_colored.svg" alt="Body dots grid colored" />
+
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      {% if page.toc | first is defined %}
+        {% set skip = page.toc | first %}
+        <a href="{{ skip.url | url }}" class="md-skip">
+          {{ lang.t('skip.link.title') }}
+        </a>
+      {% endif %}
+    </div>
+    <div data-md-component="announce">
+      {% if self.announce() %}
+        <aside class="md-announce">
+          <div class="md-announce__inner md-grid md-typeset">
+            {% block announce %}{% endblock %}
+          </div>
+        </aside>
+      {% endif %}
+    </div>
+
+    {% block header %}
+
+	{% set site_url = config.site_url | default(nav.homepage.url, true) | url %}
+
+	{% if not config.use_directory_urls and site_url[0] == site_url[-1] == "." %}
+	{% set site_url = site_url ~ "/index.html" %}
+	{% endif %}
+
+	<header class="md-header" data-md-component="header">
+		<nav class="md-header-nav md-grid flex-justify" aria-label="{{ lang.t('header.title') }}">
+			<a href="{{ site_url }}" title="{{ config.site_name | e }}" class="md-header-nav__button md-logo" aria-label="{{ config.site_name }}">
+			{% include "partials/logo.html" %}
+			</a>
+			<label class="md-header-nav__button md-icon" for="__drawer">
+			{% include ".icons/material/menu" ~ ".svg" %}
+			</label>
+
+			{% if config.repo_url %}
+			<div class="md-header-nav__source">
+				{% include "partials/source.html" %}
+			</div>
+			{% endif %}
+		</nav>
+	</header>
+
+    {% endblock %}
+
+    <div class="md-container" data-md-component="container">
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          <div class="md-content homepage-content">
+            <article class="md-content__inner md-typeset">
+
+				<h1 class="homepage__title">Dokumentace</h1>
+
+				{# Homepage search START #}
+				<div class="homepage__search-wrap">
+				{% if "search" in config["plugins"] %}
+					<label class="md-header-nav__button md-icon" for="__search">
+						{% include ".icons/material/magnify.svg" %}
+					</label>
+					{% include "partials/search.html" %}
+				{% endif %}
+				</div>
+				{# Homepage search END #}
+
+				{# Homepage nav START #}
+				<div class="flex flex-justify homepage__boxes">
+					<div class="homepage__block transition">
+						<div class="homepage__block-header flex flex-justify">
+							<h2 class="homepage__block-title">Uživatelská dokumentace</h2>
+							<img src="../assets/images/homepage_icon_1.svg" alt="Uživatelská dokumentace" />
+						</div>
+						<p class="grey-text small-text">Návody, tipy a triky</p>
+						<a href="/cs/dokumentace/nabidka-v-hlavicce" title="Uživatelská dokumentace" class="homepage__block-link">Uživatelská dokumentace</a>
+					</div>
+					<div class="homepage__block transition">
+						<div class="homepage__block-header flex flex-justify">
+							<h2 class="homepage__block-title">Technická dokumentace</h2>
+							<img src="../assets/images/homepage_icon_2.svg" alt="Uživatelská dokumentace" />
+						</div>
+						<p class="grey-text small-text">Technický popis funkcí</p>
+						<a href="#" title="Technická dokumentace" class="homepage__block-link">Technická dokumentace</a>
+					</div>
+					<div class="homepage__block transition">
+						<div class="homepage__block-header flex flex-justify">
+							<h2 class="homepage__block-title">Záznam<br /> změn</h2>
+							<img src="../assets/images/homepage_icon_3.svg" alt="Záznam změn" />
+						</div>
+						<p class="grey-text small-text">Naposled upraveno 8. prosince 2020 v 16:08</p>
+						<a href="/cs/changelog" title="Záznam změn" class="homepage__block-link">Záznam změn</a>
+					</div>
+				</div>
+				{# Homepage nav END #}
+
+				{# Demo section START #}
+				<div class="w-layout-grid online-demo-grid container-1150">
+					<a href="https://vimeo.com/488089554" class="video-thumb-link w-inline-block">
+						<div class="div-block-45">
+							<img src="./assets/images/play-video-ico.svg" loading="lazy" alt="" class="video-thumb-play lg">
+						</div>
+					</a>
+					<div class="online-demo-description color-white">
+						<h2>Představujeme Virtuálního projektového asistenta</h2>
+						<p>Vše, co o Virtuálním projektovém asistentovi potřebujete vědět, abyste s ním mohli spolupracovat naplno už od prvního setkání. Zjistíte, jak ho seznámit s&nbsp;týmem, zadat úkoly, ty propojit do procesů, předat vašemu APU a&nbsp;kontrolovat výsledky.</p>
+						<p class="grey-text">Provede vás Martin Juřík, COO ApuTime</p>
+					</div>
+				</div>
+				{# Demo section END #}
+
+				{# Interest section START #}
+				<div class="homepage__links container-1150">
+					<h2 class="color-white">Mohlo by vás zajímat</h2>
+					<ul class="homepage__links-ul">
+						<li>
+							<a href="#" title="Vytvoření projektu">Vytvoření projektu</a>
+						</li>
+						<li>
+							<a href="#" title="Vytvoření úkolu">Vytvoření úkolu</a>
+						</li>
+						<li>
+							<a href="#" title="Úprava pracovní doby">Úprava pracovní doby</a>
+						</li>
+						<li>
+							<a href="#" title="Vytvoření projektu">Vytvoření projektu</a>
+						</li>
+					</ul>
+				</div>
+				{# Interest section END #}
+
+            </article>
+          </div>
+        </div>
+      </main>
+      {% block footer %}
+		{% import "partials/language.html" as lang with context %}
+		<footer class="md-footer">
+
+		<img class="body__dots-footer" src="./assets/images/dots_grid_bottom.svg" alt="Body dots grid grey" />
+
+		{# Footer colums START #}
+		<div class="md-main__inner md-grid">
+			<div class="md-content homepage-content">
+				<div class="footer__columns">
+					<div>
+						<h3>Produkt</h3>
+						<a href="#" title="Technologie">Technologie</a>
+						<a href="#" title="Reference">Reference</a>
+						<a href="#" title="Registrace">Registrace</a>
+						<a href="#" title="Přihlášení">Přihlášení</a>
+					</div>
+					<div>
+						<h3>Společnost</h3>
+						<a href="#" title="Technologie">Technologie</a>
+						<a href="#" title="Reference">Reference</a>
+						<a href="#" title="Registrace">Registrace</a>
+						<a href="#" title="Přihlášení">Přihlášení</a>
+					</div>
+					<div>
+						<h3>Služby</h3>
+						<a href="#" title="Technologie">Technologie</a>
+						<a href="#" title="Reference">Reference</a>
+						<a href="#" title="Registrace">Registrace</a>
+						<a href="#" title="Přihlášení">Přihlášení</a>
+					</div>
+					<div>
+						<img src="../assets/images/aputime_logo.svg" alt="APUtime logo" class="footer-logo" width="120" />
+						<p class="grey-text">Váš virtuální projektový asistent</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		{# Footer colums END #}
+
+		<div class="md-footer-meta md-typeset">
+			<div class="md-footer-meta__inner md-grid">
+			<div class="md-footer-copyright">
+				{% if config.copyright %}
+				<div class="md-footer-copyright__highlight">
+					{{ config.copyright }}
+				</div>
+				{% endif %}
+			</div>
+			<div class="md-footer-copyright">
+				Made with
+				<a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+				Material for MkDocs
+				</a>
+			</div>
+			{% include "partials/social.html" %}
+			</div>
+		</div>
+		</footer>
+
+      {% endblock %}
+    </div>
+    {% block scripts %}
+      <script src="{{ 'assets/javascripts/vendor.a018d6bb.min.js' | url }}"></script>
+      <script src="{{ 'assets/javascripts/bundle.4b42b5e6.min.js' | url }}"></script>
+      {%- set translations = {} -%}
+      {%- for key in [
+        "clipboard.copy",
+        "clipboard.copied",
+        "search.config.lang",
+        "search.config.pipeline",
+        "search.config.separator",
+        "search.placeholder",
+        "search.result.placeholder",
+        "search.result.none",
+        "search.result.one",
+        "search.result.other",
+        "search.result.more.one",
+        "search.result.more.other",
+        "search.result.term.missing"
+      ] -%}
+        {%- set _ = translations.update({ key: lang.t(key) }) -%}
+      {%- endfor -%}
+      <script id="__lang" type="application/json">
+        {{- translations | tojson -}}
+      </script>
+      {% block config %}{% endblock %}
+      <script>
+        app = initialize({
+          base: "{{ base_url }}",
+          features: {{ config.theme.features or [] | tojson }},
+          search: Object.assign({
+            worker: "{{ 'assets/javascripts/worker/search.4ac00218.min.js' | url }}"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      {% for path in config["extra_javascript"] %}
+        <script src="{{ path | url }}"></script>
+      {% endfor %}
+    {% endblock %}
+  </body>
+</html>
