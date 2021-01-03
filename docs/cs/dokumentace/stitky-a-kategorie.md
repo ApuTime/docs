@@ -1,16 +1,21 @@
 # Štítky a kategorie
 
-> Štítky a kategorie slouží k označení úkolů a projektů pro lepší orientaci a přehlednost. Pokud budete úkoly těmito štítky označovat, můžete je pak snadno v projektech filtrovat. Stejně tak budete mít v projektech lepší přehled, pokud je budete kategorizovat (např. Každé oddělení má svou kategorii projektů).
+> Štítky a kategorie slouží k označení úkolů a projektů pro lepší orientaci a přehlednost. Pokud budete úkoly těmito štítky označovat, můžete je pomocí nich filtrovat. Stejně tak budete mít v projektech lepší přehled, pokud je budete kategorizovat (např. mohou být pomocí kategorií odlišena jednotlivá oddělení).
 
-## Přidání štítku/kategorie
+## Přidání štítku a kategorie
 
-- Klikněte na tlačítko ‘+’ v pravém dolním rohu.
-- V otevřeném okně vyplňte název štítku/kategorie.
-- Po kliknutí na pole ‘Barva’ vyberte požadovanou barvu štítku/kategorie.
-- Pro uložení klikněte na tlačítko ‘Přidat nový štítek/kategorii’.
+- Zvolte v levém horním rohu prostředí, zda chcete spravovat kategorie nebo štítky.
+- Klikněte na tlačítko „+“ v pravém dolním rohu.
+- V otevřeném okně vyplňte název štítku či kategorie.
+- Po kliknutí na pole „Barva“ vyberte požadovanou barvu štítku či kategorie.
+- Pro uložení klikněte na tlačítko „Přidat nový štítek/kategorii“.
 
-## Upravit štítek/kategorii
+## Úprava štítku a kategorie
+Pokud chcete štítek či kategorii upravit, klikněte na nabídku „Více“ (tři tečky u štítku/kategorie), klikněte na možnost „Upravit“ a poté je upravte.
 
-Pokud chcete štítek/kategorii upravit, klikněte na nabídku ‘Více’ (tři tečky u štítku/kategorie) a poté je upravte.
+Provedené změny uložte tlačítkem „Potvrdit změny“.
 
-Provedené změny uložte tlačítkem ‘Potvrdit změny’.
+## Odstranění štítku a kategorie
+Pokud chcete štítek či kategorii odstranit, klikněte na nabídku „Více“ (tři tečky u štítku/kategorie), klikněte na možnost „Upravit“ a poté na tlačítko „Smazat“.
+
+Provedené změny uložte tlačítkem „Potvrdit změny“.

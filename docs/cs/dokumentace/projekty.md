@@ -1,156 +1,116 @@
 # Projekty
 
-<!-- ![Projekty](../../assets/icons/inbox.svg) -->
+> V této sekci naleznete přehled všech projektů, ke kterým máte přístup, seřazený dle jejich aktuální priority. Jako první vidíte projekty, které vyžadují vaši pozornost např. z důvodu překročení termínu dokončení. Také na nich rovnou můžete vidět, z kolika procent je projekt dokončen a do jaké kategorie daný projekt spadá.
 
-> V této sekci naleznete přehled všech vámi vytvořených, popř. vám zpřístupněných projektů, seřazené dle deadlinů. Také na nich rovnou můžete vidět, kolik procent úkolů z projektu je již splněno, a do jaké kategorie daný projekt spadá.
+## Vytvoření projektu
 
-## Dlaždice projektu
+Tlačítkem „+“ v pravém dolním rohu otevřete nabídku pro vytvoření nového projektu.
 
-Na dlaždici každého projektu vidíte důležité informace – v jakém stavu se projekt nachází (procentuální hodnotu dokončení) a plánovaný termín jeho dokončení. Pulzující ikona stopky symbolizuje, že se na některém z úkolů projektu právě pracuje. Kliknutím na dlaždici projektu zobrazíte jeho detail.
+V nabídce „Nový projekt“ vyplňte název projektu.
 
-[Ikona tří teček] Stisknutím tlačítka se třemi tečkami otevřete nabídku, kde můžete projekt upravit, podívat se na strávený čas (kolik bylo odpracováno na celém projektu i na jednotlivých úkolech), nebo jej otevřít v ProjectFormation™.
+Přiřaďte projekt do kategorie. Díky tomu budete moci takto označené projekty jednoduše filtrovat.
 
-## Rozhodnutí v projektu
+Nastavte termín pro jeho dokončení (toto je důležitý krok, protože termín dokončení určuje prioritu mezi ostatními projekty v plánování na časové ose Gantt.AI™)
 
-Pokud je třeba u projektu provést v průběhu procesu rozhodnutí, projektovému manažerovi se na dlaždici projektu a v detailu projektu zobrazí ikona (rozhodnutí), která ho na to upozorní. [Ikona rozhodnutí]
+Můžete zde také nastavit odložený začátek (datum, od kterého se má začít projekt plánovat).
 
-Kliknutím na ikonu otevřete nabídku rozhodnutí. Na základě vašeho rozhodnutí se pak naplánují další úkoly ve správném pořadí.
+Tlačítkem „Lidé“ zobrazíte podnabídku, ve které můžete určit, kteří uživatelé mají do tohoto projektu přístup.
 
-Připomenutí o čekajícím rozhodnutí v projektu obdržíte vždy také v e-mailové zprávě.
+Jakmile je uživatel k projektu přiřazen, má výchozí přidělenou roli (práva) v daném projektu.
+Přiřazenou roli můžete změnit kliknutím na nabídku a následně výběrem ze tří možností (Správce, Účastník, Účastník s omezením).
 
-## Vytvoření a nastavení projektu
-
-Tlačítkem ‘+’ v pravém dolním rohu otevřete okno pro vytvoření nového projektu. [Tlačítko +]
-
-V otevřeném okně vyplňte název projektu a nastavte termín pro jeho dokončení (toto je důležitý krok, protože termín dokončení určuje prioritu mezi ostatními projekty v plánování na časové ose v Gantt.AI™)
-
-Můžete zde také nastavit odložený začátek (datum od kterého se má začít projekt plánovat mezi ostatní projekty na časové ose v Gantt.AI™).
-
-Pod názvem projektu naleznete možnost určit projektu kategorii. Podle nich se vám pak bude lépe filtrovat, do jakého celku dané projekty patří.
-
-<figure>
-	<a href="../../assets/images/projekty/kategorie.PNG">
-		<img src="../../assets/images/projekty/kategorie.PNG" alt="Role" />
-	</a>
-</figure>
-
-Poté tlačítkem ‘Lidé’ přidáte uživatele do projektu. [Tlačítko lidé]
-
-Jakmile je uživatel přidán, zobrazí se u jeho jména přidělená role (práva) v daném projektu. Přiřazenou roli můžete změnit kliknutím na nabídku a následně výběrem ze tří možností (správce/účastník/účastník s omezením).
-
-<figure>
-	<a href="../../assets/images/projekty/lide.PNG">
-		<img src="../../assets/images/projekty/lide.PNG" alt="Role" />
-	</a>
-</figure>
-
-### Projekt vytvoříte jednou ze dvou možností:
-
-- Plochá struktura - Otevře detail projektu, kde můžete následovně začít vytvářet jednotlivé úkoly.
-- Proces - Otevře projekt v ProjectFormation™, kde je možné začít tvořit procesní mapu, ze které se vám projekt i s jednotlivými úkoly poté sám vytvoří dle vámi zadaných procesů.
-
-## Detail projektu - otevření projektu
-
-Do detailu projektu se dostanete kliknutím na dlaždici vybraného projektu v sekci Projekty.
-
-V tomto detailu najdete přehledné informace o projektu, včetně kompletního seznamu všech dokončených i nedokončených úkolů. Zde také můžete úkoly přidávat i upravovat.
+Projekt vytvoříte kliknutím na tlačítko „Vytvořit“.
 
 ## Úprava projektu
 
 Upravit projekt je možné dvěma způsoby:
 
-V sekci „Projekty“ na dlaždici projektu kliknete na tlačítko více (tři tečky) a vyberte „Upravit“
-V detailu projektu (otevřeném projektu) kliknete na ikonu tužky vpravo nahoře.
+1. V sekci „Projekty“ na dlaždici projektu klikněte na tlačítko „Více“ (tři tečky) a vyberte „Upravit“
+2. V detailu projektu (otevřeném projektu) klikněte na ikonu tužky vpravo nahoře.
+
 Provedené změny vždy uložte tlačítkem „Potvrdit změny“.
 
-## Možnosti detailu projektu
+Pokud chcete projekt odstranit, na dlaždici projektu vyberte „Více“ (tři tečky) a klikněte na „Upravit“. V levém dolním rohu tabulky naleznete možnost „Smazat“. Po kliknutí bude projekt odstraněn.
 
-Pomocí rolovací nabídky, v levém horním rohu, se můžete jednoduše přepínat mezi ostatními projekty, které chcete zobrazit. [Filtr projektu]
+## Archivace/Odstranění projektu
 
-- Editování projektu – kliknutím na symbol tužky, otevřete podrobnosti o projektu, které můžete editovat.
-- Zobrazení v ProjectFormation™ – kliknutím na symbol procesu, otevřete projekt v grafickém zobrazení přímo v nástroji ProjectFormation™, ve kterém můžete upravovat procesy projektu. Zpět do detailu projektu a na seznam jeho úkolů se vrátíte kliknutím na nabídku ‘více’ (tři tečky) na ovládacím panelu a volbou „Zobrazit úkoly v projektu“.
-- Filtry – filtrování úkolů podle vybraných údajů (např dle řešitele, autora, stavu apod.
-<figure>
-	<a href="../../assets/images/projekty/filtr.PNG">
-		<img src="../../assets/images/projekty/filtr.PNG" alt="Filtr" />
-	</a>
-</figure>
+### Koš
+Pokud chcete projekt odstranit úplně i se všemi jeho daty, na dlaždici projektu klikněte na tlačítko „Více“ (tři tečky) a vyberte „Upravit“. Na konci plovoucího okna vidíte po levé straně tlačítko „Smazat“. Projekt bude smazán ale po dobu 14 dnů ještě zůstane v koši, kdybyste jej náhodou potřebovali obnovit.
+
+### Archivování projektu
+Pokud chcete projekt archivovat i se všemi jeho daty, na dlaždici projektu klikněte na tlačítko „Více“ (tři tečky) a vyberte  „Upravit“. V dolní části plovoucího okna vidíte přepínací tlačítko, pomocí kterého projekt můžete archivovat. Kdykoliv budete potřebovat projekt a jeho úkoly znovu zobrazit, stačí na seznamu projektů kliknout na tlačítko „Více“ (tři tečky) a vybrat „Archivované“, kde se vám zobrazí seznam všech projektů, které kdy byly archivovány. Pokud budete chtít projekt obnovit, stačí na detailu projektu přesunout volbu na přepínacím tlačítku.
+
+## Dlaždice projektu
+
+Na dlaždici každého projektu vidíte důležité informace – v jakém stavu se projekt nachází (procentuální hodnotu dokončení) a plánovaný termín jeho dokončení. Pulzující ikona stopek symbolizuje, že se na některém z úkolů projektu právě pracuje. Kliknutím na dlaždici projektu zobrazíte jeho detail.
+
+Kliknutím na tlačítko „Více“ (tři tečky) otevřete nabídku, kde můžete projekt upravit, podívat se na strávený čas (zjistit kolik času bylo odpracováno na celém projektu či na jednotlivých úkolech), nebo zobrazit jeho proces v ProjectFormation™.
+
+## Detail projektu
+
+Do detailu projektu se dostanete kliknutím na dlaždici vybraného projektu v sekci Projekty.
+
+V tomto detailu najdete přehledné informace o projektu, včetně kompletního seznamu úkolů. Zde také můžete úkoly přidávat i upravovat.
+
+Pomocí rolovací nabídky, v levém horním rohu, se můžete jednoduše přepínat mezi ostatními projekty, které chcete zobrazit.
+
+- Editování projektu – kliknutím na ikonu tužky, otevřete podrobnosti o projektu, které můžete editovat.
+- Zobrazení v ProjectFormation™ – kliknutím na záložku „Proces“, otevřete projekt v grafickém zobrazení přímo v nástroji ProjectFormation™, ve kterém můžete upravovat procesy - projektu. Zpět na přehled projektu se vrátíte kliknutím na záložku „Přehled“
+- Filtry – filtrování úkolů podle jejich parametrů (např. dle řešitele, autora, stavu apod.)
 - Seznam úkolů – přehled všech úkolů přiřazených k projektu
-- Detail úkolu – kliknutím na řádek úkolu otevřete jeho detail (zobrazí se informace o úkolu a možnost jeho upravení)
+- Detail úkolu – kliknutím na úkol otevřete jeho detail (zobrazí se veškeré informace úkolu s možností jejich úpravy)
+
+## Rozhodnutí v projektu
+
+Pokud je třeba u projektu provést v průběhu procesu rozhodnutí, projektovému koordinátorovi se na dlaždici projektu a v detailu projektu zobrazí upozornění.
+
+Kliknutím na tlačítko otevřete nabídku rozhodnutí. Na základě vašeho rozhodnutí se pak naplánují další úkoly.
+
+Připomenutí o čekajícím rozhodnutí v projektu obdržíte vždy také na e-mail.
 
 ## Vytvoření úkolu v projektu
-
-Kliknutím na tlačítko ‘+’ v pravém dolním rohu projektu otevřete okno pro vytvoření nového úkolu
-
-- V otevřeném okně vyplňte název úkolu.
-- Na časové ose nastavte odhadovanou délku trvání úkolu.
-- Nabídka ‘Projekt’ (ikona složky) znázorňuje ke kterému projektu bude úkol přiřazen (přiřazení můžete jednoduše změnit otevřením nabídky a výběrem požadovaného projektu ze seznamu).
-- Nabídka řešitele (ikona panáčka) ukazuje uživatele přiřazeného k úkolu. Kliknutím na ikonu otevřete seznam uživatelů a vyberete příslušného řešitele úkolu. K úkolu je možné přiřadit i více řešitelů. V takovém případě rolujte až na konec seznamu a zapněte tlačítko ‘Spolupráce skupiny ve stejný čas.’ [Screen spolupráce skupiny]
-- Nabídka ‘Přidat štítky’ slouží k označení úkolu. Štítky slouží pro lepší přehlednost a orientaci mezi ostatními úkoly (vlastní štítky lze vytvářet a editovat v zvláštní sekci Štítky, kterou najdete v hlavním menu aplikace).
-- Popis slouží k upřesnění daného úkolu.
-- Pomocí tlačítka ‘Vyberte soubor’ přiložíte k úkolu jakýkoliv soubor z vašeho zařízení. Také jsou zobrazeny možnosti přidání souboru z Google Drive, OneDrive či Dropboxu. [Screen Vybrat soubor]
-- Odložený začátek slouží jako datum od kterého se má začít úkol plánovat mezi ostatní projekty na časové ose v Gantt.AI™. Pokud jej nenastavíte, úkol se začne automaticky plánovat ihned, kdy na něj bude prostor, tak, aby se stihnul do deadline.
-- Deadline slouží jako termín pro dokončení úkolu. AI dle něj určuje prioritu mezi ostatními projekty v plánování.
-
-Pro úspěšné vytvoření úkolu klikněte na tlačítko Přidat. Úkol se přidá do seznamu mezi ostatní úkoly v projektu.
+Kliknutím na tlačítko „+“ v pravém dolním rohu projektu otevřete nabídku pro vytvoření nového úkolu. Úkol můžete vždy vytvořit také v Project Formation™ a v sekci „Můj Plán“.
 
 ## Seznam úkolů v projektu
+Seznam úkolů v projektu zobrazíte otevřením projektu (kliknutím na dlaždici) v sekci „Projekty“.
 
-Seznam úkolů v projektu zobrazíte otevřením projektu (kliknutím na dlaždici) v sekci ‘Projekty’.
+Úkoly v seznamu můžete jednoduše vyhledávat pomocí filtrů (štítek úkolu, kategorie úkolu, řešitel, typ úkolu, čas, stav a autor).
 
-Úkoly v seznamu můžete jednoduše vyhledávat pomocí filtrů (štítek úkolu, kategorie úkolu, řešitel, typ úkolu, čas, stav, autor).
+**Náhled úkolu obsahuje**
 
-Na řádku úkolu najdete jeho základní informace:
+- Stav (kolečko na začátku řádku)
+	- modrý = na úkolu se může pracovat,
+	- šedý = úkol čeká na návaznosti (dokončení předchozího úkolu) nebo nejste jeho řešitelem.
+- Název úkolu
+- Řešitele úkolu
+- Dobu, za kterou má úkol plánovaný začátek
+- Upozornění na blížící se deadline. V případě, kdy se blíží překročení nastavené deadline, uvidíte oranžový vykřičník s upozorněním, za jak dlouho se deadline překročí. V případě, že již deadline překročena byla, uvidíte červený vykřičník s upozorněním, jak dlouho je již po deadline.
 
-- Stav (kolečko na začátku řádku) modrý = na úkolu se může pracovat, šedý = úkol čeká na závaznosti (dokončení předchozího úkolu/ů) nebo nejste jeho řešitelem;
-- Název úkolu;
-- Řešitele/é úkolu;
-- Doba, za kterou má úkol plánovaný začátek.
+## Hromadná úprava úkolů
 
-## Edit/Multiedit v seznamu úkolů
+Umožňuje rychlé úpravy (přesunutí do jiného projektu, označení štítky, změna řešitele, editace stavu) úkolů přímo v seznamu
 
-Umožňuje rychlé úpravy (přesunutí do jiného projektu, označení štítky, přidání/změna řešitele) úkolu/ů přímo v seznamu:
-
-- Kliknutím a krátkým podržením řádku úkolu jej označíte (můžete označit i více úkolů - checkbox na začátku řádku).
-- Po označení klikněte na tlačítko ‘Upravit/Upravit všechny vybrané’, které se objeví na začátku seznamu a z otevřené nabídky zvolte požadované úpravy.
-- Provedené změny uložte tlačítkem Uložit.
-
-## Detail úkolu v projektu
-
-Detail úkolu otevřete kliknutím na řádek úkolu v projektu. Je velmi podobný okně, ve kterém úkol vytváříte. V detailu najdete všechny informace o úkolu, které také můžete rovnou upravovat.
-
-Díky nabídky ‘Více’ (tři tečky v pravém horním rohu detailu) můžete: Otevřít úkol v novém okně, zkopírovat odkaz úkolu, zobrazit úkoly v projektu, zobrazit úkol v grafickém prostředí ProjectFormation™ nebo úkol smazat.
-
-Dále se na detailu úkolu nachází:
-
-- Název úkolu a informaci kým byl vytvořen
-- Štítky (které po kliknutí můžete měnit);
-- Řešitel úkolu (po kliknutí na avatar řešitele máte možnost jej změnit či zapnout spolupráci skupiny ve stejný čas);
-- Ikona složky a název projektu ke kterému je úkol přiřazen (po kliknutí zobrazíte rolovací nabídku ostatních projektů a možnost úkol k nim přeřadit);
-- Časová osa s nastavenou odhadovanou náročností (lze upravit a je viditelná jen pro řešitele úkolu);
-- Časová osa s nastavenou odhadovanou náročností (lze upravit a je viditelná jen pro řešitele úkolu);
-  - Stavy úkolu:
-    - „ToDo“ = úkol je naplánován na časové ose Gantt.AI™,
-    * “Pracuji na tom” = na úkolu se pracuje a je spuštěna časomíra/stopky,
-    - „Hotovo“ = úkol je dokončen,
-    * „Odloženo“ = na úkolu nelze pracovat a je odložen na jiný čas/datum;
-  - Popis úkolu – možnost přidání podrobného popisu;
-- Přílohy – možnost přiložit soubory;
-
-* Přidat požadavek (podúkoly, checklist, závislosti);
-* Nabídka odložit slouží jako datum od kterého se má začít úkol plánovat mezi ostatní projekty na časové ose v Gantt.AI™. Pokud jej nenastavíte, úkol se začne \* automaticky plánovat ihned, kdy na něj bude prostor, tak, aby se stihnul do deadline.
-* Deadline slouží jako termín pro dokončení úkolu. AI dle něj určuje prioritu mezi ostatními projekty v plánování.
-* Komentáře k úkolu, např. Od ostatních pracovníků
-* Strávený čas (odpracovaný čas na úkolu naměřen stopkami, když je úkol ve stavu pracuji na tom. Zde lze také přidat vlastní časový záznam.)
+- Kliknutím a podržením řádku úkolu jej označte (další úkoly můžete rychle označovat zaškrtnutím pole na začátku řádku).
+- Po označení klikněte na tlačítko „Upravit“, které se objeví na začátku seznamu a z otevřené nabídky zvolte požadované úpravy.
+- Provedené změny uložte tlačítkem „Uložit“.
 
 Upozornění: Všechny provedené změny je vždy třeba uložit tlačítkem diskety v pravém dolním rohu.
 
-## Vytvoření kopie procesní mapy z projektu
+## Vytvoření šablony z existujícího projektu
 
-Z vytvořeného projektu můžete vytvořit šablonu procesní mapy jejím duplikováním (stávající proces v projektu zanechá beze změn).
+Z vytvořeného projektu můžete vytvořit šablonu procesní mapy jejím duplikováním (stávající proces v projektu se zanechá beze změn).
 
-- Projekt zobrazte v ProjectFormation™ – na dlaždici projektu klikněte na ikonu ‘Více’ (tři tečky) a zvolte možnost „Zobrazit v ProjectFormation™“ nebo můžete přímo na detailu projektu kliknout vpravo nahoře na ikonu procesu a taktéž zvolit „Zobrazit v ProjectFormation™“.
-- Po otevření procesu v grafickém rozhraní klikněte v ovládacím panelu na ikonu ‘Více’ (tři tečky) a vyberte „Duplikovat jako šablonu“.
+- Projekt zobrazte v ProjectFormation™ – na dlaždici projektu klikněte na ikonu „Více“ (tři tečky) a zvolte možnost „Zobrazit v ProjectFormation™“ nebo můžete přímo na detailu projektu kliknout vpravo nahoře na ikonu procesu a taktéž zvolit „Zobrazit v ProjectFormation™“.
+- Po otevření procesu v grafickém rozhraní klikněte v ovládacím panelu na ikonu „Více“  (tři tečky) a vyberte „Duplikovat jako šablonu“.
 - Nyní můžete procesní mapu libovolně upravovat, či jen uložit jako šablonu.
 
 V ovládacích prvcích nakonec vyberte tlačítko diskety a zvolte možnost, jak chcete mapu uložit.
+
+## Import mapy procesu
+Pokud již máte nějakou procesní mapu uloženou ve svém PC, můžete ji jednoduše importovat pomocí tlačítka „Importovat”, které naleznete v plovoucí liště v pravém horním rohu po kliknutí na „Více“ (tři tečky).
+
+## Export mapy procesu
+Pokud chcete procesní mapu exportovat (stáhnout), stačí použít tlačítko „Exportovat”, které naleznete v plovoucí liště v pravém horním rohu po kliknutí na „Více“ (tři tečky). Poté se vám procesní mapa stáhne ve formátu .json a vy si ji můžete uložit nebo třeba poslat.
+
+## Tisk mapy procesu
+Mapu procesu si můžete jednoduše vytisknout pomocí tlačítka „Otevřít tiskárnu”, které naleznete v plovoucí liště v pravém horním rohu po kliknutí na „Více“ (tři tečky). Poté se vám vaše mapa procesu otevře v novém okně v tiskové kvalitě a vy pouze kliknete pravým tlačítkem kdekoliv v okně a vyberete možnost „Tisk“.

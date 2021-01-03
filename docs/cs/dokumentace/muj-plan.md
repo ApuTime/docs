@@ -1,114 +1,58 @@
 # Můj plán
 
-> V sekci ‘Můj plán’ najdete všechny vaše úkoly v přehledném Kanbanu. Každý sloupec představuje jednu etapu životnosti úkolu. Priority úkolů jsou nastaveny umělou inteligencí na základě mnoha parametrů. Je to tedy taková vaše palubní deska, která vám každý den bude ukazovat na čem se má pracovat.
+> V sekci „Můj plán“ najdete všechny vaše úkoly rozdělené do několika sloupců dle jejich stavu. Každý sloupec představuje jednu z etap životnosti úkolu. Priority úkolů jsou nastaveny umělou inteligencí na základě mnoha parametrů. Zde vždy v reálném čase uvidíte vše, na čem se má pracovat a kdy.
 
-## Jak na to?
+## Vytvoření úkolu
 
-**Levý sloupec ‘Todo’** – Seznam naplánovaných denních úkolů, seřazených sestupně podle priority.
-
-**Prostřední sloupec ‘Hotovo’** - Seznam dokončených úkolů
-
-**Pravý sloupec ‘Odloženo’** – Úkoly, na kterých není možné momentálně pracovat a jsou odloženy na jiný termín.
-
-### Zahájení práce na úkolu
-
-Práci na úkolu zahájíte přetažením jeho dlaždice do modře ohraničeného pole nad sloupci. Po přetažení se spustí časomíra.
-
-<figure>
-	<a href="../../assets/images/muj-plan/zahajeni-prace.PNG" title="Zahájení práce na úkolu">
-		<img src="../../assets/images/muj-plan/zahajeni-prace.PNG" alt="Zahájení práce na úkolu" />
-	</a>
-</figure>
-
-### Pozastavení práce na úkolu
-
-Práci na úkolu můžete kdykoliv pozastavit přetažením dlaždice zpět do sloupce Todo, nebo kliknutím na tlačítko ‘Pauza’.
-
-### Dokončení úkolu
-
-Když je práce na úkolu dokončena, přetažením do sloupce ‘Hotovo’ úkol uzavřete.
-
-<figure>
-	<a href="../../assets/images/muj-plan/dokonceni-ukolu.PNG" title="Dokončení úkolu">
-		<img src="../../assets/images/muj-plan/dokonceni-ukolu.PNG" alt="Dokončení úkolu" />
-	</a>
-</figure>
-
-### Odložení úkolu
-
-Pokud na úkolu nemůžete pracovat, přetáhněte jej do pravého sloupce ‘Odloženo’. Po přetažení se zobrazí nabídka, ve které vyplníte důvod a dobu pro jeho odložení a potvrdíte tlačítkem ‘Odložit’.
-
-<figure>
-	<a href="../../assets/images/muj-plan/odlozeni-ukolu.PNG" title="Odložení úkolu">
-		<img src="../../assets/images/muj-plan/odlozeni-ukolu.PNG" alt="Odložení úkolu" />
-	</a>
-</figure>
-
-## Detail úkolu
-
-Po kliku na název úkolu se vám zobrazí jeho detail na pravé straně obrazovky. Zde najdete veškeré informace týkající se daného úkolu.
-
-- Název
-- Štítek
-- Řešitele
-- Projekt do kterého je daný úkol zařazen
-- Kdy byl vytvořen a kým
-- Odhad časové náročnosti
-- Stav projektu
-- Naplánovaný začátek
-- Popis úkolu
-- Možnost přidat soubory z G-disku, OneDrive, Dropboxu
-- Deadline
-- Zobrazení komentářů a stráveného času
-- Zobrazit vše - zobrazení veškerých akcí na úkolu
-- Zobrazit pouze komentáře
-
-### Vytvoření úkolu
-
-Kliknutím na tlačítko ‘+’ v pravém dolním rohu projektu otevřete okno pro vytvoření nového úkolu.
+Kliknutím na tlačítko „+“ v pravém dolním rohu svého plánu otevřete okno pro vytvoření nového úkolu. Úkol můžete vytvořit i v Project Formation™ a na projektu.
 
 - V otevřeném okně vyplňte název úkolu.
 - Na časové ose nastavte odhadovanou délku trvání úkolu.
-- V nabídce ‘Projekt’ (ikona složky) vyberte, ke kterému projektu bude úkol přiřazen, otevřením nabídky a výběrem požadovaného projektu ze seznamu.
-- Nabídka řešitele (ikona panáčka) ukazuje uživatele přiřazeného k úkolu. Kliknutím na ikonu otevřete seznam uživatelů a vyberete příslušného řešitele úkolu. K úkolu je možné přiřadit i více řešitelů. V takovém případě rolujte až na konec seznamu a zapněte tlačítko ‘Spolupráce skupiny ve stejný čas.’
-<figure>
-	<a href="../../assets/images/muj-plan/spoluprace-skupiny.PNG" title="Spolupráce skupiny">
-		<img src="../../assets/images/muj-plan/spoluprace-skupiny.PNG" alt="Spolupráce skupiny" />
-	</a>
-</figure>
-- Nabídka ‘Přidat štítky’ slouží k označení úkolu. Štítky slouží pro lepší přehlednost a orientaci mezi ostatními úkoly (vlastní štítky lze vytvářet a editovat v - zvláštní sekci Štítky, kterou najdete v hlavním menu aplikace).
-- Popis slouží k upřesnění daného úkolu.
-- Pomocí tlačítka ‘Vyberte soubor’ přiložíte k úkolu jakýkoliv soubor z vašeho zařízení. Také jsou zobrazeny možnosti přidání souboru z Google Drive, OneDrive či Dropboxu.
-<figure>
-	<a href="../../assets/images/muj-plan/vybrat-soubor.PNG" title="Vybrat soubor">
-		<img src="../../assets/images/muj-plan/vybrat-soubor.PNG" alt="Vybrat soubor" />
-	</a>
-</figure>
-- Odložený začátek slouží jako datum od kterého se má začít úkol plánovat mezi ostatní projekty na časové ose v Gantt.AI™. Pokud jej nenastavíte, úkol se začne automaticky plánovat ihned, kdy na něj bude prostor, tak, aby se stihnul do deadline.
-- Deadline slouží jako termín pro dokončení úkolu. AI dle něj určuje prioritu mezi ostatními projekty v plánování.
+- V nabídce „Projekt“ vyberte, ke kterému projektu bude úkol přiřazen.
+- Nabídka řešitele zobrazuje uživatele přiřazeného k úkolu. Kliknutím na ikonu otevřete seznam uživatelů a vyberte příslušného řešitele úkolu. K úkolu je možné přiřadit i více - řešitelů. V takovém případě sjeďte až na konec seznamu a zapněte možnost „Spolupráce skupiny ve stejný čas“.
+- Nabídka „Přidat štítky“ slouží k označení úkolu. Štítky slouží pro lepší přehlednost a orientaci mezi úkoly (vlastní štítky lze vytvářet a editovat v sekci „Štítky a kategorie“, kterou najdete v hlavním menu aplikace).
+- Popis slouží k upřesnění zadání daného úkolu.
+- Pomocí tlačítka „Vyberte soubor“ přiložíte k úkolu jakýkoliv soubor z vašeho zařízení. Také je k dispozici možnost přidání souboru z Google Drive, OneDrive či Dropbox.
+- Odložený začátek slouží jako datum, od kterého se má úkol naplánovat mezi ostatní úkoly na časové ose Gantt.AI™. Pokud odložený začátek nenastavíte, úkol se naplánuje na nejbližší možnou dobu.
+- Deadline slouží jako termín pro dokončení úkolu. Umělá inteligence dle něj určuje prioritu mezi ostatními úkoly.
 
-### Detail úkolu
+Pro úspěšné vytvoření úkolu klikněte na tlačítko „Vytvořit“.
 
-Detail úkolu otevřete kliknutím na název úkolu. Je velmi podobný okně, ve kterém úkol vytváříte. V detailu najdete všechny informace o úkolu, které také můžete rovnou upravovat.
+### Na detailu úkolu je k nalezení:
 
-Díky nabídky ‘Více’ (tři tečky v pravém horním rohu detailu) můžete: Otevřít úkol v novém okně, zkopírovat odkaz úkolu, zobrazit úkoly v projektu, zobrazit úkol v grafickém prostředí ProjectFormation™ nebo úkol smazat.
-
-- Název úkolu a informaci kým byl vytvořen
-- Štítky (které po kliknutí můžete měnit);
-- Řešitel úkolu (po kliknutí na avatar řešitele máte možnost jej změnit či zapnout spolupráci skupiny ve stejný čas);
-- Ikona složky a název projektu ke kterému je úkol přiřazen (po kliknutí zobrazíte rolovací nabídku ostatních projektů a možnost úkol k nim přeřadit);
-- Časová osa s nastavenou odhadovanou náročností (lze upravit a je viditelná jen pro řešitele úkolu);
+- Název úkolu a informace, kým byl vytvořen
+- Štítky (které po kliknutí můžete měnit)
+- Řešitel úkolu (po kliknutí na avatara řešitele máte možnost jej změnit či zapnout spolupráci skupiny ve stejný čas)
+- Projekt, ke kterému je úkol přiřazen (kliknutím zobrazíte rolovací nabídku ostatních projektů, ve které můžete projekt změnit)
+- Časová osa s nastavenou odhadovanou náročností (lze upravit a je viditelná jak pro řešitele úkolu tak pro koordinátory projektu a vedení).
   - Stavy úkolu:
-    - „ToDo“ = úkol je naplánován na časové ose Gantt.AI™,
-    * “Pracuji na tom” = na úkolu se pracuje a je spuštěna časomíra/stopky,
-    - „Hotovo“ = úkol je dokončen,
-    * „Odloženo“ = na úkolu nelze pracovat a je odložen na jiný čas/datum;
-  - Popis úkolu – možnost přidání podrobného popisu;
-- Přílohy – možnost přiložit soubory;
-- Přidat požadavek (podúkoly, checklist, závislosti);
-- Nabídka odložit slouží jako datum od kterého se má začít úkol plánovat mezi ostatní projekty na časové ose v Gantt.AI™. Pokud jej nenastavíte, úkol se začne automaticky plánovat ihned, kdy na něj bude prostor, tak, aby se stihnul do deadline.
-- Deadline slouží jako termín pro dokončení úkolu. AI dle něj určuje prioritu mezi ostatními projekty v plánování.
-- Komentáře k úkolu, např. Od ostatních pracovníků
-- Strávený čas (odpracovaný čas na úkolu naměřen stopkami, když je úkol ve stavu pracuji na tom. Zde lze také přidat vlastní časový záznam.)
+    - „Todo“ = úkol je naplánován na časové ose Gantt.AI™
+	- „Pracuji“ = na úkolu se pracuje a je spuštěna časomíra
+	- „Hotovo“ = úkol je dokončen
+	- „Odloženo“ = na úkolu nelze pracovat a je odložen na později
+  - Popis úkolu – možnost přidání podrobného popisu
+- Přílohy – možnost přiložit soubory
+- Přidat požadavek (checklist), díky kterému můžete úkol rozdělit do několika kroků, které je potřeba udělat, aby byl úkol dokončen. Stačí jej napsat a klávesou „Enter“ přidat do seznamu. Smazat se dá kliknutím na tlačítko koše na pravé straně požadavku. V případě více řešitelů na úkolu jde také hned vidět, kdo jaký požadavek dokončil. Pro uzavření úkolu není nutné splnit checklist.
+- Odložit slouží jako datum, od kterého se má úkol naplánovat mezi ostatní úkoly na časové ose Gantt.AI™. Pokud odložený začátek nenastavíte, úkol se naplánuje na nejbližší možnou dobu s ohledem na prioritu.
+- Deadline slouží jako termín pro dokončení úkolu. Umělá Inteligence dle něj určuje prioritu mezi ostatními úkoly.
+- Komentáře na úkolu od ostatních pracovníků. Pokud kdokoliv přidá komentář k úkolu, jehož jste součástí, dostanete také notifikaci.
+- Historie úkolu - kliknutím na tlačítko „Zobrazit vše“ se vám ukáže historie všech akcí, které a kým byly na úkolu provedeny.
+- Strávený čas (odpracovaný čas na úkolu naměřen stopkami, když je úkol ve stavu „pracuji na tom“. Zde lze také přidat vlastní časový záznam.)
 
-Upozornění: Všechny provedené změny je vždy třeba uložit tlačítkem diskety v pravém dolním rohu.
+Upozornění: Všechny provedené změny je vždy třeba uložit tlačítkem uložit v pravém dolním rohu.
+
+## Změna stavu úkolu
+
+Změnu stavu úkolu provedete jeho přetažením do odpovídajícího sloupce, popř. ji provedete přímo na detailu úkolu pomocí tlačítek. Vedení, koordinátoři a zakladatelé úkolů mohou měnit stavy i ostatním řešitelům úkolu. Změnu stavu lze také nastavit i hromadnou úpravou na více úkolech pomocí hromadné úpravy.
+
+### Zahájení práce na úkolu
+Práci na úkolu zahájíte přetažením jeho dlaždice do modře ohraničené zóny nad sloupci. Po přetažení se spustí časomíra.
+
+### Pozastavení práce na úkolu
+Práci na úkolu můžete kdykoliv pozastavit přetažením dlaždice zpět do sloupce „Todo“, nebo kliknutím na tlačítko „Pauza“.
+
+### Dokončení úkolu
+Když je práce na úkolu dokončena, přetažením do sloupce „Hotovo“ úkol uzavřete.
+
+### Odložení úkolu
+Pokud na úkolu nemůžete pracovat, přetáhněte jej do pravého sloupce „Odloženo“. Po přetažení se zobrazí nabídka, ve které vyplníte důvod a dobu pro jeho odložení a potvrdíte tlačítkem „Odložit“.
