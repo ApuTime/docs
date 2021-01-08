@@ -776,6 +776,11 @@ body.hidden-scroll {
 
 
 /* Responsive styles */
+@media screen and (max-width: 76.1875em) {
+.homepage .md-header-nav__button.md-logo {
+    display: block;
+}
+}
 @media screen and (max-width: 1452px) {
 	.homepage__block {
 		padding: .9rem 1rem;
