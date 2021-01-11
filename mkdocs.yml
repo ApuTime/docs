@@ -138,8 +138,8 @@ nav:
     - Lidé: ./cs/dokumentace/lide.md
 - Changelog:
     - Obsah: ./cs/changelog.md
-- Typography:
-    - Obsah: typography.md
+#- Typography:
+    #- Obsah: typography.md
  # - Návody: ./cs/navody'
  # - Nabídka v hlavičce: ./cs/navody/nabidka-v-hlavicce.md'
  # - Můj profil: ./cs/navody/muj-profil.md'
