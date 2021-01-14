@@ -107,6 +107,9 @@
     <body dir="{{ direction }}">
   {% endif %}
 
+	<input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+	<label class="md-overlay" for="__drawer"></label>
+
 	<img class="body__background-people" src="./assets/images/homepage_people.png" alt="Homepage background people" />
 	<img class="body__dots-top" src="./assets/images/dots_grid_colored.svg" alt="Body dots grid colored" />
 
@@ -138,12 +141,13 @@
 
 	<header class="md-header" data-md-component="header">
 		<nav class="md-header-nav md-grid flex-justify" aria-label="{{ lang.t('header.title') }}">
-			<a href="{{ site_url }}" title="{{ config.site_name | e }}" class="md-header-nav__button md-logo" aria-label="{{ config.site_name }}">
-			{% include "partials/logo.html" %}
-			</a>
 			<label class="md-header-nav__button md-icon" for="__drawer">
 			{% include ".icons/material/menu" ~ ".svg" %}
 			</label>
+
+			<a href="{{ site_url }}" title="{{ config.site_name | e }}" class="md-header-nav__button md-logo" aria-label="{{ config.site_name }}">
+			{% include "partials/logo.html" %}
+			</a>
 
 			{% if config.repo_url %}
 			<div class="md-header-nav__source">
@@ -158,16 +162,40 @@
     <div class="md-container" data-md-component="container">
       <main class="md-main" data-md-component="main">
         <div class="md-main__inner md-grid">
+			{% block site_nav %}
+				{% if nav %}
+				<div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+					<div class="md-sidebar__scrollwrap">
+					<div class="md-sidebar__inner">
+						{% include "partials/nav.html" %}
+					</div>
+					</div>
+				</div>
+				{% endif %}
+				{% if page.toc %}
+				<div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+					<div class="md-sidebar__scrollwrap">
+					<div class="md-sidebar__inner">
+						{% include "partials/toc.html" %}
+					</div>
+					</div>
+				</div>
+				{% endif %}
+			{% endblock %}
           <div class="md-content homepage-content">
             <article class="md-content__inner md-typeset">
 
 				<h1 class="homepage__title">Dokumentace</h1>
 
 				{# Homepage search START #}
-				<input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
 				<input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
-				<label class="md-overlay" for="__drawer"></label>
 				<div class="md-header homepage__search-wrap" style="position: relative">
+				<label class="md-header-nav__button md-icon" for="__search">
+					<span class="flex mobile__search-button">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"></path></svg>
+						<span>Hledat</span>
+					</span>
+				</label>
 					<div class="md-search" data-md-component="search" role="dialog">
 					<label class="md-search__overlay" for="__search"></label>
 					<div class="md-search__inner" role="search">
@@ -214,11 +242,11 @@
 					</div>
 					<div class="homepage__block transition">
 						<div class="homepage__block-header flex flex-justify">
-							<h2 class="homepage__block-title">Záznam<br /> změn</h2>
-							<img src="../assets/images/homepage_icon_3.svg" alt="Záznam změn" />
+							<h2 class="homepage__block-title">Changelog</h2>
+							<img src="../assets/images/homepage_icon_3.svg" alt="Changelog" />
 						</div>
 						<p class="grey-text small-text">Naposled upraveno 8. prosince 2020 v 16:08</p>
-						<a href="/cs/changelog" title="Záznam změn" class="homepage__block-link">Záznam změn</a>
+						<a href="/cs/changelog" title="Changelog" class="homepage__block-link">Changelog</a>
 					</div>
 				</div>
 				{# Homepage nav END #}
