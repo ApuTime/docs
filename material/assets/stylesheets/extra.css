@@ -86,15 +86,15 @@ body.homepage {
 
 .body__background-people {
 	display: block;
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	z-index: -1;
-	max-width: 1920px;
-	width: 100%;
-	height: auto;
-	margin: 0 auto;
+    position: absolute;
+    top: -216px;
+    left: 4em;
+    right: 0;
+    z-index: -1;
+    max-width: 1900px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
 }
 
 img.body__dots-top {
@@ -862,6 +862,9 @@ body.hidden-scroll {
 	.footer-call-to-action {
 		padding: 0 16px;
 	}
+	.body__background-people {
+		top: -140px
+	}
 }
 @media screen and (max-width: 860px) {
 	.homepage__block-header img {
@@ -880,7 +883,9 @@ body.hidden-scroll {
 		max-width: 100%;
 	}
 	.body__background-people {
-		top: 48px;
+		top: 0;
+		left: -3em;
+		width: 120%;
 	}
 	.w-layout-grid.online-demo-grid {
 		display: block;
