@@ -520,6 +520,18 @@ h2.homepage__block-title {
 	-ms-flex-align: start;
 	align-items: flex-start;
 }
+
+.md-typeset ul li > h3 {
+    font-size: 1.1em;
+	font-weight: 600;
+	margin: 0 0 .2em;
+}
+ .md-typeset ul li > h3 + p {
+	 margin-top: 0;
+ }
+.md-typeset ul li {
+	margin-bottom: 1.2em;
+}
 /* Lightbox */
 /*!
 	By André Rinas, www.andrerinas.de
@@ -865,6 +877,10 @@ body.hidden-scroll {
 	.body__background-people {
 		top: -140px
 	}
+	img.body__dots-top {
+		width: 130%;
+		top: 40vh
+	}
 }
 @media screen and (max-width: 860px) {
 	.homepage__block-header img {
@@ -905,6 +921,13 @@ body.hidden-scroll {
 		grid-template-columns: 1fr 1fr;
 		grid-template-rows: 1fr 1fr;
 		gap: 25px 0px;
+	}
+	.homepage__search-wrap .md-search__inner {
+		min-width: 100%;
+	}
+	img.body__dots-top {
+		width: 200%;
+		top: 60vh
 	}
 }
 @media screen and (max-width: 720px) {
