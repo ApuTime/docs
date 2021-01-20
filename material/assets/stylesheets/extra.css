@@ -235,14 +235,15 @@ h1.homepage__title {
 .md-typeset figure {
 	margin-left: 0;
 	margin-right: auto;
+	max-width: 420px;
 }
 
 .md-typeset figure a {
 	display: block;
 	position: relative;
 	overflow: hidden;
+	border: 1px solid transparent;
 	border-radius: 25px;
-	border: 1px solid lightgrey;
 	-webkit-transition: all 321ms ease-in;
 	-moz-transition: all 321ms ease-in;
 	-ms-transition: all 321ms ease-in;

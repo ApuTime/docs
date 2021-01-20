@@ -6,6 +6,13 @@
 
 Možnost vytvoření pracovní skupiny naleznete v nabídce „Můj účet“ v pravé horní části obrazovky po kliknutí na profilový obrázek. Po rozkliknutí „Přepnout workspace“ se vám zobrazí nabídka s vašimi pracovními skupinami. V této nabídce klikněte na tlačítko „Vytvořit workspace“. V následujícím kroku svou pracovní skupinu pojmenujte a klikněte na tlačítko „Vytvořit“.
 
+<figure>
+	<a href="../../assets/images/workspace/workspace.jpg" title="Workspace" class="glightbox">
+		<img src="../../assets/images/workspace/workspace.jpg" alt="Workspace" />
+		<figcaption>Workspace</figcaption>
+	</a>
+</figure>
+
 ## Změna workspace
 
 Možnost změny pracovní skupiny naleznete v nabídce „Můj účet“ v pravém horním rohu obrazovky po kliknutí na profilový obrázek. Po rozkliknutí „Přepnout workspace“ se vám zobrazí nabídka se všemi pracovními skupinami, které jste vytvořili a také těmi, do kterých jste byli pozváni. Pracovní skupinu můžete kdykoliv jednoduše přepnout.
