@@ -1,10 +1,23 @@
 console.log("extra js init");
 
-var lightbox = new SimpleLightbox("[js-lightbox-video]", {
-	captionsData: "alt",
-	captionPosition: "outside",
-});
+/** For galleries just add class .glightbox on links */
 
-/* var lightbox = new SimpleLightbox({
-	elements: document.querySelectorAll(".lightbox a"),
-}); */
+/** Feedback Form */
+
+document
+	.getElementById("feedbackButton")
+	.addEventListener("click", function () {
+
+		console.log('Kliknul jsem?');
+
+		var lightboxForm = GLightbox({
+			selector: "#feedbackButton",
+			elements: [
+				{
+					content: document.getElementById('feedbackForm'),
+				},
+			],
+		});
+
+		lightboxForm.open();
+	});

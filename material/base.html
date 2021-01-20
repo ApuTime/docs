@@ -74,6 +74,7 @@
       {% endif %}
     {% endblock %}
     {% block extrahead %}{% endblock %}
+	{% block subpageHeaderAssets %}{% endblock %}
   </head>
   {% set direction = config.theme.direction or lang.t('direction') %}
   {% if config.theme.palette %}
@@ -167,12 +168,14 @@
                 {% include "partials/integrations/disqus.html" %}
               {% endblock %}
             </article>
+			{% block feedbackButton %}{% endblock%}
           </div>
         </div>
       </main>
       {% block footer %}
         {% include "partials/footer.html" %}
       {% endblock %}
+	  {% block feedbackForm %}{% endblock %}
     </div>
     {% block scripts %}
       <script src="{{ 'assets/javascripts/vendor.a018d6bb.min.js' | url }}"></script>
@@ -212,5 +215,6 @@
         <script src="{{ path | url }}"></script>
       {% endfor %}
     {% endblock %}
+	{% block subpageFooterAssets %}{% endblock %}
   </body>
 </html>

@@ -2,3 +2,28 @@
   This file was automatically generated - do not edit
 -#}
 {% extends "base.html" %}
+
+{% block feedbackButton %}
+	<div class="feedback__button-wrap">
+		<button id="feedbackButton" class="btn btn-secondary btn-rounded btn-icon">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H5.17l-.59.59-.58.58V4h16v12zm-9-4h2v2h-2zm0-6h2v4h-2z"/></svg>
+		</button>
+	</div>
+{% endblock%}
+
+{% block feedbackForm %}
+<div style="display: none">
+<div id="feedbackForm" class="feedback__form-section">
+	<!--[if lte IE 8]>
+	<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+	<![endif]-->
+	<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+	<script>
+		hbspt.forms.create({
+		portalId: "7639599",
+		formId: "25e91c0c-2b5f-48cf-a104-e94e2d677510",
+	});
+	</script>
+</div>
+</div>
+{% endblock %}

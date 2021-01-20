@@ -22,6 +22,7 @@
 }
 
 .btn {
+	display: inline-block;
     padding: 15px 21px;
     border-radius: 9px;
     -webkit-transition: background-color .2s ease;
@@ -29,8 +30,46 @@
     color: #fff;
     font-size: 16px;
     font-weight: 500;
-    text-align: center;
+	text-align: center;
+	cursor: pointer;
 }
+
+.btn.btn-icon {
+	display: -ms-inline-flexbox;
+    display: -webkit-inline-flex;
+    display: inline-flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+	align-items: center;
+	width: 48px;
+	height: 48px;
+	padding: 0;
+}
+
+.btn-icon svg {
+	width: 24px;
+}
+
+.btn-rounded {
+	border-radius: 50%;
+}
+
+.btn-hover-text span {
+	font-size: 0;
+}
+
 .md-typeset .btn-primary,
 .btn-primary {
 	color: #fff;
@@ -40,9 +79,28 @@
 	color: #fff;
 	background-color: #008616;
 }
+
+.md-typeset .btn-secondary,
+.btn-secondary {
+	color: #fff;
+    background-color: #0074ff;
+}
+.md-typeset .btn-secondary:hover,
+.btn-secondary:hover {
+	color: #fff;
+	background-color: #0057ff;
+}
+
+.btn-secondary svg {
+	fill: #fff
+}
 /**
  * Global styles
 */
+body:not(.homepage) .md-header,
+body:not(.homepage) .md-tabs {
+	background-color: #000;
+}
 
 .container-1150 {
 	max-width: 1150px;
@@ -155,11 +213,6 @@ h1.homepage__title {
 
 .homepage__search-wrap .md-search__input+.md-search__icon {
 	color: #000
-}
-
-.md-tabs,
-.md-header {
-	background-color: #000;
 }
 
 .homepage .md-header[data-md-state=shadow] {
@@ -399,7 +452,10 @@ h2.homepage__block-title {
 	line-height: 12px;
 	text-align: center;
 }
-
+.feedback__button-wrap {
+	padding-top: 2em;
+	text-align: right
+}
 /**
  * Footer columns
 */

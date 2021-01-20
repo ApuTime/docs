@@ -155,8 +155,9 @@ nav:
 # Extra Files
 extra_css:
   - ./assets/stylesheets/extra.css
+  - ./assets/stylesheets/glightbox.min.css
 extra_javascript:
-  - ./assets/javascripts/simple-lightbox.js
+  - ./assets/javascripts/glightbox.min.js
   - ./assets/javascripts/extra.js
 
 # Google Analytics
