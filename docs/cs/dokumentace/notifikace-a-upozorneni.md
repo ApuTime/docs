@@ -8,7 +8,7 @@ Upozornění jsou dostupná pod ikonou zvonku v pravém horním rohu obrazovky. 
 
 <figure>
 	<a href="../../assets/images/notifikace-a-upozorneni/notifikace-a-upozorneni-1.jpg" title="Zobrazení notifikace a upozornění" class="glightbox">
-		<img src="../../assets/images/notifikace-a-upozorneni/notifikace-a-upozorneni-1.jpg" alt="Zobrazení notifikace a upozornění" />
+		<img loading="lazy" src="../../assets/images/notifikace-a-upozorneni/notifikace-a-upozorneni-1.jpg" alt="Zobrazení notifikace a upozornění" />
 		<figcaption>Zobrazení notifikace a upozornění</figcaption>
 	</a>
 </figure>
@@ -17,7 +17,7 @@ Po kliknutí na notifikaci se dostanete na detail úkolu. Veškeré změny na ú
 
 <figure>
 	<a href="../../assets/images/notifikace-a-upozorneni/notifikace-a-upozorneni-2.jpg" title="Zobrazení notifikace a upozornění" class="glightbox">
-		<img src="../../assets/images/notifikace-a-upozorneni/notifikace-a-upozorneni-2.jpg" alt="Zobrazení notifikace a upozornění" />
+		<img loading="lazy" src="../../assets/images/notifikace-a-upozorneni/notifikace-a-upozorneni-2.jpg" alt="Zobrazení notifikace a upozornění" />
 		<figcaption>Zobrazení notifikace a upozornění</figcaption>
 	</a>
 </figure>

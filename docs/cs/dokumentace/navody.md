@@ -8,7 +8,7 @@ Návody jsou dostupné pod ikonou výuky v pravém horním rohu obrazovky. V nab
 
 <figure>
 	<a href="../../assets/images/navody/navody.jpg" title="Zobrazení návodů" class="glightbox">
-		<img src="../../assets/images/navody/navody.jpg" alt="Zobrazení návodů" />
+		<img loading="lazy" src="../../assets/images/navody/navody.jpg" alt="Zobrazení návodů" />
 		<figcaption>Zobrazení návodů</figcaption>
 	</a>
 </figure>

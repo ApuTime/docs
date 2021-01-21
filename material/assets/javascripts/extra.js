@@ -5,8 +5,8 @@ var lightbox = GLightbox({
 	touchNavigation: true,
 	loop: true
 });
-/** Feedback Form */
 
+/** Feedback Form */
 document
 	.getElementById("feedbackButton")
 	.addEventListener("click", function () {

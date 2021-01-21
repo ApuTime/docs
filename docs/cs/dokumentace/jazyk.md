@@ -8,7 +8,7 @@ Možnost změny jazyka naleznete v nabídce „Můj účet“ v pravé horní č
 
 <figure>
 	<a href="../../assets/images/jazyk/jazyk.jpg" title="Změna jazyka" class="glightbox">
-		<img src="../../assets/images/jazyk/jazyk.jpg" alt="Změna jazyka" />
+		<img loading="lazy" src="../../assets/images/jazyk/jazyk.jpg" alt="Změna jazyka" />
 		<figcaption>Změna jazyka</figcaption>
 	</a>
 </figure>

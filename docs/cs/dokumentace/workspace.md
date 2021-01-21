@@ -8,7 +8,7 @@ Možnost vytvoření pracovní skupiny naleznete v nabídce „Můj účet“ v 
 
 <figure>
 	<a href="../../assets/images/workspace/workspace.jpg" title="Workspace" class="glightbox">
-		<img src="../../assets/images/workspace/workspace.jpg" alt="Workspace" />
+		<img loading="lazy" src="../../assets/images/workspace/workspace.jpg" alt="Workspace" />
 		<figcaption>Workspace</figcaption>
 	</a>
 </figure>

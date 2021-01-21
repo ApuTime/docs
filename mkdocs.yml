@@ -154,8 +154,8 @@ nav:
 
 # Extra Files
 extra_css:
-  - ./assets/stylesheets/extra.css
   - ./assets/stylesheets/glightbox.min.css
+  - ./assets/stylesheets/extra.css
 extra_javascript:
   - ./assets/javascripts/glightbox.min.js
   - ./assets/javascripts/extra.js
