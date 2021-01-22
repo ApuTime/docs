@@ -671,7 +671,7 @@ h2.homepage__block-title {
 .gslide-description {
 	display: none;
 }
-
+.gslide-image img,
 .gslide-image img.zoomable {
 	border-radius: 15px;
 }
