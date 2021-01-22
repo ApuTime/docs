@@ -668,6 +668,14 @@ h2.homepage__block-title {
 	border-radius: 15px;
 }
 
+.gslide-description {
+	display: none;
+}
+
+.gslide-image img.zoomable {
+	border-radius: 15px;
+}
+
 
 
 /* Responsive styles */
