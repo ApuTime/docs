@@ -734,6 +734,9 @@ h2.homepage__block-title {
 	.footer__columns h3 {
 		font-size: 1.2rem;
 	}
+	.md-typeset figure {
+		padding-bottom: 58%;
+	}
 }
 @media screen and (max-width: 768px) {
 	.homepage__boxes {
@@ -744,7 +747,7 @@ h2.homepage__block-title {
 		max-width: 100%;
 	}
 	.body__background-people {
-		top: 0;
+		top: 50px;
 		left: -3em;
 		width: 120%;
 	}
@@ -774,10 +777,24 @@ h2.homepage__block-title {
 		width: 200%;
 		top: 60vh
 	}
+	.tooltip {
+		right: 100%;
+		top: auto;
+		bottom: auto;
+		left: auto;
+	}
 }
 @media screen and (max-width: 720px) {
 	.md-footer-copyright {
 		text-align: center;
+	}
+	.md-typeset figure {
+		padding-bottom: 100%;
+	}
+}
+@media screen and (max-width: 660px) {
+	img.body__dots-top {
+		top: 20vh;
 	}
 }
 @media screen and (max-width: 568px) {
