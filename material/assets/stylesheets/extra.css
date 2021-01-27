@@ -739,6 +739,9 @@ h2.homepage__block-title {
 	}
 }
 @media screen and (max-width: 768px) {
+	body {
+		overflow-x: hidden;
+	}
 	.homepage__boxes {
 		display: block;
 	}
@@ -776,6 +779,9 @@ h2.homepage__block-title {
 	img.body__dots-top {
 		width: 200%;
 		top: 60vh
+	}
+	.feedback__button-wrap {
+		padding-right: .4em;
 	}
 	.tooltip {
 		right: 100%;

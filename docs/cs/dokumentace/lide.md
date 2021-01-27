@@ -2,6 +2,13 @@
 
 > Sekce „Lidé“ slouží ke správě jednotlivých uživatelů. Lze odsud upravovat jejich základní údaje, pracovní dobu, hodinovou sazbu, přidělovat jim práva a mnoho dalšího.
 
+<figure class="large_image">
+	<a href="../../assets/images/lide.jpg" title="Lidé" class="glightbox">
+		<img loading="lazy" src="../../assets/images/lide.jpg" alt="Lidé" />
+		<figcaption>Lidé</figcaption>
+	</a>
+</figure>
+
 ## Přidání uživatele
 Nového uživatele přidáte do aplikace kliknutím na tlačítko „Nový uživatel“, nebo tlačítkem „+“ v pravém dolním rohu.
 
@@ -16,17 +23,45 @@ Uživatele a jeho nastavení uložte tlačítkem „Přidat nového uživatele�
 
 Možnost importu uživatelů z Google či Microsoft Directory naleznete v nabídce „Více“ (tři tečky) v pravém horním rohu kliknutím na položku importování uživatelů z Google či Microsoft Directory.
 
+<figure class="large_image">
+	<a href="../../assets/images/lide-pridani-uzivatele.jpg" title="Přidání uživatele" class="glightbox">
+		<img loading="lazy" src="../../assets/images/lide-pridani-uzivatele.jpg" alt="Přidání uživatele" />
+		<figcaption>Přidání uživatele</figcaption>
+	</a>
+</figure>
+
 ## Úprava uživatele
 Klikněte na ikonu daného uživatele a tím otevřete nabídku nastavení. Měnit můžete jméno, e-mail, uživatelská práva, a oprávnění v jednotlivých projektech. Můžete také nastavit hodinovou sazby a měnu.
 
 Provedené změny uložte tlačítkem „Potvrdit změny“.
+
+<figure class="large_image">
+	<a href="../../assets/images/lide-uprava-uzivatele.jpg" title="Úprava uživatele" class="glightbox">
+		<img loading="lazy" src="../../assets/images/lide-uprava-uzivatele.jpg" alt="Úprava uživatele" />
+		<figcaption>Úprava uživatele</figcaption>
+	</a>
+</figure>
 
 ## Odebrání uživatele
 Pro odebrání uživatele otevřete nabídku „Upravit uživatele“ kliknutím na jeho profilový obrázek a poté jej kliknutím na tlačítko „Smazat“ odeberete.
 
 Upozornění: Odebraný uživatel bude pouze archivovaný a veškerá data zůstanou zachována pro případné obnovení.
 
+<figure class="large_image">
+	<a href="../../assets/images/lide-odebrani-uzivatele.jpg" title="Odebrání uživatele" class="glightbox">
+		<img loading="lazy" src="../../assets/images/lide-odebrani-uzivatele.jpg" alt="Odebrání uživatele" />
+		<figcaption>Odebrání uživatele</figcaption>
+	</a>
+</figure>
+
 ## Obnovení uživatele
 Pro obnovení uživatele klikněte na ikonu „Více“ (tři tečky) v pravém horním rohu a klikněte na položku „Smazaní“. Zobrazí se vám seznam odebraných uživatelů. U uživatele, kterého chcete obnovit, otevřete nabídku „Upravit uživatele“ kliknutím na jeho profilový obrázek a poté jej kliknutím na tlačítko „Obnovit“ obnovíte.
 
 Upozornění: Správu jednotlivých uživatelů může provádět pouze osoba s právy vedení.
+
+<figure>
+	<a href="../../assets/images/lide-obnoveni-uzivatele.jpg" title="Obnovení uživatele" class="glightbox">
+		<img loading="lazy" src="../../assets/images/lide-obnoveni-uzivatele.jpg" alt="Obnovení uživatele" />
+		<figcaption>Obnovení uživatele</figcaption>
+	</a>
+</figure>

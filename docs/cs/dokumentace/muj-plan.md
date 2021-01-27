@@ -2,6 +2,13 @@
 
 > V sekci „Můj plán“ najdete všechny vaše úkoly rozdělené do několika sloupců dle jejich stavu. Každý sloupec představuje jednu z etap životnosti úkolu. Priority úkolů jsou nastaveny umělou inteligencí na základě mnoha parametrů. Zde vždy v reálném čase uvidíte vše, na čem se má pracovat a kdy.
 
+<figure>
+	<a href="../../assets/images/muj-plan.jpg" title="Můj plán" class="glightbox">
+		<img loading="lazy" src="../../assets/images/muj-plan.jpg" alt="Můj plán" />
+		<figcaption>Můj plán</figcaption>
+	</a>
+</figure>
+
 ## Vytvoření úkolu
 
 Kliknutím na tlačítko „+“ v pravém dolním rohu svého plánu otevřete okno pro vytvoření nového úkolu. Úkol můžete vytvořit i v Project Formation™ a na projektu.
@@ -17,6 +24,13 @@ Kliknutím na tlačítko „+“ v pravém dolním rohu svého plánu otevřete 
 - Deadline slouží jako termín pro dokončení úkolu. Umělá inteligence dle něj určuje prioritu mezi ostatními úkoly.
 
 Pro úspěšné vytvoření úkolu klikněte na tlačítko „Vytvořit“.
+
+<figure class="large_image">
+	<a href="../../assets/images/muj-plan-vytvoreni-ukolu.jpg" title="Vytvoření úkolu" class="glightbox">
+		<img loading="lazy" src="../../assets/images/muj-plan-vytvoreni-ukolu.jpg" alt="Vytvoření úkolu" />
+		<figcaption>Vytvoření úkolu</figcaption>
+	</a>
+</figure>
 
 ### Na detailu úkolu je k nalezení:
 
@@ -44,6 +58,13 @@ Upozornění: Všechny provedené změny je vždy třeba uložit tlačítkem ulo
 ## Změna stavu úkolu
 
 Změnu stavu úkolu provedete jeho přetažením do odpovídajícího sloupce, popř. ji provedete přímo na detailu úkolu pomocí tlačítek. Vedení, koordinátoři a zakladatelé úkolů mohou měnit stavy i ostatním řešitelům úkolu. Změnu stavu lze také nastavit i hromadnou úpravou na více úkolech pomocí hromadné úpravy.
+
+<figure>
+	<a href="../../assets/images/muj-plan-zmena-stavu-ukolu.jpg" title="Změna stavu úkolu" class="glightbox">
+		<img loading="lazy" src="../../assets/images/muj-plan-zmena-stavu-ukolu.jpg" alt="Změna stavu úkolu" />
+		<figcaption>Změna stavu úkolu</figcaption>
+	</a>
+</figure>
 
 ### Zahájení práce na úkolu
 Práci na úkolu zahájíte přetažením jeho dlaždice do modře ohraničené zóny nad sloupci. Po přetažení se spustí časomíra.

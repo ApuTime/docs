@@ -73,6 +73,18 @@ plugins:
 #extra:
   #  version:
   #  hreflang:
+extra:
+  alternate:
+
+    # Switch to English
+    - name: English
+      link: https://docs.aputime.com/en/
+      lang: en
+
+    # Switch to German
+    - name: Deutsch
+      link: https://docs.aputime.com/de/
+      lang: de
 
 # Extensions
 markdown_extensions:
