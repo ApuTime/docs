@@ -267,6 +267,15 @@ h1.homepage__title {
 	padding-bottom: 56.25%;
 }
 
+.md-typeset figure.large_image {
+	max-width: 660px;
+	padding-bottom: 72.25%;
+}
+.md-typeset figure.tall_image {
+	max-width: 420px;
+    padding-bottom: 60.25%;
+}
+
 .md-typeset figure a {
 	position: absolute;
 	width: 100%;
@@ -306,6 +315,11 @@ h1.homepage__title {
 	line-height: 1;
 	font-size: 0;
 }
+
+.md-typeset figure + h2 {
+	margin-top: 0;
+}
+
 .md-typeset h2 {
 	font-weight: 700;
 }
@@ -789,18 +803,33 @@ h2.homepage__block-title {
 		bottom: auto;
 		left: auto;
 	}
+	.md-typeset figure {
+		padding-bottom: 100%;
+	}
+
+	.md-typeset figure.large_image {
+		max-width: 100%;
+		padding-bottom: 77.25%;
+	}
+
+	.md-typeset figure.tall_image {
+		padding-bottom: 70%;
+	}
 }
 @media screen and (max-width: 720px) {
 	.md-footer-copyright {
 		text-align: center;
 	}
-	.md-typeset figure {
-		padding-bottom: 100%;
+	.md-typeset figure.tall_image {
+		padding-bottom: 66.25%;
 	}
 }
 @media screen and (max-width: 660px) {
 	img.body__dots-top {
 		top: 20vh;
+	}
+	.md-typeset figure.tall_image {
+		padding-bottom: 78.25%;
 	}
 }
 @media screen and (max-width: 568px) {
@@ -830,6 +859,9 @@ h2.homepage__block-title {
 	}
 	.footer__columns p {
 		text-align: center;
+	}
+	.md-typeset figure.tall_image {
+		padding-bottom: 110.25%;
 	}
 }
 

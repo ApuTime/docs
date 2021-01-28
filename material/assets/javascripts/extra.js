@@ -1,26 +1,29 @@
 console.log("extra js init");
 
+var lightbox = GLightbox();
+
 /** For galleries just add class .glightbox on links */
-var lightbox = GLightbox({
+lightbox = GLightbox({
 	touchNavigation: true,
-	loop: true
+	loop: true,
 });
 
 /** Feedback Form */
 document
 	.getElementById("feedbackButton")
 	.addEventListener("click", function () {
-
-		console.log('Kliknul jsem?');
-
-		var lightboxForm = GLightbox({
-			selector: "#feedbackButton",
-			elements: [
-				{
-					content: document.getElementById('feedbackForm'),
-				},
-			],
-		});
-
-		lightboxForm.open();
+		openIframeForm(lightbox);
 	});
+
+function openIframeForm(plugin) {
+
+	var contentWrap = document.getElementById("feedbackForm");
+
+	plugin.setElements([
+		{
+			content: contentWrap,
+		},
+	]);
+
+	plugin.open();
+}

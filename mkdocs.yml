@@ -73,18 +73,6 @@ plugins:
 #extra:
   #  version:
   #  hreflang:
-extra:
-  alternate:
-
-    # Switch to English
-    - name: English
-      link: https://docs.aputime.com/en/
-      lang: en
-
-    # Switch to German
-    - name: Deutsch
-      link: https://docs.aputime.com/de/
-      lang: de
 
 # Extensions
 markdown_extensions:
@@ -171,6 +159,7 @@ extra_css:
 extra_javascript:
   - ./assets/javascripts/glightbox.min.js
   - ./assets/javascripts/extra.js
+  - //js.hsforms.net/forms/v2.js
 
 # Google Analytics
 # google_analytics: ['UA-?', 'docs.aputime.com']
