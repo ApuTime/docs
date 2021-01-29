@@ -58,7 +58,7 @@ Pokud chcete projekt odstranit, na dlaždici projektu vyberte „Více“ (tři 
 ### Koš
 Pokud chcete projekt odstranit úplně i se všemi jeho daty, na dlaždici projektu klikněte na tlačítko „Více“ (tři tečky) a vyberte „Upravit“. Na konci plovoucího okna vidíte po levé straně tlačítko „Smazat“. Projekt bude smazán ale po dobu 14 dnů ještě zůstane v koši, kdybyste jej náhodou potřebovali obnovit.
 
-### Archivování projektu
+### Archiv
 Pokud chcete projekt archivovat i se všemi jeho daty, na dlaždici projektu klikněte na tlačítko „Více“ (tři tečky) a vyberte  „Upravit“. V dolní části plovoucího okna vidíte přepínací tlačítko, pomocí kterého projekt můžete archivovat. Kdykoliv budete potřebovat projekt a jeho úkoly znovu zobrazit, stačí na seznamu projektů kliknout na tlačítko „Více“ (tři tečky) a vybrat „Archivované“, kde se vám zobrazí seznam všech projektů, které kdy byly archivovány. Pokud budete chtít projekt obnovit, stačí na detailu projektu přesunout volbu na přepínacím tlačítku.
 
 <figure class="large_image">
@@ -171,7 +171,7 @@ Upozornění: Všechny provedené změny je vždy třeba uložit tlačítkem dis
 Z vytvořeného projektu můžete vytvořit šablonu procesní mapy jejím duplikováním (stávající proces v projektu se zanechá beze změn).
 
 - Projekt zobrazte v ProjectFormation™ – na dlaždici projektu klikněte na ikonu „Více“ (tři tečky) a zvolte možnost „Zobrazit v ProjectFormation™“ nebo můžete přímo na detailu projektu kliknout vpravo nahoře na ikonu procesu a taktéž zvolit „Zobrazit v ProjectFormation™“.
-- Po otevření procesu v grafickém rozhraní klikněte v ovládacím panelu na ikonu „Více“  (tři tečky) a vyberte „Duplikovat jako šablonu“.
+- Po otevření procesu v grafickém rozhraní klikněte v ovládacím panelu na ikonu „Více“  (tři tečky) a vyberte „Načíst do procesní mapy“.
 - Nyní můžete procesní mapu libovolně upravovat, či jen uložit jako šablonu.
 
 V ovládacích prvcích nakonec vyberte tlačítko diskety a zvolte možnost, jak chcete mapu uložit.

@@ -32,7 +32,13 @@ Pro úspěšné vytvoření úkolu klikněte na tlačítko „Vytvořit“.
 	</a>
 </figure>
 
-### Na detailu úkolu je k nalezení:
+### Detail úkolu
+
+Detail úkolu otevřete kliknutím na název úkolu. Je velmi podobný nabídce, ve které úkol vytváříte. V detailu najdete všechny informace o úkolu, které také můžete rovnou upravovat.
+
+Díky nabídce „Více“ (tři tečky v pravém horním rohu detailu) můžete otevřít úkol v novém okně, zkopírovat odkaz úkolu, zobrazit úkoly v projektu, zobrazit úkol v grafickém prostředí ProjectFormation™ nebo úkol smazat.
+
+Na seznamu svých úkolů také můžete vidět upozornění na blížící se deadline. V případě, kdy se blíží překročení nastavené deadline, uvidíte oranžový vykřičník s upozorněním, za jak dlouho se deadline překročí. V případě, že již deadline překročena byla, uvidíte červený vykřičník s upozorněním, jak dlouho je již po deadline.
 
 - Název úkolu a informace, kým byl vytvořen
 - Štítky (které po kliknutí můžete měnit)
@@ -53,11 +59,11 @@ Pro úspěšné vytvoření úkolu klikněte na tlačítko „Vytvořit“.
 - Historie úkolu - kliknutím na tlačítko „Zobrazit vše“ se vám ukáže historie všech akcí, které a kým byly na úkolu provedeny.
 - Strávený čas (odpracovaný čas na úkolu naměřen stopkami, když je úkol ve stavu „pracuji na tom“. Zde lze také přidat vlastní časový záznam.)
 
-Upozornění: Všechny provedené změny je vždy třeba uložit tlačítkem uložit v pravém dolním rohu.
+Upozornění: Všechny provedené změny je vždy třeba uložit tlačítkem „Uložit“ v pravém dolním rohu.
 
 ## Změna stavu úkolu
 
-Změnu stavu úkolu provedete jeho přetažením do odpovídajícího sloupce, popř. ji provedete přímo na detailu úkolu pomocí tlačítek. Vedení, koordinátoři a zakladatelé úkolů mohou měnit stavy i ostatním řešitelům úkolu. Změnu stavu lze také nastavit i hromadnou úpravou na více úkolech pomocí hromadné úpravy.
+Změnu stavu úkolu provedete jeho přetažením do odpovídajícího sloupce, popř. ji provedete přímo na detailu úkolu pomocí tlačítek „Todo, Pracuji na tom, Hotovo, Odloženo“. Vedení, koordinátoři a zakladatelé úkolů mohou měnit stavy i ostatním řešitelům úkolu. Změnu stavu lze také nastavit i hromadnou úpravou na více úkolech pomocí hromadné úpravy.
 
 <figure>
 	<a href="../../assets/images/muj-plan-zmena-stavu-ukolu.jpg" title="Změna stavu úkolu" class="glightbox">

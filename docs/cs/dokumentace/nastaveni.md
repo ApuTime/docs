@@ -1,6 +1,6 @@
 # Nastavení
 
-> V sekci „Nastavení“ můžete upravit svůj profilový obrázek, jméno, e-mail nebo si změnit heslo. Můžete zde také nastavit veškeré integrace. Propojit APU se Slackem, Google Kalendářem, Microsoft Kalendářem nebo získat API klíč pro integraci s jinými nástroji.
+> V sekci „Nastavení“ můžete upravit svůj profilový obrázek, jméno, e-mail nebo si změnit heslo. Můžete zde také nastavit veškeré integrace. Propojit APU se Slackem, Google Kalendářem, Microsoft Kalendářem nebo získat API klíč pro integraci s jinými nástroji. Najdete jej po rozkliknutí svého profilu v pravém horním rohu rozbalovací nabídky pod ozubeným kolečkem.
 
 <figure class="large_image">
 	<a href="../../assets/images/nastaveni.jpg" title="Nastavení" class="glightbox">
@@ -34,3 +34,5 @@ Pokud používáte i jiné nástroje a chcete je pro usnadnění práce propojit
 		<figcaption>Integrace</figcaption>
 	</a>
 </figure>
+
+V kalendáři poté vidí vaše akce projektoví manažeři a vedení. Pokud máte v kalendáři události, které máte označené jako „private”, jejich informace zobrazeny nebudou. Projektoví manažeři a vedení budou pouze vidět, že v daný čas máte „nějakou” událost.

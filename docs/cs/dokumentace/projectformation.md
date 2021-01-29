@@ -4,7 +4,7 @@
 
 ## Vytvoření šablony procesu
 
-V připadě, že nemáte rozpracovanou žádnou mapu, zobrazí se vám okno pro vytvoření nové mapy. V něm vyplňte název mapy a klikněte na tlačítko „Začít kreslit“.
+V případě, že nemáte rozpracovanou žádnou mapu, zobrazí se vám okno pro vytvoření nové mapy. V něm vyplňte název mapy a klikněte na tlačítko „Začít kreslit“.
 
 Pokud máte mapu rozpracovanou a chcete ji z nějakého důvodu smazat a začít kreslit novou, klikněte na její název (první ikona ProjectFormation™ v panelu ovládacích prvků v pravém horním okně) a vyberte možnost „Nakreslit novou“, popř. ji můžete jen přejmenovat a pokračovat v kreslení.
 
@@ -22,7 +22,7 @@ V dalším kroku je potřeba přidat úkoly do procesní mapy.
 Nový úkol přidáte tlačítkem „+“ v pravém dolním rohu (okno pro přidání a nastavení úplně prvního úkolu se zobrazí automaticky). Úkol můžete vytvořit i v projektu a v sekci „Můj Plán“.
 
 - Vyplňte název úkolu
-- Na ose nastavte odhadovaný čas délky úkolu (výchozí nastavení je 45 minut)
+- Na časové ose nastavte odhadovaný čas délky úkolu (výchozí nastavení je 45 minut)
 - Vyberte řešitele (ikona panáčka). Výchozím nastavením je úkol přiřazen tvůrci procesní mapy.
 - Štítkem můžete úkol označit pro lepší přehlednost a orientaci mezi ostatními úkoly.
 - V poli „Popis“ můžete přidat podrobnější informace k úkolu.
@@ -75,7 +75,7 @@ Pokud chcete procesní mapu exportovat (stáhnout), stačí použít tlačítko 
 </figure>
 
 ## Tisk šablony procesu
-Mapu procesu si můžete jednoduše vytisknout pomocí tlačítka „Otevřít tiskárnu”, které naleznete v plovoucí liště v pravém horním rohu po kliknutí na „Více“ (tři tečky). Poté se vám vaše mapa procesu otevře v novém okně v tiskové kvalitě a vy pouze kliknete pravým tlačítkem kdekoliv v okně a vyberete možnost „Tisk“.
+Mapu procesu si můžete jednoduše vytisknout pomocí tlačítka „Otevřít tiskárnu”, které naleznete v plovoucí liště v pravém horním rohu po kliknutí na „Více“ (tři tečky). Poté se vám šablona vaší mapy procesu otevře v novém okně v tiskové kvalitě a vy pouze kliknete pravým tlačítkem kdekoliv v okně a vyberete možnost „Tisk“.
 
 <figure>
 	<a href="../../assets/images/projectformation-tisk-sablony-procesu.jpg" title="Tisk šablony procesu" class="glightbox">
@@ -118,7 +118,7 @@ Nastavení pipelines mezi dvěma úkoly způsobí, že po dokončení 1. úkolu,
 
 Na pravé straně dlaždice úkolu klikněte na zelený kroužek a tažením ho propojte s úkolem, kterému potřebujete nastavit pipeline
 
-Ve vyskakovacím okně je možné nastavit následující údaje
+Ve vyskakovacím okně je možné nastavit následující údaje:
 - Odložený začátek – kdy se má úkol začít plánovat po uzavření zdrojového úkolu
 - Deadline – termín, do kterého má být úkol hotov (deadline není nutné nastavovat).
 
@@ -152,7 +152,7 @@ Návaznosti a propojení zde fungují stejně jako u úkolů.
 ## Paralelní úkoly za rozhodujícím prvkem
 Pokud potřebujete za rozhodovací prvek vložit paralelně více úkolů, musíte využít úkol bez řešitele, který bude sloužit jako rozdělovač (uzavře se sám automaticky, jakmile na něj dojde v procesu řada) a za něj pak tyto úkoly zařadíte.
 
-Každou procesní mapu uložíte kliknutím na ikonu Uložit mapu (modrá disketa) v ovládacích prvcích.
+Každou procesní mapu uložíte kliknutím na ikonu „Uložit mapu“ (modrá disketa) v ovládacích prvcích.
 
 Uložit procesní mapu lze také více způsoby.
 

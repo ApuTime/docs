@@ -17,11 +17,13 @@ Nového uživatele přidáte do aplikace kliknutím na tlačítko „Nový uživ
 - V dalším políčku je možné nastavit hodinovou sazbu a měnu.
 - Tlačítko oprávnění slouží k nastavení oprávnění jednotlivých uživatelů k projektu (toto lze také upravit přímo v projektu v sekci „Projekty“).
 
-Kliknutím na Oprávnění otevřete nabídku vytvořených projektů a tlačítkem „+“ k němu uživatele rovnou přiřadíte. Po přidání nezapomeňte nastavit roli uživatele v projektu.
+Kliknutím na „Oprávnění“ otevřete nabídku vytvořených projektů a tlačítkem „+“ k němu uživatele rovnou přiřadíte. Po přidání nezapomeňte nastavit roli uživatele v projektu.
 
 Uživatele a jeho nastavení uložte tlačítkem „Přidat nového uživatele“.
 
-Možnost importu uživatelů z Google či Microsoft Directory naleznete v nabídce „Více“ (tři tečky) v pravém horním rohu kliknutím na položku importování uživatelů z Google či Microsoft Directory.
+Možnost importu uživatelů z Google či Microsoft Directory naleznete v nabídce „Více“ (tři tečky) v pravém horním rohu kliknutím na položku „Importovat z Google Directory“ či „Importovat z Microsoft Directory”.
+
+Pod uživatelem poté jako vedení uvidíte také možnosti „Zobrazit úkoly”, „Zobrazit strávený čas” a „Nastavit pracovní dobu”.
 
 <figure class="large_image">
 	<a href="../../assets/images/lide-pridani-uzivatele.jpg" title="Přidání uživatele" class="glightbox">
@@ -31,7 +33,7 @@ Možnost importu uživatelů z Google či Microsoft Directory naleznete v nabíd
 </figure>
 
 ## Úprava uživatele
-Klikněte na ikonu daného uživatele a tím otevřete nabídku nastavení. Měnit můžete jméno, e-mail, uživatelská práva, a oprávnění v jednotlivých projektech. Můžete také nastavit hodinovou sazby a měnu.
+Klikněte na ikonu daného uživatele a tím otevřete nabídku nastavení. Měnit můžete jméno, e-mail, uživatelská práva, a oprávnění v jednotlivých projektech. Můžete také nastavit hodinovou sazbu a měnu.
 
 Provedené změny uložte tlačítkem „Potvrdit změny“.
 
@@ -41,6 +43,25 @@ Provedené změny uložte tlačítkem „Potvrdit změny“.
 		<figcaption>Úprava uživatele</figcaption>
 	</a>
 </figure>
+
+## Pracovní doba
+Pracovní doba vymezuje jednotlivým uživatelům časové úseky do kterých se jim plánují přidělené úkoly. Odpovídá tedy časovému rozmezí, ve kterém jsou zaměstnanci k dispozici, např. kdy jsou přítomni v kanceláři.
+
+### Úprava pracovní doby:
+Pracovní doba je ve výchozím stavu nastavena na 8.00-16.00. Upravit pracovní dobu může pouze vedení po rozkliknutí „Nastavit pracovní dobu“ (ikona kufru). Poté je třeba zvolit časové pásmo (výchozí je Praha) a potáhnutím puntíků nastavit rozmezí pracovní doby.
+
+V případě, že je potřeba pracovní dobu rozdělit na více částí, například kvůli pauzy či více směn v jednom dni, lze klikem na tlačítko „Přidat časový slot” přidat další část pracovní doby. Pro odebrání části pracovní doby stačí kliknout na ikonku koše.
+
+Upravenou pracovní dobu lze obnovit do výchozího stavu pomocí tlačítka „Obnovit”.
+
+Pracovní doba jednotlivých zaměstnanců je poté vyznačena na časové ose.
+
+**Upozornění:** Po provedení změn je nutné kliknout na tlačítko “Potvrdit”. Pokud dojde např. k zavření prohlížeče nebo ztrátě internetového připojení, provedené změny nebudou uloženy.
+
+**Upozornění:** Změna pracovní doby přímo ovlivní plánování úkolů na časové ose. Pokud je zvolená pracovní doba příliš krátká, je možné že některé úkoly nebude v jejím rámci možné realizovat, příp. se neúměrně navýší odhadovaný čas pro dokončení projektu. Toto nemá vliv pouze na jednotlivce ale může poznamenat i plán pro celý tým.
+
+**Upozornění:** Úkoly a eventy (např. položky z kalendáře) které mají pevné datum konání se plánují i mimo pracovní dobu.
+
 
 ## Odebrání uživatele
 Pro odebrání uživatele otevřete nabídku „Upravit uživatele“ kliknutím na jeho profilový obrázek a poté jej kliknutím na tlačítko „Smazat“ odeberete.
