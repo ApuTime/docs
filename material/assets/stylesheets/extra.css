@@ -248,9 +248,9 @@ h1.homepage__title {
 	background-color: transparent;
 }
 
-.homepage header.md-header {
+/* .homepage header.md-header {
 	z-index: 4;
-}
+} */
 
 .md-header-nav__button.md-logo img,
 .md-header-nav__button.md-logo svg {
@@ -734,6 +734,19 @@ h2.homepage__block-title {
 	.md-typeset figure {
 		padding-bottom: 58%;
 	}
+	.homepage .md-header[data-md-state=shadow] {
+		background-color: transparent
+	}
+	.homepage .header-dark {
+		background-color: #000;
+	}
+	.md-header:not(.header-dark) {
+		box-shadow: none;
+	}
+	.md-header .header-dark[data-md-state=shadow] {
+		box-shadow: 0 0 0.2rem rgb(0 0 0 / 10%), 0 0.2rem 0.4rem rgb(0 0 0 / 20%);
+		transition: color 250ms,background-color 250ms,box-shadow 250ms;
+	}
 }
 @media screen and (max-width: 768px) {
 	body {
@@ -796,10 +809,20 @@ h2.homepage__block-title {
 	img.body__dots-top {
 		top: 20vh;
 	}
+	.body__background-people {
+		top: -11px;
+		left: calc(-26%);
+		width: 160%;
+	}
+	h2.homepage__block-title {
+		font-size: 1.1rem;
+	}
 }
 @media screen and (max-width: 568px) {
 	h1.homepage__title {
-		font-size: 2rem;
+		font-size: 1.6rem;
+		margin-top: .5em;
+		margin-bottom: 1em;
 	}
 	.footer__columns {
 		grid-template-columns: 1fr;
