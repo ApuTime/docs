@@ -9,3 +9,4 @@ mkdocs-minify-plugin>=0.3
 mkdocs-monorepo-plugin>=0.4.11
 mkdocs-macros-plugin>=0.4.20
 mkdocs-markdownextradata-plugin>=0.1.9
+mkdocs-exclude-search>=0.2.0

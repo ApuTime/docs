@@ -2,7 +2,7 @@
 
 > V sekci „Nastavení“ můžete upravit svůj profilový obrázek, jméno, e-mail nebo si změnit heslo. Můžete zde také nastavit veškeré integrace. Propojit APU se Slackem, Google Kalendářem, Microsoft Kalendářem nebo získat API klíč pro integraci s jinými nástroji. Najdete jej po rozkliknutí svého profilu v pravém horním rohu rozbalovací nabídky pod ozubeným kolečkem.
 
-<figure class="large_image">
+<figure>
 	<a href="../../assets/images/nastaveni.jpg" title="Nastavení" class="glightbox">
 		<img loading="lazy" src="../../assets/images/nastaveni.jpg" alt="Nastavení" />
 		<figcaption>Nastavení</figcaption>
@@ -13,7 +13,7 @@
 
 V první části stránky nastavení můžete změnit základní údaje jako jsou profilový obrázek, jméno, e-mail nebo heslo. Stačí pouze kliknout na ikonu tužky, upravit, co je potřeba, a kliknout na tlačítko „Uložit“.
 
-<figure class="large_image">
+<figure>
 	<a href="../../assets/images/nastaveni-uprava-profilu.jpg" title="Úprava profilu" class="glightbox">
 		<img loading="lazy" src="../../assets/images/nastaveni-uprava-profilu.jpg" alt="Úprava profilu" />
 		<figcaption>Úprava profilu</figcaption>

@@ -2,7 +2,7 @@
 
 > Sekce „Lidé“ slouží ke správě jednotlivých uživatelů. Lze odsud upravovat jejich základní údaje, pracovní dobu, hodinovou sazbu, přidělovat jim práva a mnoho dalšího.
 
-<figure class="large_image">
+<figure>
 	<a href="../../assets/images/lide.jpg" title="Lidé" class="glightbox">
 		<img loading="lazy" src="../../assets/images/lide.jpg" alt="Lidé" />
 		<figcaption>Lidé</figcaption>
@@ -25,7 +25,7 @@ Možnost importu uživatelů z Google či Microsoft Directory naleznete v nabíd
 
 Pod uživatelem poté jako vedení uvidíte také možnosti „Zobrazit úkoly”, „Zobrazit strávený čas” a „Nastavit pracovní dobu”.
 
-<figure class="large_image">
+<figure>
 	<a href="../../assets/images/lide-pridani-uzivatele.jpg" title="Přidání uživatele" class="glightbox">
 		<img loading="lazy" src="../../assets/images/lide-pridani-uzivatele.jpg" alt="Přidání uživatele" />
 		<figcaption>Přidání uživatele</figcaption>
@@ -37,7 +37,7 @@ Klikněte na ikonu daného uživatele a tím otevřete nabídku nastavení. Měn
 
 Provedené změny uložte tlačítkem „Potvrdit změny“.
 
-<figure class="large_image">
+<figure>
 	<a href="../../assets/images/lide-uprava-uzivatele.jpg" title="Úprava uživatele" class="glightbox">
 		<img loading="lazy" src="../../assets/images/lide-uprava-uzivatele.jpg" alt="Úprava uživatele" />
 		<figcaption>Úprava uživatele</figcaption>
@@ -68,7 +68,7 @@ Pro odebrání uživatele otevřete nabídku „Upravit uživatele“ kliknutím
 
 Upozornění: Odebraný uživatel bude pouze archivovaný a veškerá data zůstanou zachována pro případné obnovení.
 
-<figure class="large_image">
+<figure>
 	<a href="../../assets/images/lide-odebrani-uzivatele.jpg" title="Odebrání uživatele" class="glightbox">
 		<img loading="lazy" src="../../assets/images/lide-odebrani-uzivatele.jpg" alt="Odebrání uživatele" />
 		<figcaption>Odebrání uživatele</figcaption>

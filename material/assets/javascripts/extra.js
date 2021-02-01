@@ -23,6 +23,12 @@ function formInit() {
 }
 
 /**
+ * Open vimeo iframe
+ */
+var lightboxDescription = GLightbox({
+	selector: ".video-lightbox",
+});
+/**
  * Open lightbox on click with form in content
  */
 document

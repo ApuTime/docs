@@ -28,7 +28,7 @@ Přiřazenou roli můžete změnit kliknutím na nabídku a následně výběrem
 
 Projekt vytvoříte kliknutím na tlačítko „Vytvořit“.
 
-<figure class="large_image">
+<figure>
 	<a href="../../assets/images/projekty-vytvoreni-projektu.jpg" title="Vytvoření projektu" class="glightbox">
 		<img loading="lazy" src="../../assets/images/projekty-vytvoreni-projektu.jpg" alt="Vytvoření projektu" />
 		<figcaption>Vytvoření projektu</figcaption>
@@ -46,7 +46,7 @@ Provedené změny vždy uložte tlačítkem „Potvrdit změny“.
 
 Pokud chcete projekt odstranit, na dlaždici projektu vyberte „Více“ (tři tečky) a klikněte na „Upravit“. V levém dolním rohu tabulky naleznete možnost „Smazat“. Po kliknutí bude projekt odstraněn.
 
-<figure class="large_image">
+<figure>
 	<a href="../../assets/images/projekty-uprava-projektu.jpg" title="Úprava projektu" class="glightbox">
 		<img loading="lazy" src="../../assets/images/projekty-uprava-projektu.jpg" alt="Úprava projektu" />
 		<figcaption>Úprava projektu</figcaption>
@@ -61,7 +61,7 @@ Pokud chcete projekt odstranit úplně i se všemi jeho daty, na dlaždici proje
 ### Archiv
 Pokud chcete projekt archivovat i se všemi jeho daty, na dlaždici projektu klikněte na tlačítko „Více“ (tři tečky) a vyberte  „Upravit“. V dolní části plovoucího okna vidíte přepínací tlačítko, pomocí kterého projekt můžete archivovat. Kdykoliv budete potřebovat projekt a jeho úkoly znovu zobrazit, stačí na seznamu projektů kliknout na tlačítko „Více“ (tři tečky) a vybrat „Archivované“, kde se vám zobrazí seznam všech projektů, které kdy byly archivovány. Pokud budete chtít projekt obnovit, stačí na detailu projektu přesunout volbu na přepínacím tlačítku.
 
-<figure class="large_image">
+<figure>
 	<a href="../../assets/images/projekty-archivace-odstraneni-projektu.jpg" title="Archivace/Odstranění projektu" class="glightbox">
 		<img loading="lazy" src="../../assets/images/projekty-archivace-odstraneni-projektu.jpg" alt="Archivace/Odstranění projektu" />
 		<figcaption>Archivace/Odstranění projektu</figcaption>
@@ -95,7 +95,7 @@ Pomocí rolovací nabídky, v levém horním rohu, se můžete jednoduše přep�
 - Seznam úkolů – přehled všech úkolů přiřazených k projektu
 - Detail úkolu – kliknutím na úkol otevřete jeho detail (zobrazí se veškeré informace úkolu s možností jejich úpravy)
 
-<figure class="large_image">
+<figure>
 	<a href="../../assets/images/projekty-detail-projektu.jpg" title="Detail projektu" class="glightbox">
 		<img loading="lazy" src="../../assets/images/projekty-detail-projektu.jpg" alt="Detail projektu" />
 		<figcaption>Detail projektu</figcaption>
@@ -110,7 +110,7 @@ Kliknutím na tlačítko otevřete nabídku rozhodnutí. Na základě vašeho ro
 
 Připomenutí o čekajícím rozhodnutí v projektu obdržíte vždy také na e-mail.
 
-<figure class="large_image">
+<figure>
 	<a href="../../assets/images/projekty-rozhodnuti-v-projektu.jpg" title="Rozhodnutí v projektu" class="glightbox">
 		<img loading="lazy" src="../../assets/images/projekty-rozhodnuti-v-projektu.jpg" alt="Rozhodnutí v projektu" />
 		<figcaption>Rozhodnutí v projektu</figcaption>
@@ -120,7 +120,7 @@ Připomenutí o čekajícím rozhodnutí v projektu obdržíte vždy také na e-
 ## Vytvoření úkolu v projektu
 Kliknutím na tlačítko „+“ v pravém dolním rohu projektu otevřete nabídku pro vytvoření nového úkolu. Úkol můžete vždy vytvořit také v Project Formation™ a v sekci „Můj Plán“.
 
-<figure class="large_image">
+<figure>
 	<a href="../../assets/images/projekty-vytvoreni-ukolu-v-projektu.jpg" title="Vytvoření úkolu v projektu" class="glightbox">
 		<img loading="lazy" src="../../assets/images/projekty-vytvoreni-ukolu-v-projektu.jpg" alt="Vytvoření úkolu v projektu" />
 		<figcaption>Vytvoření úkolu v projektu</figcaption>

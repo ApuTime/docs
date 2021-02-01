@@ -7,7 +7,7 @@ Předplatné naleznete v nabídce „Předplatné“ v pravé horní části obr
 
 Upozornění: Pro správu předplatného musíte mít přidělena práva vedení.
 
-<figure class="large_image">
+<figure>
 	<a href="../../assets/images/preplatne.jpg" title="Předplatné" class="glightbox">
 		<img loading="lazy" src="../../assets/images/preplatne.jpg" alt="Předplatné" />
 		<figcaption>Předplatné</figcaption>
@@ -35,7 +35,7 @@ Používáme vysoce zabezpečenou platební bránu společnosti Paylike.
 
 Zrušit předplatné můžete kdykoliv, pokud nebudete chtít naše služby nadále využívat.
 
-<figure class="large_image">
+<figure>
 	<a href="../../assets/images/nastaveni-predplatneho.jpg" title="Nastavení předplatného" class="glightbox">
 		<img loading="lazy" src="../../assets/images/nastaveni-predplatneho.jpg" alt="Nastavení předplatného" />
 		<figcaption>Nastavení předplatného</figcaption>

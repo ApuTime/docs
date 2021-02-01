@@ -8,7 +8,7 @@ V případě, že nemáte rozpracovanou žádnou mapu, zobrazí se vám okno pro
 
 Pokud máte mapu rozpracovanou a chcete ji z nějakého důvodu smazat a začít kreslit novou, klikněte na její název (první ikona ProjectFormation™ v panelu ovládacích prvků v pravém horním okně) a vyberte možnost „Nakreslit novou“, popř. ji můžete jen přejmenovat a pokračovat v kreslení.
 
-<figure class="large_image">
+<figure>
 	<a href="../../assets/images/projectformation-vytvoreni-sablony-procesu.jpg" title="Vytvoření šablony procesu" class="glightbox">
 		<img loading="lazy" src="../../assets/images/projectformation-vytvoreni-sablony-procesu.jpg" alt="Vytvoření šablony procesu" />
 		<figcaption>Vytvoření šablony procesu</figcaption>
@@ -36,7 +36,7 @@ Nastavený úkol uložíte tlačítkem „Přidat úkol“.
 
 Vytvořený úkol se zobrazí jako dlaždice v prostředí ProjectFormation™, ke kterému můžete přidávat další úkoly procesu a tvořit návaznosti mezi nimi v rámci projektu.
 
-<figure class="large_image">
+<figure>
 	<a href="../../assets/images/projectformation-pridani-ukolu.jpg" title="Přidání úkolu v ProjectFormation™" class="glightbox">
 		<img loading="lazy" src="../../assets/images/projectformation-pridani-ukolu.jpg" alt="Přidání úkolu v ProjectFormation™" />
 		<figcaption>Přidání úkolu v ProjectFormation™</figcaption>
@@ -88,7 +88,7 @@ Mapu procesu si můžete jednoduše vytisknout pomocí tlačítka „Otevřít t
 Dlouhým kliknutím (nebo dvojklikem) na dlaždici otevřete nastavení úkolu pro editaci.
 Zde můžete upravit informace o úkolu stejným způsobem, jako byste tvořili nový úkol.
 
-<figure class="large_image">
+<figure>
 	<a href="../../assets/images/projectformation-uprava-ukolu.jpg" title="Úprava úkolu v ProjectFormation™" class="glightbox">
 		<img loading="lazy" src="../../assets/images/projectformation-uprava-ukolu.jpg" alt="Úprava úkolu v ProjectFormation™" />
 		<figcaption>Úprava úkolu v ProjectFormation™</figcaption>
@@ -124,7 +124,7 @@ Ve vyskakovacím okně je možné nastavit následující údaje:
 
 Pipeline poté uložíte tlačítkem „Nastavit pipeline“.
 
-<figure class="large_image">
+<figure>
 	<a href="../../assets/images/projectformation-nastaveni-pipeline.jpg" title="Pipelines v ProjectFormation™" class="glightbox">
 		<img loading="lazy" src="../../assets/images/projectformation-nastaveni-pipeline.jpg" alt="Pipelines v ProjectFormation™" />
 		<figcaption>Pipelines v ProjectFormation™</figcaption>
@@ -142,7 +142,7 @@ Návaznosti a propojení zde fungují stejně jako u úkolů.
 
 Úkoly a rozhodovací prvky můžete libovolně přesouvat (kliknutím a tažením) na pracovním plátně.
 
-<figure class="large_image">
+<figure>
 	<a href="../../assets/images/projectformation-rozhodovaci-prvek.jpg" title="Rozhodovací prvek v ProjectFormation™" class="glightbox">
 		<img loading="lazy" src="../../assets/images/projectformation-rozhodovaci-prvek.jpg" alt="Rozhodovací prvek v ProjectFormation™" />
 		<figcaption>Rozhodovací prvek v ProjectFormation™</figcaption>

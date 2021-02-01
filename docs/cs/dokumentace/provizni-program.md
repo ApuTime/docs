@@ -2,7 +2,7 @@
 
 > Našim uživatelům nabízíme provizní program. Doporučte APU společnostem ve vašem okolí a získejte až 30% provizi z každé platby. APU se tak může stát zdrojem vašeho pasivního příjmu. Po kliknutí na svůj profil naleznete vlevo nahoře v rozbalené nabídce ikonku „dárečku”. Po kliknutí na tlačítko „jdu do toho” se můžete stát součástí našeho provizního programu.
 
-<figure class="large_image">
+<figure>
 	<a href="../../assets/images/provizni-system.jpg" title="Provizní program (Affiliate)" class="glightbox">
 		<img loading="lazy" src="../../assets/images/provizni-system.jpg" alt="Provizní program (Affiliate)" />
 		<figcaption>Provizní program (Affiliate)</figcaption>

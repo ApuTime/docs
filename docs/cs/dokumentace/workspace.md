@@ -6,7 +6,7 @@
 
 Možnost vytvoření pracovní skupiny naleznete v nabídce „Můj účet“ v pravé horní části obrazovky po kliknutí na profilový obrázek. Po rozkliknutí „Přepnout workspace“ se vám zobrazí nabídka s vašimi pracovními skupinami. V této nabídce klikněte na tlačítko „Vytvořit workspace“. V následujícím kroku svou pracovní skupinu pojmenujte a klikněte na tlačítko „Vytvořit“.
 
-<figure class="large_image">
+<figure>
 	<a href="../../assets/images/workspace.jpg" title="Workspace" class="glightbox">
 		<img loading="lazy" src="../../assets/images/workspace.jpg" alt="Workspace" />
 		<figcaption>Workspace</figcaption>

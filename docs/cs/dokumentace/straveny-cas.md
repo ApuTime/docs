@@ -15,19 +15,19 @@
 - Rozbalením řádku zobrazíte podrobnosti o délce stráveného času nad úkolem, kde je možné svůj časový záznam přidat, upravit či odebrat. Také tam vidíte zaškrtávací políčko s názvem „Zaúčtovat“. To se dá využít, pokud máte u uživatele nastavenou hodinovou sazbu. Při jeho zaškrtnutí uvidíte náklady za čas, který strávil nad jednotlivými úkoly.
 - Pomocí šipky v podrobnostech zobrazíte detail úkolu.
 
-<figure class="large_image">
+<figure>
 	<a href="../../assets/images/straveny-cas-pridani.jpg" title="Zobrazení a úprava stráveného času" class="glightbox">
 		<img loading="lazy" src="../../assets/images/straveny-cas-pridani.jpg" alt="Zobrazení a úprava stráveného času" />
 		<figcaption>Zobrazení a úprava stráveného času</figcaption>
 	</a>
 </figure>
-<figure class="large_image">
+<figure>
 	<a href="../../assets/images/straveny-cas-upraveni.jpg" title="Zobrazení a úprava stráveného času" class="glightbox">
 		<img loading="lazy" src="../../assets/images/straveny-cas-upraveni.jpg" alt="Zobrazení a úprava stráveného času" />
 		<figcaption></figcaption>
 	</a>
 </figure>
-<figure class="large_image">
+<figure>
 	<a href="../../assets/images/straveny-cas-odebrani.jpg" title="Zobrazení a úprava stráveného času" class="glightbox">
 		<img loading="lazy" src="../../assets/images/straveny-cas-odebrani.jpg" alt="Zobrazení a úprava stráveného času" />
 		<figcaption>Zobrazení a úprava stráveného času</figcaption>

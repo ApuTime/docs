@@ -17,7 +17,7 @@
 - Po kliknutí na pole „Barva“ vyberte požadovanou barvu štítku či kategorie.
 - Pro uložení klikněte na tlačítko „Přidat nový štítek/kategorii“.
 
-<figure class="large_image">
+<figure>
 	<a href="../../assets/images/stitky-a-kategorie-pridani-stitku.jpg" title="Přidání štítku a kategorie" class="glightbox">
 		<img loading="lazy" src="../../assets/images/stitky-a-kategorie-pridani-stitku.jpg" alt="Přidání štítku a kategorie" />
 		<figcaption>Přidání štítku a kategorie</figcaption>
@@ -29,7 +29,7 @@ Pokud chcete štítek či kategorii upravit, klikněte na nabídku „Více“ (
 
 Provedené změny uložte tlačítkem „Potvrdit změny“.
 
-<figure class="large_image">
+<figure>
 	<a href="../../assets/images/stitky-a-kategorie-uprava-stitku.jpg" title="Úprava štítku a kategorie" class="glightbox">
 		<img loading="lazy" src="../../assets/images/stitky-a-kategorie-uprava-stitku.jpg" alt="Úprava štítku a kategorie" />
 		<figcaption>Úprava štítku a kategorie</figcaption>
@@ -41,7 +41,7 @@ Pokud chcete štítek či kategorii odstranit, klikněte na nabídku „Více“
 
 Provedené změny uložte tlačítkem „Potvrdit změny“.
 
-<figure class="large_image">
+<figure>
 	<a href="../../assets/images/stitky-a-kategorie-odstraneni-stitku.jpg" title="Odstranění štítku a kategorie" class="glightbox">
 		<img loading="lazy" src="../../assets/images/stitky-a-kategorie-odstraneni-stitku.jpg" alt="Odstranění štítku a kategorie" />
 		<figcaption>Odstranění štítku a kategorie</figcaption>

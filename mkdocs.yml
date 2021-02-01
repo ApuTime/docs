@@ -63,6 +63,9 @@ theme:
 # Plugins
 plugins:
   - search
+  - exclude-search:
+      exclude:
+        - typography.md
   #- monorepo
   - macros
   - markdownextradata
