@@ -441,8 +441,8 @@ h2.homepage__block-title {
     background-image: url(../images/kompaktni_demo.png);
     background-position: 50% 50%;
     background-size: cover;
-	background-attachment: scroll;
 	position: relative;
+	background-attachment: scroll;
 }
 .div-block-51 {
 	display: -webkit-box;
