@@ -54,12 +54,13 @@ var lightboxDescription = GLightbox({
 /**
  * Open lightbox on click with form in content
  */
-document
-	.getElementById("feedbackButton")
-	.addEventListener("click", function () {
-		openIframeForm(lightbox);
-	});
-
+if (document.getElementById("feedbackButton")) {
+	document
+		.getElementById("feedbackButton")
+		.addEventListener("click", function () {
+			openIframeForm(lightbox);
+		});
+}
 /**
  * Open lightbox with content
  */
