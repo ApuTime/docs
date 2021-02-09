@@ -45,14 +45,3 @@ V interaktivní kalkulačce si můžete vypočítat, kolik uživatelů je potře
 		<figcaption>Kalkulačka provizí</figcaption>
 	</a>
 </figure>
-
-## Materiály a reference
-
-Pokud ke svému doporučení budete potřebovat jakékoliv materiály, stáhněte si je zde. Prezentace a video ukázky  jsou vám tedy vždy po ruce. Pokud byste chtěli ještě něco navíc, stačí kliknout na tlačítko „Dejte nám vědět“ a můžete nám napsat jaké materiály potřebujete.
-
-<figure>
-	<a href="../../assets/images/provizni-system-materialy-a-reference.jpg" title="Materiály a reference" class="glightbox">
-		<img loading="lazy" src="../../assets/images/provizni-system-materialy-a-reference.jpg" alt="Materiály a reference" />
-		<figcaption>Materiály a reference</figcaption>
-	</a>
-</figure>
