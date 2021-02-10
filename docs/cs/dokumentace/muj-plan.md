@@ -2,6 +2,8 @@
 
 > V sekci „Můj plán“ najdete všechny vaše úkoly rozdělené do několika sloupců dle jejich stavu. Každý sloupec představuje jednu z etap životnosti úkolu. Priority úkolů jsou nastaveny umělou inteligencí na základě mnoha parametrů. Zde vždy v reálném čase uvidíte vše, na čem se má pracovat a kdy.
 
+Sekci „Můj plán“ naleznete na levém bočním menu, hned pod první ikonkou šuplíku.Po kliknutí se dostanete na přehled všech vašich úkolů.
+
 <figure>
 	<a href="../../assets/images/muj-plan.jpg" title="Můj plán" class="glightbox">
 		<img loading="lazy" src="../../assets/images/muj-plan.jpg" alt="Můj plán" />

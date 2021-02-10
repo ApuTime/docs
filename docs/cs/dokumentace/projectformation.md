@@ -2,6 +2,8 @@
 
 > V tomto grafickém nástroji se vizualizují procesy jednotlivých projektů. Díky rozkreslení každého projektu naše umělá inteligence optimalizuje harmonogram a postará se o hladký chod práce. Záznamy z ProjectFormation™ si můžete také vytisknout.
 
+ProjectFormation™ naleznete na levém bočním menu, pod ikonkou rozhodovacího prvku. Po kliknutí se dostanete do grafického rozhraní.
+
 ## Vytvoření šablony procesu
 
 V případě, že nemáte rozpracovanou žádnou mapu, zobrazí se vám okno pro vytvoření nové mapy. V něm vyplňte název mapy a klikněte na tlačítko „Začít kreslit“.

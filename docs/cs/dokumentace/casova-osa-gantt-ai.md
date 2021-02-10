@@ -2,6 +2,8 @@
 
 > Časová osa Gantt.AI™ poskytuje vždy aktuální přehled nad prioritizací úkolů jednotlivých uživatelů. Je na ní zaznačeno, kdo, kdy a na čem má pracovat a kdy se na jednotlivých úkolech skutečně pracovalo. Pokud máte vy nebo vaši kolegové aktivovanou integraci kalendáře, vidíte na časové ose také události, které mají jednotliví uživatelé naplánované. APU na tuto dobu nebude plánovat žádné úkoly. Priority úkolů jsou nastaveny umělou inteligencí na základě mnoha parametrů. Pokud dojde k jakékoliv změně, např. zaměstnanec nedorazí do práce, umělá inteligence najde optimální řešení a celý harmonogram naplánuje tak, aby bylo vše dokončeno v termínu, co nejlevněji a v nejkratší možné době.
 
+Časovou osu naleznete na levém bočním menu, pod ikonkou grafu. Po kliknutí uvidíte přehled časového harmonogramu všech ve firmě.
+
 <figure>
 	<a href="../../assets/images/casova-osa-gantt.jpg" title="Časová osa Gantt.AI™" class="glightbox">
 		<img loading="lazy" src="../../assets/images/casova-osa-gantt.jpg" alt="Časová osa Gantt.AI™" />

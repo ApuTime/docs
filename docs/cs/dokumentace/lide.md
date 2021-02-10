@@ -62,7 +62,6 @@ Pracovní doba jednotlivých zaměstnanců je poté vyznačena na časové ose.
 
 **Upozornění:** Úkoly a eventy (např. položky z kalendáře) které mají pevné datum konání se plánují i mimo pracovní dobu.
 
-
 ## Odebrání uživatele
 Pro odebrání uživatele otevřete nabídku „Upravit uživatele“ kliknutím na jeho profilový obrázek a poté jej kliknutím na tlačítko „Smazat“ odeberete.
 

@@ -2,6 +2,8 @@
 
 > V této sekci naleznete přehled všech projektů, ke kterým máte přístup, seřazený dle jejich aktuální priority. Jako první vidíte projekty, které vyžadují vaši pozornost např. z důvodu překročení termínu dokončení. Také na nich rovnou můžete vidět, z kolika procent je projekt dokončen a do jaké kategorie daný projekt spadá.
 
+Sekci „Projekty“ naleznete na levém bočním menu, pod ikonkou složky. Po kliknutí se dostanete na přehled všech projektů ve firmě.
+
 <figure>
 	<a href="../../assets/images/projekty.jpg" title="Projekty" class="glightbox">
 		<img loading="lazy" src="../../assets/images/projekty.jpg" alt="Projekty" />
@@ -11,20 +13,14 @@
 
 ## Vytvoření projektu
 
-Tlačítkem „+“ v pravém dolním rohu otevřete nabídku pro vytvoření nového projektu.
-
-V nabídce „Nový projekt“ vyplňte název projektu.
-
-Přiřaďte projekt do kategorie. Díky tomu budete moci takto označené projekty jednoduše filtrovat.
-
-Nastavte termín pro jeho dokončení (toto je důležitý krok, protože termín dokončení určuje prioritu mezi ostatními projekty v plánování na časové ose Gantt.AI™)
-
-Můžete zde také nastavit odložený začátek (datum, od kterého se má začít projekt plánovat).
-
-Tlačítkem „Lidé“ zobrazíte podnabídku, ve které můžete určit, kteří uživatelé mají do tohoto projektu přístup.
-
-Jakmile je uživatel k projektu přiřazen, má výchozí přidělenou roli (práva) v daném projektu.
-Přiřazenou roli můžete změnit kliknutím na nabídku a následně výběrem ze tří možností (Správce, Účastník, Účastník s omezením).
+- Tlačítkem „+“ v pravém dolním rohu otevřete nabídku pro vytvoření nového projektu.
+- V nabídce „Nový projekt“ vyplňte název projektu.
+- Přiřaďte projekt do kategorie. Díky tomu budete moci takto označené projekty jednoduše filtrovat.
+- Nastavte termín pro jeho dokončení (toto je důležitý krok, protože termín dokončení určuje prioritu mezi ostatními projekty v plánování na časové ose Gantt.AI™)
+- Můžete zde také nastavit odložený začátek (datum, od kterého se má začít projekt plánovat).
+- Tlačítkem „Lidé“ zobrazíte podnabídku, ve které můžete určit, kteří uživatelé mají do tohoto projektu přístup.
+- Jakmile je uživatel k projektu přiřazen, má výchozí přidělenou roli (práva) v daném projektu.
+- Přiřazenou roli můžete změnit kliknutím na nabídku a následně výběrem ze tří možností (Správce, Účastník, Účastník s omezením).
 
 Projekt vytvoříte kliknutím na tlačítko „Vytvořit“.
 
@@ -132,7 +128,7 @@ Seznam úkolů v projektu zobrazíte otevřením projektu (kliknutím na dlaždi
 
 Úkoly v seznamu můžete jednoduše vyhledávat pomocí filtrů (štítek úkolu, kategorie úkolu, řešitel, typ úkolu, čas, stav a autor).
 
-**Náhled úkolu obsahuje**
+**Náhled úkolu obsahuje:**
 
 - Stav (kolečko na začátku řádku)
 	- modrý = na úkolu se může pracovat,
