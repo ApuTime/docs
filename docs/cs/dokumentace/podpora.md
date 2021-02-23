@@ -8,6 +8,8 @@ Kontaktovat naši zákaznickou podporu můžete skrze nabídku „Můj účet“
 
 Technickou podporu můžete kontaktovat také telefonicky na čísle [+420 737 335 555](tel:+420737335555) dostupnou v pracovní dny v době **od 8:00 do 16:00**.
 
+Služba je zpoplatněna běžným sazebníkem vašeho operátora.
+
 <figure>
 	<a href="../../assets/images/zakaznicka-podpora.jpg" title="Kontaktování podpory" class="glightbox">
 		<img loading="lazy" src="../../assets/images/zakaznicka-podpora.jpg" alt="Kontaktování podpory" />

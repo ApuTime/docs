@@ -27,6 +27,26 @@ V první části stránky nastavení můžete změnit základní údaje jako jso
 Pokud používáte i jiné nástroje a chcete je pro usnadnění práce propojit s APU, můžete takto učinit jednoduše v této sekci nastavení.
 
 - Slack propojíte jednoduše kliknutím na přepínací tlačítko. Budete přesměrováni na stránku Slack, kde stačí kliknout na tlačítko „Allow“ a poté přímo v Aplikaci povolit dvousměrnou integraci Slacku kliknutím na tlačítko „Je to můj požadavek“. Poté se vám APU ozve přímo do Slacku!
+
+Dvousměrná integrace Slacku umožňuje spravovat vaše úkoly přímo skrze Slack kanál. Občas také můžeme posílat důležitá upozornění o změnách na úkolech nebo komentářích. Můžete vyvolat vlákno, díky kterému lze přímo ze Slacku např. Odpovědět na komentář vašich kolegů.
+
+**Momentálně podporujeme tyto zkratky:**
+
+| Zkratka                               | Popis                                    |
+| ------------------------------------- | ---------------------------------------- |
+| /task [?Task NAME]                  | Otevření okna pro vytvoření nového úkolu |
+| /start [Task CODE]                  | Spuštění stopek                          |
+| /stop                               | Zastavení stopek                         |
+| /done [Task CODE]                   | Uzavření úkolu                           |
+| /comment [Task CODE] [Comment]      | Přidání komentáře k úkolu                |
+| /my [Any string or predicates]    | Zobrazení Mého plánu                     |
+| /find [Any string or predicates] | Vyhledávání v úkolech                    |
+
+Upozornění: Kód úkolu naleznete v URL detailu daného úkolu.
+
+Naši integraci můžete kdykoliv vypnout v nastavení Slacku:
+https://[YOUR-WORKSPACE].slack.com/apps/manage
+
 - Google Kalendář propojíte jednoduše kliknutím na přepínací tlačítko. Budete přesměrováni na stránku Google přihlášení, kde zvolíte svůj e-mail, který chcete použít k synchronizaci. Zadáte heslo ke svému účtu a poté vyberete, které kalendáře chcete s APU synchronizovat.
 - Microsoft Kalendář propojíte jednoduše kliknutím na přepínací tlačítko. Budete přesměrováni na stránku Microsoft přihlášení, kde zvolíte svůj e-mail, který chcete použít k synchronizaci. Zadáte heslo ke svému účtu a poté vyberete, co všechno z vašeho kalendáře chcete s APU propojit.
 

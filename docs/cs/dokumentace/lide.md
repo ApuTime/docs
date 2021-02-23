@@ -14,12 +14,12 @@ Nového uživatele přidáte do aplikace kliknutím na tlačítko „Nový uživ
 
 - V otevřeném okně vyplňte jméno a e-mail.
 - Pole „Práva“ definuje práva uživatele v rámci aplikace. Na výběr máte ze tří možností – Vedení, Projektový koordinátor, Pracovník (ve výchozím stavu je vždy nastaveno právo Pracovník).
+- Můžete uživatele také přiřadit to skupiny, např. Dle firemních oddělení.
 - V dalším políčku je možné nastavit hodinovou sazbu a měnu.
-- Tlačítko oprávnění slouží k nastavení oprávnění jednotlivých uživatelů k projektu (toto lze také upravit přímo v projektu v sekci „Projekty“).
-
-Kliknutím na „Oprávnění“ otevřete nabídku vytvořených projektů a tlačítkem „+“ k němu uživatele rovnou přiřadíte. Po přidání nezapomeňte nastavit roli uživatele v projektu.
 
 Uživatele a jeho nastavení uložte tlačítkem „Přidat nového uživatele“.
+
+Na panelu lze na první pohled podle hvězdiček u avataru uživatele poznat, kdo má jaké oprávnění. Vedení je označeno modrou hvězičkou, projektový manažer bílou a pracovník nemá zobrazenou hvězdičku žádnou.
 
 Možnost importu uživatelů z Google či Microsoft Directory naleznete v nabídce „Více“ (tři tečky) v pravém horním rohu kliknutím na položku „Importovat z Google Directory“ či „Importovat z Microsoft Directory”.
 
