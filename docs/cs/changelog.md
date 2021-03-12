@@ -1,5 +1,34 @@
 # Changelog
 
+## 3.4
+
+* ### Časové vytížení
+Na základě plánování vidíme procento vytížení každého uživatele na Gantt.AI ™. Přidány grafy pracovního vytížení v sekci Lidé.
+
+* ### Spolupráce řešitelů
+Při výběru více řešitelů přidáno toggle tlačítko pro spolupráci skupiny ve stejný čas.
+
+* ### Automatický výběr
+Při zvolení skupiny jako řešitele, je na úkol přiřazena osoba z dané skupiny s nejmenším vytížením.
+
+* ### Popis projektu
+
+## 3.3
+
+* ### Soubory projektu
+Přehled všech souborů z projektu a jeho úkolů na vlastní stránce.
+
+* ### Skupiny uživatelů
+Správa skupin v sekci Štítky a kategorie. Hromadné filtrování uživatelů, úkolů a časových záznamů přiřazením skupiny uživatelů.
+
+* ### Záložky
+Ukládání nejčastěji navštěvovaných stránek, vlastní filtry.
+
+* ### ProjectFormation UX vylepšení
+Přesouvání, přibližování a oddalování dotykovými gesty, přidávání položek kliknutím pravým tlačítkem v nabídce.
+
+* ### Nové API funkce pro integrace
+
 ## 3.2
 
 * ### ProjectFormation™

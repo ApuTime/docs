@@ -30,7 +30,7 @@ If you had added an extra user and after some time you delete them from your wor
 You can also upgrade the package at any time according to your needs.
 
 <figure>
-	<a href="../../assets/images/overview.jpg" title="Overview" class="glightbox">
+	<a href="../../assets/images/subscription-overview.jpg" title="Overview" class="glightbox">
 		<img loading="lazy" src="../../assets/images/overview.jpg" alt="Overview" />
 		<figcaption>Overview</figcaption>
 	</a>
@@ -54,8 +54,8 @@ We need your billing information filled in here, so that we can issue invoices. 
 In this section, you will find an overview of all the invoices we have issued to you. You can easily download or view them using the buttons at the right end of the line.
 
 <figure>
-	<a href="../../assets/images/nastaveni-predplatneho.jpg" title="Nastavení Subscriptionho" class="glightbox">
-		<img loading="lazy" src="../../assets/images/nastaveni-predplatneho.jpg" alt="Nastavení Subscriptionho" />
-		<figcaption>Nastavení Subscriptionho</figcaption>
+	<a href="../../assets/images/subscription-settings.jpg" title="Subscription settings" class="glightbox">
+		<img loading="lazy" src="../../assets/images/subscription-settings.jpg" alt="Subscription settings" />
+		<figcaption>Subscription settings</figcaption>
 	</a>
 </figure>

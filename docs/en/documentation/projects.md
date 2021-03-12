@@ -82,6 +82,7 @@ In this detail you will find clear information about the project, including a co
 Using the drop-down menu in the upper left corner, you can easily switch between the other projects you want to view.
 
 - **Editing a project** - Click on the pencil icon to open the project details available to edit.
+- **Files** - By clicking on the files tab, you get to a complete list of all files that are important within the project.
 - **Show in ProjectFormation™** - by clicking on the "Process" tab, open the project in a graphic interface directly in the ProjectFormation ™ tool, in which you can edit the project processes. To return to the project overview, click on the "Overview" tab
 - **Filters** - allows tasks to be filtered according to their parameters (e.g. according to the solver, author, status, etc.)
 - **To-do list** - an overview of all tasks assigned to the project
