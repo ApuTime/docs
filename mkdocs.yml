@@ -124,6 +124,7 @@ nav:
 - Dokumentace:
     - Návody: ./cs/dokumentace/navody.md
     - Notifikace a upozornění: ./cs/dokumentace/notifikace-a-upozorneni.md
+    - Záložky: ./cs/dokumentace/zalozky.md
     - Podpora: ./cs/dokumentace/podpora.md
     - Workspace: ./cs/dokumentace/workspace.md
     - Jazyk: ./cs/dokumentace/jazyk.md
@@ -139,6 +140,8 @@ nav:
     - Strávený čas: ./cs/dokumentace/straveny-cas.md
     - Štítky, kategorie a skupiny: ./cs/dokumentace/stitky-kategorie-a-skupiny.md
     - Lidé: ./cs/dokumentace/lide.md
+- Changelog:
+    - Obsah: ./cs/changelog.md
 
 # Extra Files
 extra_css:

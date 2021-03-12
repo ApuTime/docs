@@ -86,6 +86,7 @@ V tomto detailu najdete přehledné informace o projektu, včetně kompletního 
 Pomocí rolovací nabídky, v levém horním rohu, se můžete jednoduše přepínat mezi ostatními projekty, které chcete zobrazit.
 
 - Editování projektu – kliknutím na ikonu tužky, otevřete podrobnosti o projektu, které můžete editovat.
+- Soubory – Po rozkliknutí záložky soubory se dostanete ke kompletnímu seznamu všech souborů které se při práci na projektu použily.
 - Zobrazení v ProjectFormation™ – kliknutím na záložku „Proces“, otevřete projekt v grafickém zobrazení přímo v nástroji ProjectFormation™, ve kterém můžete upravovat procesy - projektu. Zpět na přehled projektu se vrátíte kliknutím na záložku „Přehled“
 - Filtry – filtrování úkolů podle jejich parametrů (např. dle řešitele, autora, stavu apod.)
 - Seznam úkolů – přehled všech úkolů přiřazených k projektu
