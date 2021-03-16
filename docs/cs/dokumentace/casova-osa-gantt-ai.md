@@ -1,6 +1,6 @@
 # Časová osa Gantt.AI™
 
-> Časová osa Gantt.AI™ poskytuje vždy aktuální přehled nad prioritizací úkolů jednotlivých uživatelů. Je na ní zaznačeno, kdo, kdy a na čem má pracovat a kdy se na jednotlivých úkolech skutečně pracovalo. Pokud máte vy nebo vaši kolegové aktivovanou integraci kalendáře, vidíte na časové ose také události, které mají jednotliví uživatelé naplánované. APU na tuto dobu nebude plánovat žádné úkoly. Priority úkolů jsou nastaveny umělou inteligencí na základě mnoha parametrů. Pokud dojde k jakékoliv změně, např. zaměstnanec nedorazí do práce, umělá inteligence najde optimální řešení a celý harmonogram naplánuje tak, aby bylo vše dokončeno v termínu, co nejlevněji a v nejkratší možné době.
+> Časová osa Gantt.AI™ poskytuje vždy aktuální přehled nad prioritizací úkolů jednotlivých uživatelů a také jejich časové vytížení. Je na ní zaznačeno, kdo, kdy a na čem má pracovat a kdy se na jednotlivých úkolech skutečně pracovalo. Pokud máte vy nebo vaši kolegové aktivovanou integraci kalendáře, vidíte na časové ose také události, které mají jednotliví uživatelé naplánované. APU na tuto dobu nebude plánovat žádné úkoly. Priority úkolů jsou nastaveny umělou inteligencí na základě mnoha parametrů. Pokud dojde k jakékoliv změně, např. zaměstnanec nedorazí do práce, umělá inteligence najde optimální řešení a celý harmonogram naplánuje tak, aby bylo vše dokončeno v termínu, co nejlevněji a v nejkratší možné době.
 
 Časovou osu naleznete na levém bočním menu, pod ikonkou grafu. Po kliknutí uvidíte přehled časového harmonogramu všech ve firmě.
 
@@ -10,6 +10,9 @@
 		<figcaption>Časová osa Gantt.AI™</figcaption>
 	</a>
 </figure>
+
+## Časové vytížení
+Pod jménem každého uživatele je v procentech uvedenojeho časové vytížení na nadcházející pracovní dobu.
 
 ## Výběr projektu
 Pomocí rozbalovací nabídky můžete vybrat konkrétní projekt, který vás zajímá. Tím zobrazíte pouze ty uživatele, kteří jsou v daném projektu zainteresovaní a úkoly v něm obsažené se barevně zvýrazní. Zůstanou ale viditelné úkoly i z ostatních projektů, aby bylo vidět, co ovlivnilo plánování vybraného projektu.

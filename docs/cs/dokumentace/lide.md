@@ -25,6 +25,8 @@ Možnost importu uživatelů z Google či Microsoft Directory naleznete v nabíd
 
 Pod uživatelem poté jako vedení uvidíte také možnosti „Zobrazit úkoly”, „Zobrazit strávený čas” a „Nastavit pracovní dobu”.
 
+U každého uživatele lze také vidět jeho celkové pracovní vytížení v procentech.
+
 <figure>
 	<a href="../../assets/images/lide-pridani-uzivatele.jpg" title="Přidání uživatele" class="glightbox">
 		<img loading="lazy" src="../../assets/images/lide-pridani-uzivatele.jpg" alt="Přidání uživatele" />
@@ -85,3 +87,6 @@ Upozornění: Správu jednotlivých uživatelů může provádět pouze osoba s 
 		<figcaption>Obnovení uživatele</figcaption>
 	</a>
 </figure>
+
+## Graf časového vytížení
+Graf časového vytížení uživatelů zobrazíte kliknutím na ikonu grafu v pravém horním rohu sekce „Lidé“. Na grafu je zobrazena vytíženost jednotlivých uživatelů na následující období. Můžete si také vyfiltrovat rozsah a agregaci vytížení pro detailnější přehled.

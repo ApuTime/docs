@@ -4,7 +4,7 @@
 
 You can find the subscription in the "Subscription" menu in the upper right corner of the screen by clicking on the profile picture.
 
-**Note:** You must have management rights to view and manage your subscription.
+**Note**: You must have management rights to view and manage your subscription.
 
 <figure>
 	<a href="../../assets/images/subscription.jpg" title="Subscription" class="glightbox">
@@ -30,8 +30,8 @@ If you had added an extra user and after some time you delete them from your wor
 You can also upgrade the package at any time according to your needs.
 
 <figure>
-	<a href="../../assets/images/subscription-overview.jpg" title="Overview" class="glightbox">
-		<img loading="lazy" src="../../assets/images/overview.jpg" alt="Overview" />
+	<a href="../../assets/images/subscription-subscribe.jpg" title="Overview" class="glightbox">
+		<img loading="lazy" src="../../assets/images/subscription-subscribe.jpg" alt="Overview" />
 		<figcaption>Overview</figcaption>
 	</a>
 </figure>
@@ -44,6 +44,12 @@ We use a highly secure Paylike payment gateway.
 
 You can cancel your subscription at any time if you no longer wish to use our services.
 
+<figure>
+	<a href="../../assets/images/subscription-settings.jpg" title="Subscription settings" class="glightbox">
+		<img loading="lazy" src="../../assets/images/subscription-settings.jpg" alt="Subscription settings" />
+		<figcaption>Subscription settings</figcaption>
+	</a>
+</figure>
 
 ## Billing information
 
@@ -52,10 +58,3 @@ We need your billing information filled in here, so that we can issue invoices. 
 ## Invoices
 
 In this section, you will find an overview of all the invoices we have issued to you. You can easily download or view them using the buttons at the right end of the line.
-
-<figure>
-	<a href="../../assets/images/subscription-settings.jpg" title="Subscription settings" class="glightbox">
-		<img loading="lazy" src="../../assets/images/subscription-settings.jpg" alt="Subscription settings" />
-		<figcaption>Subscription settings</figcaption>
-	</a>
-</figure>

@@ -16,9 +16,9 @@ Sekci „Můj plán“ naleznete na levém bočním menu, hned pod první ikonko
 Kliknutím na tlačítko „+“ v pravém dolním rohu svého plánu otevřete okno pro vytvoření nového úkolu. Úkol můžete vytvořit i v Project Formation™ a na projektu.
 
 - V otevřeném okně vyplňte název úkolu.
-- Na časové ose nastavte odhadovanou délku trvání úkolu.
+- Nastavte odhadovanou délku trvání úkolu.
 - V nabídce „Projekt“ vyberte, ke kterému projektu bude úkol přiřazen.
-- Nabídka řešitele zobrazuje uživatele přiřazeného k úkolu. Kliknutím na ikonu otevřete seznam uživatelů a vyberte příslušného řešitele úkolu. K úkolu je možné přiřadit i více - řešitelů. V takovém případě sjeďte až na konec seznamu a zapněte možnost „Spolupráce skupiny ve stejný čas“.
+- Nabídka „Řešitelé“ umožňuje přiřadit uživatele k jednotlivým úkolům. Kliknutím na ikonu otevřete seznam uživatelů a vyberte příslušného řešitele úkolu. K úkolu je možné přiřadit i více řešitelů, nebo celou skupinu. Pokud budou řešitelé spolupracovat na úkolu ve stejný čas, můžete také pomocí toggle tlačítka zapnout spolupráci skupiny ve stejný čas..Pokud jako řešitele úkolu označíte celou skupinu, úkol se zaplánuje uživateli s nejmenším časovým vytížením z dané skupiny.
 - Nabídka „Přidat štítky“ slouží k označení úkolu. Štítky slouží pro lepší přehlednost a orientaci mezi úkoly (vlastní štítky lze vytvářet a editovat v sekci „Štítky a kategorie“, kterou najdete v hlavním menu aplikace).
 - Popis slouží k upřesnění zadání daného úkolu.
 - Pomocí tlačítka „Vyberte soubor“ přiložíte k úkolu jakýkoliv soubor z vašeho zařízení. Také je k dispozici možnost přidání souboru z Google Drive, OneDrive či Dropbox.
