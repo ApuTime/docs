@@ -7,7 +7,7 @@ Předplatné naleznete v nabídce „Předplatné“ v pravé horní části obr
 **Upozornění**: Pro správu předplatného musíte mít přidělena práva vedení.
 
 <figure>
-	<a href="../../assets/images/preplatne.jpg" title="Předplatné" class="glightbox">
+	<a href="../../assets/images/predplatne.jpg" title="Předplatné" class="glightbox">
 		<img loading="lazy" src="../../assets/images/preplatne.jpg" alt="Předplatné" />
 		<figcaption>Předplatné</figcaption>
 	</a>
