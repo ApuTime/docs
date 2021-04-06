@@ -31,10 +31,10 @@
       {% endif %}
     {% endblock %}
     {% block styles %}
-      <link rel="stylesheet" href="{{ 'assets/stylesheets/main.ce7da9e3.min.css' | url }}">
+     <link rel="stylesheet" href="{{ 'assets/stylesheets/main.2c0c5eaf.min.css' | url }}">
       {% if config.theme.palette %}
         {% set palette = config.theme.palette %}
-        <link rel="stylesheet" href="{{ 'assets/stylesheets/palette.31e6bbac.min.css' | url }}">
+        <link rel="stylesheet" href="{{ 'assets/stylesheets/palette.31722e1c.min.css' | url }}">
         {% if palette.primary %}
           {% import "partials/palette.html" as map %}
           {% set primary = map.primary(
@@ -89,6 +89,15 @@
 		<meta name="twitter:image" content="{{ image }}">
 		<link rel="stylesheet" href="{{ 'assets/stylesheets/overrides.2a4bbe42.min.css' | url }}">
 	{% endblock %}
+
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-PNP42FT');</script>
+	<!-- End Google Tag Manager -->
+
   </head>
   {% set direction = config.theme.direction or lang.t('direction') %}
   {% if config.theme.palette %}
@@ -106,6 +115,11 @@
   {% else %}
     <body dir="{{ direction }}">
   {% endif %}
+
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PNP42FT"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
 
 	<input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
 	<label class="md-overlay" for="__drawer"></label>
@@ -132,31 +146,67 @@
     </div>
 
     {% block header %}
+{% set class = "md-header" %}
+{% if "navigation.tabs.sticky" in features %}
+  {% set class = class ~ " md-header--lifted" %}
+{% endif %}
+<header class="{{ class }}" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="{{ lang.t('header.title') }}">
+    <a href="{{ config.extra.homepage | d(nav.homepage.url, true) | url }}" title="{{ config.site_name | e }}" class="md-header__button md-logo" aria-label="{{ config.site_name }}" data-md-component="logo">
+      {% include "partials/logo.html" %}
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      {% include ".icons/material/menu" ~ ".svg" %}
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
 
-	{% set site_url = config.site_url | default(nav.homepage.url, true) | url %}
+    </div>
+    {% if not config.theme.palette is mapping %}
+      <form class="md-header__option" data-md-component="palette">
+        {% for option in config.theme.palette %}
+          {% set primary = option.primary | replace(" ", "-") | lower %}
+          {% set accent  = option.accent  | replace(" ", "-") | lower %}
+          <input class="md-option" data-md-color-media="{{ option.media }}" data-md-color-scheme="{{ option.scheme }}" data-md-color-primary="{{ primary }}" data-md-color-accent="{{ accent }}" type="radio" name="__palette" id="__palette_{{ loop.index }}">
+          <label class="md-header__button md-icon" title="{{ option.toggle.name }}" for="__palette_{{ loop.index0 or loop.length }}" hidden>
+            {% include ".icons/" ~ option.toggle.icon ~ ".svg" %}
+          </label>
+        {% endfor %}
+      </form>
+    {% endif %}
+    {% if config.extra.alternate %}
+      <div class="md-header__option">
+        <div class="md-select">
+          {% set icon = config.theme.icon.alternate or "material/translate" %}
+          <span class="md-header__button md-icon">
+            {% include ".icons/" ~ icon ~ ".svg" %}
+          </span>
+          <div class="md-select__inner">
+            <ul class="md-select__list">
+              {% for alt in config.extra.alternate %}
+                <li class="md-select__item">
+                  <a href="{{ alt.link | url }}" class="md-select__link">
+                    {{ alt.name }}
+                  </a>
+                </li>
+                {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>
+    {% endif %}
 
-	{% if not config.use_directory_urls and site_url[0] == site_url[-1] == "." %}
-	{% set site_url = site_url ~ "/index.html" %}
-	{% endif %}
-
-	<header class="md-header" data-md-component="header">
-		<nav class="md-header-nav md-grid flex-justify" aria-label="{{ lang.t('header.title') }}">
-			<label class="md-header-nav__button md-icon" for="__drawer">
-			{% include ".icons/material/menu" ~ ".svg" %}
-			</label>
-
-			<a href="{{ site_url }}" title="{{ config.site_name | e }}" class="md-header-nav__button md-logo" aria-label="{{ config.site_name }}">
-			{% include "partials/logo.html" %}
-			</a>
-
-			{% if config.repo_url %}
-			<div class="md-header-nav__source">
-				{% include "partials/source.html" %}
-			</div>
-			{% endif %}
-		</nav>
-	</header>
-
+    {% if config.repo_url %}
+      <div class="md-header__source">
+        {% include "partials/source.html" %}
+      </div>
+    {% endif %}
+  </nav>
+  {% if "navigation.tabs.sticky" in features %}
+    {% if "navigation.tabs" in features %}
+      {% include "partials/tabs.html" %}
+    {% endif %}
+  {% endif %}
+</header>
     {% endblock %}
 
     <div class="md-container" data-md-component="container">
@@ -227,15 +277,15 @@
 					<div class="homepage__block transition">
 						<div class="homepage__block-header flex flex-justify">
 							<h2 class="homepage__block-title">Uživatelská dokumentace</h2>
-							<img src="../assets/images/homepage_icon_1.svg" alt="Uživatelská dokumentace" />
+							<img src="../../assets/images/homepage_icon_1.svg" alt="Uživatelská dokumentace" />
 						</div>
 						<p class="grey-text small-text">Návody, tipy a triky</p>
-						<a href="/cs/dokumentace/navody/" title="Uživatelská dokumentace" class="homepage__block-link">Uživatelská dokumentace</a>
+						<a href="/dokumentace/navody/" title="Uživatelská dokumentace" class="homepage__block-link">Uživatelská dokumentace</a>
 					</div>
 					<div class="homepage__block transition">
 						<div class="homepage__block-header flex flex-justify">
 							<h2 class="homepage__block-title">Technická dokumentace</h2>
-							<img src="../assets/images/homepage_icon_2.svg" alt="Uživatelská dokumentace" />
+							<img src="../../assets/images/homepage_icon_2.svg" alt="Uživatelská dokumentace" />
 						</div>
 						<p class="grey-text small-text">Technický popis funkcí</p>
 						<a href="https://api-docs.aputime.com/" target="_blank" title="Technická dokumentace" class="homepage__block-link">Technická dokumentace</a>
@@ -243,10 +293,10 @@
 					<div class="homepage__block transition">
 						<div class="homepage__block-header flex flex-justify">
 							<h2 class="homepage__block-title">Changelog</h2>
-							<img src="../assets/images/homepage_icon_3.svg" alt="Changelog" />
+							<img src="../../assets/images/homepage_icon_3.svg" alt="Changelog" />
 						</div>
 						<p class="grey-text small-text">Naposled upraveno 8. prosince 2020 v 16:08</p>
-						<a href="/cs/changelog" title="Changelog" class="homepage__block-link">Changelog</a>
+						<a href="/changelog" title="Changelog" class="homepage__block-link">Changelog</a>
 					</div>
 				</div>
 				{# Homepage nav END #}
@@ -273,55 +323,55 @@
 					<h2 class="color-white">Mohlo by vás zajímat</h2>
 					<ul class="homepage__links-ul">
 						<li>
-							<a href="/cs/dokumentace/navody/" title="Návody">Návody</a>
+							<a href="/dokumentace/navody/" title="Návody">Návody</a>
 						</li>
 						<li>
-							<a href="/cs/dokumentace/notifikace-a-upozorneni/" title="Notifikace a upozornění">Notifikace a upozornění</a>
+							<a href="/dokumentace/notifikace-a-upozorneni/" title="Notifikace a upozornění">Notifikace a upozornění</a>
 						</li>
 						<li>
-							<a href="/cs/dokumentace/podpora/" title="Podpora">Podpora</a>
+							<a href="/dokumentace/podpora/" title="Podpora">Podpora</a>
 						</li>
 						<li>
-							<a href="/cs/dokumentace/workspace/" title="Workspace">Workspace</a>
+							<a href="/dokumentace/workspace/" title="Workspace">Workspace</a>
 						</li>
 						<li>
-							<a href="/cs/dokumentace/jazyk/" title="Jazyk">Jazyk</a>
+							<a href="/dokumentace/jazyk/" title="Jazyk">Jazyk</a>
 						</li>
 						<li>
-							<a href="/cs/dokumentace/napoveda/" title="Nápověda">Nápověda</a>
+							<a href="/dokumentace/napoveda/" title="Nápověda">Nápověda</a>
 						</li>
 						<li>
-							<a href="/cs/dokumentace/provizni-program/" title="Provizní program">Provizní program</a>
+							<a href="/dokumentace/provizni-program/" title="Provizní program">Provizní program</a>
 						</li>
 						<li>
-							<a href="/cs/dokumentace/nastaveni/" title="Nastavení">Nastavení</a>
+							<a href="/dokumentace/nastaveni/" title="Nastavení">Nastavení</a>
 						</li>
 						<li>
-							<a href="/cs/dokumentace/predplatne/" title="Předplatné">Předplatné</a>
+							<a href="/dokumentace/predplatne/" title="Předplatné">Předplatné</a>
 						</li>
 						<li>
-							<a href="/cs/dokumentace/podminky-zpracovani-osobnich-udaju/" title="Podmínky zpracování osobních údajů">Podmínky zpracování osobních údajů</a>
+							<a href="/dokumentace/podminky-zpracovani-osobnich-udaju/" title="Podmínky zpracování osobních údajů">Podmínky zpracování osobních údajů</a>
 						</li>
 						<li>
-							<a href="/cs/dokumentace/muj-plan/" title="Můj plán">Můj plán</a>
+							<a href="/dokumentace/muj-plan/" title="Můj plán">Můj plán</a>
 						</li>
 						<li>
-							<a href="/cs/dokumentace/casova-osa-gantt-ai/" title="Časová osa Gantt.AI™">Časová osa Gantt.AI™</a>
+							<a href="/dokumentace/casova-osa-gantt-ai/" title="Časová osa Gantt.AI™">Časová osa Gantt.AI™</a>
 						</li>
 						<li>
-							<a href="/cs/dokumentace/projekty/" title="Projekty">Projekty</a>
+							<a href="/dokumentace/projekty/" title="Projekty">Projekty</a>
 						</li>
 						<li>
-							<a href="/cs/dokumentace/projectformation/" title="ProjectFormation™">ProjectFormation™</a>
+							<a href="/dokumentace/projectformation/" title="ProjectFormation™">ProjectFormation™</a>
 						</li>
 						<li>
-							<a href="/cs/dokumentace/straveny-cas/" title="Strávený čas">Strávený čas</a>
+							<a href="/dokumentace/straveny-cas/" title="Strávený čas">Strávený čas</a>
 						</li>
 						<li>
-							<a href="/cs/dokumentace/stitky-a-kategorie/" title="Štítky a kategorie">Štítky a kategorie</a>
+							<a href="/dokumentace/stitky-kategorie-a-skupiny/" title="Štítky, kategorie a skupiny">Štítky, kategorie a skupiny</a>
 						</li>
 						<li>
-							<a href="/cs/dokumentace/lide/" title="Lidé">Lidé</a>
+							<a href="/dokumentace/lide/" title="Lidé">Lidé</a>
 						</li>
 					</ul>
 				</div>
@@ -373,7 +423,7 @@
 					<div>
 						<div class="footer-flex-between flex">
 							<div>
-								<img src="../assets/images/aputime_logo.svg" alt="APUtime logo" class="footer-logo" width="120" />
+								<img src="../../assets/images/aputime_logo.svg" alt="APUtime logo" class="footer-logo" width="120" />
 								<p class="grey-text">Váš virtuální projektový asistent</p>
 							</div>
 							<div class="footer-social">

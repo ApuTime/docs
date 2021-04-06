@@ -33,7 +33,7 @@ venv
 /build
 /MANIFEST
 /manifest.json
-# /site TODO uncomment
+/site
 
 # Distribution files
 /dist

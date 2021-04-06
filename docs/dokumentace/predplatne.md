@@ -8,7 +8,7 @@ Předplatné naleznete v nabídce „Předplatné“ v pravé horní části obr
 
 <figure>
 	<a href="../../assets/images/predplatne.jpg" title="Předplatné" class="glightbox">
-		<img loading="lazy" src="../../assets/images/preplatne.jpg" alt="Předplatné" />
+		<img loading="lazy" src="../../assets/images/predplatne.jpg" alt="Předplatné" />
 		<figcaption>Předplatné</figcaption>
 	</a>
 </figure>
