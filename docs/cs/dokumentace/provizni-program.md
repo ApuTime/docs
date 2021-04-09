@@ -5,8 +5,8 @@
 Po kliknutí na svůj profil naleznete vlevo nahoře v rozbalené nabídce ikonku „dárečku”. Po kliknutí na tlačítko „jdu do toho” se můžete stát součástí našeho provizního programu.
 
 <figure>
-	<a href="../../assets/images/provizni-system.jpg" title="Provizní program (Affiliate)" class="glightbox">
-		<img loading="lazy" src="../../assets/images/provizni-system.jpg" alt="Provizní program (Affiliate)" />
+	<a href="../../../assets/images/provizni-system.jpg" title="Provizní program (Affiliate)" class="glightbox">
+		<img loading="lazy" src="../../../assets/images/provizni-system.jpg" alt="Provizní program (Affiliate)" />
 		<figcaption>Provizní program (Affiliate)</figcaption>
 	</a>
 </figure>
@@ -20,8 +20,8 @@ Pokud byste se chtěli stát našim partnerem a získat tak 30% provizi za každ
 Vpravo vidíte částku vaší měsíční provize a čekající provize, tzv. potenciální částka (uživatel se přes vás zaregistroval, ale ještě např. využívá verzi zdarma).
 
 <figure>
-	<a href="../../assets/images/provizni-system-odkazy-k-doporuceni.jpg" title="Odkazy k doporučení" class="glightbox">
-		<img loading="lazy" src="../../assets/images/provizni-system-odkazy-k-doporuceni.jpg" alt="Odkazy k doporučení" />
+	<a href="../../../assets/images/provizni-system-odkazy-k-doporuceni.jpg" title="Odkazy k doporučení" class="glightbox">
+		<img loading="lazy" src="../../../assets/images/provizni-system-odkazy-k-doporuceni.jpg" alt="Odkazy k doporučení" />
 		<figcaption>Odkazy k doporučení</figcaption>
 	</a>
 </figure>
@@ -31,8 +31,8 @@ Vpravo vidíte částku vaší měsíční provize a čekající provize, tzv. p
 V seznamu propojených aplikací vidíte, kdo díky vám začal používat APU.
 
 <figure>
-	<a href="../../assets/images/provizni-system-seznam-propojenych-aplikaci.jpg" title="Seznam propojených aplikací" class="glightbox">
-		<img loading="lazy" src="../../assets/images/provizni-system-seznam-propojenych-aplikaci.jpg" alt="Seznam propojených aplikací" />
+	<a href="../../../assets/images/provizni-system-seznam-propojenych-aplikaci.jpg" title="Seznam propojených aplikací" class="glightbox">
+		<img loading="lazy" src="../../../assets/images/provizni-system-seznam-propojenych-aplikaci.jpg" alt="Seznam propojených aplikací" />
 		<figcaption>Seznam propojených aplikací</figcaption>
 	</a>
 </figure>
@@ -42,8 +42,8 @@ V seznamu propojených aplikací vidíte, kdo díky vám začal používat APU.
 V interaktivní kalkulačce si můžete vypočítat, kolik uživatelů je potřeba doporučit, abyste dosáhli požadované měsíční částky.
 
 <figure>
-	<a href="../../assets/images/provozni-system-kalkulacka-provizi.jpg" title="Kalkulačka provizí" class="glightbox">
-		<img loading="lazy" src="../../assets/images/provozni-system-kalkulacka-provizi.jpg" alt="Kalkulačka provizí" />
+	<a href="../../../assets/images/provozni-system-kalkulacka-provizi.jpg" title="Kalkulačka provizí" class="glightbox">
+		<img loading="lazy" src="../../../assets/images/provozni-system-kalkulacka-provizi.jpg" alt="Kalkulačka provizí" />
 		<figcaption>Kalkulačka provizí</figcaption>
 	</a>
 </figure>

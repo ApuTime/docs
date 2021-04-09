@@ -3,8 +3,8 @@
 > V sekci „Strávený čas“ najdete přehled odpracovaného času a nákladů na úkolech jednotlivých pracovníků, seřazených sestupně podle data. Pokud má pracovník nastavenou hodinovou sazbu v sekci „Lidé“, můžete také měřit jeho částku za odpracovaný čas.
 
 <figure>
-	<a href="../../assets/images/straveny-cas.jpg" title="Strávený čas" class="glightbox">
-		<img loading="lazy" src="../../assets/images/straveny-cas.jpg" alt="Strávený čas" />
+	<a href="../../../assets/images/straveny-cas.jpg" title="Strávený čas" class="glightbox">
+		<img loading="lazy" src="../../../assets/images/straveny-cas.jpg" alt="Strávený čas" />
 		<figcaption>Strávený čas</figcaption>
 	</a>
 </figure>
@@ -18,8 +18,8 @@
 Pokud chcete upravit strávený čas na jakémkoliv úkolu, stačí přejít na jeho detail a provést akci pomocí tlačítka „Přidat časový záznam“. Rovnou tam také můžete částku zaúčtovat.
 
 <figure>
-	<a href="../../assets/images/straveny-cas-pridani.jpg" title="Zobrazení a úprava stráveného času" class="glightbox">
-		<img loading="lazy" src="../../assets/images/straveny-cas-pridani.jpg" alt="Zobrazení a úprava stráveného času" />
+	<a href="../../../assets/images/straveny-cas-pridani.jpg" title="Zobrazení a úprava stráveného času" class="glightbox">
+		<img loading="lazy" src="../../../assets/images/straveny-cas-pridani.jpg" alt="Zobrazení a úprava stráveného času" />
 		<figcaption>Zobrazení a úprava stráveného času</figcaption>
 	</a>
 </figure>
@@ -27,8 +27,8 @@ Pokud chcete upravit strávený čas na jakémkoliv úkolu, stačí přejít na 
 Pokud chcete časový záznam pouze upravit, stačí rozbalit daný slot s časem rozbalit a na místě informace změnit.
 
 <figure>
-	<a href="../../assets/images/straveny-cas-upraveni.jpg" title="Zobrazení a úprava stráveného času" class="glightbox">
-		<img loading="lazy" src="../../assets/images/straveny-cas-upraveni.jpg" alt="Zobrazení a úprava stráveného času" />
+	<a href="../../../assets/images/straveny-cas-upraveni.jpg" title="Zobrazení a úprava stráveného času" class="glightbox">
+		<img loading="lazy" src="../../../assets/images/straveny-cas-upraveni.jpg" alt="Zobrazení a úprava stráveného času" />
 		<figcaption></figcaption>
 	</a>
 </figure>
@@ -36,8 +36,8 @@ Pokud chcete časový záznam pouze upravit, stačí rozbalit daný slot s čase
 Pokud chcete časový záznam odebrat, stačí použít tlačítko koše.
 
 <figure>
-	<a href="../../assets/images/straveny-cas-odebrani.jpg" title="Zobrazení a úprava stráveného času" class="glightbox">
-		<img loading="lazy" src="../../assets/images/straveny-cas-odebrani.jpg" alt="Zobrazení a úprava stráveného času" />
+	<a href="../../../assets/images/straveny-cas-odebrani.jpg" title="Zobrazení a úprava stráveného času" class="glightbox">
+		<img loading="lazy" src="../../../assets/images/straveny-cas-odebrani.jpg" alt="Zobrazení a úprava stráveného času" />
 		<figcaption>Zobrazení a úprava stráveného času</figcaption>
 	</a>
 </figure>

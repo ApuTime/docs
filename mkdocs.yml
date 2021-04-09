@@ -124,24 +124,24 @@ markdown_extensions:
 nav:
 #- Home: index.md
 - Dokumentace:
-    - Návody: ./dokumentace/navody.md
-    - Notifikace a upozornění: ./dokumentace/notifikace-a-upozorneni.md
-    - Záložky: ./dokumentace/zalozky.md
-    - Podpora: ./dokumentace/podpora.md
-    - Workspace: ./dokumentace/workspace.md
-    - Jazyk: ./dokumentace/jazyk.md
-    - Nápověda: ./dokumentace/napoveda.md
-    - Provizní program: ./dokumentace/provizni-program.md
-    - Nastavení: ./dokumentace/nastaveni.md
-    - Předplatné: ./dokumentace/predplatne.md
-    - Podmínky zpracování osobních údajů: ./dokumentace/podminky-zpracovani-osobnich-udaju.md
-    - Můj plán: ./dokumentace/muj-plan.md
-    - Časová osa Gantt.AI™: ./dokumentace/casova-osa-gantt-ai.md
-    - Projekty: ./dokumentace/projekty.md
-    - ProjectFormation™: ./dokumentace/projectformation.md
-    - Strávený čas: ./dokumentace/straveny-cas.md
-    - Štítky, kategorie a skupiny: ./dokumentace/stitky-kategorie-a-skupiny.md
-    - Lidé: ./dokumentace/lide.md
+    - Návody: ./cs/dokumentace/navody.md
+    - Notifikace a upozornění: ./cs/dokumentace/notifikace-a-upozorneni.md
+    - Záložky: ./cs/dokumentace/zalozky.md
+    - Podpora: ./cs/dokumentace/podpora.md
+    - Workspace: ./cs/dokumentace/workspace.md
+    - Jazyk: ./cs/dokumentace/jazyk.md
+    - Nápověda: ./cs/dokumentace/napoveda.md
+    - Provizní program: ./cs/dokumentace/provizni-program.md
+    - Nastavení: ./cs/dokumentace/nastaveni.md
+    - Předplatné: ./cs/dokumentace/predplatne.md
+    - Podmínky zpracování osobních údajů: ./cs/dokumentace/podminky-zpracovani-osobnich-udaju.md
+    - Můj plán: ./cs/dokumentace/muj-plan.md
+    - Časová osa Gantt.AI™: ./cs/dokumentace/casova-osa-gantt-ai.md
+    - Projekty: ./cs/dokumentace/projekty.md
+    - ProjectFormation™: ./cs/dokumentace/projectformation.md
+    - Strávený čas: ./cs/dokumentace/straveny-cas.md
+    - Štítky, kategorie a skupiny: ./cs/dokumentace/stitky-kategorie-a-skupiny.md
+    - Lidé: ./cs/dokumentace/lide.md
 - Changelog:
     - Obsah: ./changelog.md
 - Dostupnost aplikace:

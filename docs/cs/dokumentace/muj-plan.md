@@ -5,8 +5,8 @@
 Sekci „Můj plán“ naleznete na levém bočním menu, hned pod první ikonkou šuplíku.Po kliknutí se dostanete na přehled všech vašich úkolů.
 
 <figure>
-	<a href="../../assets/images/muj-plan.jpg" title="Můj plán" class="glightbox">
-		<img loading="lazy" src="../../assets/images/muj-plan.jpg" alt="Můj plán" />
+	<a href="../../../assets/images/muj-plan.jpg" title="Můj plán" class="glightbox">
+		<img loading="lazy" src="../../../assets/images/muj-plan.jpg" alt="Můj plán" />
 		<figcaption>Můj plán</figcaption>
 	</a>
 </figure>
@@ -28,8 +28,8 @@ Kliknutím na tlačítko „+“ v pravém dolním rohu svého plánu otevřete 
 Pro úspěšné vytvoření úkolu klikněte na tlačítko „Vytvořit“.
 
 <figure class="large_image">
-	<a href="../../assets/images/muj-plan-vytvoreni-ukolu.jpg" title="Vytvoření úkolu" class="glightbox">
-		<img loading="lazy" src="../../assets/images/muj-plan-vytvoreni-ukolu.jpg" alt="Vytvoření úkolu" />
+	<a href="../../../assets/images/muj-plan-vytvoreni-ukolu.jpg" title="Vytvoření úkolu" class="glightbox">
+		<img loading="lazy" src="../../../assets/images/muj-plan-vytvoreni-ukolu.jpg" alt="Vytvoření úkolu" />
 		<figcaption>Vytvoření úkolu</figcaption>
 	</a>
 </figure>
@@ -68,8 +68,8 @@ Upozornění: Všechny provedené změny je vždy třeba uložit tlačítkem „
 Změnu stavu úkolu provedete jeho přetažením do odpovídajícího sloupce, popř. ji provedete přímo na detailu úkolu pomocí tlačítek „Todo, Pracuji na tom, Hotovo, Odloženo“. Vedení, koordinátoři a zakladatelé úkolů mohou měnit stavy i ostatním řešitelům úkolu. Změnu stavu lze také nastavit i hromadnou úpravou na více úkolech pomocí hromadné úpravy.
 
 <figure>
-	<a href="../../assets/images/muj-plan-zmena-stavu-ukolu.jpg" title="Změna stavu úkolu" class="glightbox">
-		<img loading="lazy" src="../../assets/images/muj-plan-zmena-stavu-ukolu.jpg" alt="Změna stavu úkolu" />
+	<a href="../../../assets/images/muj-plan-zmena-stavu-ukolu.jpg" title="Změna stavu úkolu" class="glightbox">
+		<img loading="lazy" src="../../../assets/images/muj-plan-zmena-stavu-ukolu.jpg" alt="Změna stavu úkolu" />
 		<figcaption>Změna stavu úkolu</figcaption>
 	</a>
 </figure>

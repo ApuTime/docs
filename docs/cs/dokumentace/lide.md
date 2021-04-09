@@ -3,8 +3,8 @@
 > Sekce „Lidé“ slouží ke správě jednotlivých uživatelů. Lze odsud upravovat jejich základní údaje, pracovní dobu, hodinovou sazbu, přidělovat jim práva a mnoho dalšího.
 
 <figure>
-	<a href="../../assets/images/lide.jpg" title="Lidé" class="glightbox">
-		<img loading="lazy" src="../../assets/images/lide.jpg" alt="Lidé" />
+	<a href="../../../assets/images/lide.jpg" title="Lidé" class="glightbox">
+		<img loading="lazy" src="../../../assets/images/lide.jpg" alt="Lidé" />
 		<figcaption>Lidé</figcaption>
 	</a>
 </figure>
@@ -28,8 +28,8 @@ Pod uživatelem poté jako vedení uvidíte také možnosti „Zobrazit úkoly�
 U každého uživatele lze také vidět jeho celkové pracovní vytížení v procentech.
 
 <figure>
-	<a href="../../assets/images/lide-pridani-uzivatele.jpg" title="Přidání uživatele" class="glightbox">
-		<img loading="lazy" src="../../assets/images/lide-pridani-uzivatele.jpg" alt="Přidání uživatele" />
+	<a href="../../../assets/images/lide-pridani-uzivatele.jpg" title="Přidání uživatele" class="glightbox">
+		<img loading="lazy" src="../../../assets/images/lide-pridani-uzivatele.jpg" alt="Přidání uživatele" />
 		<figcaption>Přidání uživatele</figcaption>
 	</a>
 </figure>
@@ -40,8 +40,8 @@ Klikněte na ikonu daného uživatele a tím otevřete nabídku nastavení. Měn
 Provedené změny uložte tlačítkem „Potvrdit změny“.
 
 <figure>
-	<a href="../../assets/images/lide-uprava-uzivatele.jpg" title="Úprava uživatele" class="glightbox">
-		<img loading="lazy" src="../../assets/images/lide-uprava-uzivatele.jpg" alt="Úprava uživatele" />
+	<a href="../../../assets/images/lide-uprava-uzivatele.jpg" title="Úprava uživatele" class="glightbox">
+		<img loading="lazy" src="../../../assets/images/lide-uprava-uzivatele.jpg" alt="Úprava uživatele" />
 		<figcaption>Úprava uživatele</figcaption>
 	</a>
 </figure>
@@ -70,8 +70,8 @@ Pro odebrání uživatele otevřete nabídku „Upravit uživatele“ kliknutím
 Upozornění: Odebraný uživatel bude pouze archivovaný a veškerá data zůstanou zachována pro případné obnovení.
 
 <figure>
-	<a href="../../assets/images/lide-odebrani-uzivatele.jpg" title="Odebrání uživatele" class="glightbox">
-		<img loading="lazy" src="../../assets/images/lide-odebrani-uzivatele.jpg" alt="Odebrání uživatele" />
+	<a href="../../../assets/images/lide-odebrani-uzivatele.jpg" title="Odebrání uživatele" class="glightbox">
+		<img loading="lazy" src="../../../assets/images/lide-odebrani-uzivatele.jpg" alt="Odebrání uživatele" />
 		<figcaption>Odebrání uživatele</figcaption>
 	</a>
 </figure>
@@ -82,8 +82,8 @@ Pro obnovení uživatele klikněte na ikonu „Více“ (tři tečky) v pravém 
 Upozornění: Správu jednotlivých uživatelů může provádět pouze osoba s právy vedení.
 
 <figure>
-	<a href="../../assets/images/lide-obnoveni-uzivatele.jpg" title="Obnovení uživatele" class="glightbox">
-		<img loading="lazy" src="../../assets/images/lide-obnoveni-uzivatele.jpg" alt="Obnovení uživatele" />
+	<a href="../../../assets/images/lide-obnoveni-uzivatele.jpg" title="Obnovení uživatele" class="glightbox">
+		<img loading="lazy" src="../../../assets/images/lide-obnoveni-uzivatele.jpg" alt="Obnovení uživatele" />
 		<figcaption>Obnovení uživatele</figcaption>
 	</a>
 </figure>

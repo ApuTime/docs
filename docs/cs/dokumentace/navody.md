@@ -7,8 +7,8 @@
 Návody jsou dostupné pod ikonou výuky v pravém horním rohu obrazovky. V nabídce máte možnost spustit interaktivního průvodce aplikací, který vás přivítal při prvním spuštění, a také zhlédnout video návody s ukázkou využívání jednotlivých funkcí. Po splnění se vám video označí jako zhlédnuté, kdykoliv se k němu ale můžete vrátit.
 
 <figure>
-	<a href="../../assets/images/navody-zobrazeni-navodu.jpg" title="Zobrazení návodů" class="glightbox">
-		<img loading="lazy" src="../../assets/images/navody-zobrazeni-navodu.jpg" alt="" />
+	<a href="../../../assets/images/navody-zobrazeni-navodu.jpg" title="Zobrazení návodů" class="glightbox">
+		<img loading="lazy" src="../../../assets/images/navody-zobrazeni-navodu.jpg" alt="" />
 		<figcaption>Zobrazení návodů</figcaption>
 	</a>
 </figure>

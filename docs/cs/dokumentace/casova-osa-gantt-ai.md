@@ -5,8 +5,8 @@
 Časovou osu naleznete na levém bočním menu, pod ikonkou grafu. Po kliknutí uvidíte přehled časového harmonogramu všech ve firmě.
 
 <figure>
-	<a href="../../assets/images/casova-osa-gantt.jpg" title="Časová osa Gantt.AI™" class="glightbox">
-		<img loading="lazy" src="../../assets/images/casova-osa-gantt.jpg" alt="Časová osa Gantt.AI™" />
+	<a href="../../../assets/images/casova-osa-gantt.jpg" title="Časová osa Gantt.AI™" class="glightbox">
+		<img loading="lazy" src="../../../assets/images/casova-osa-gantt.jpg" alt="Časová osa Gantt.AI™" />
 		<figcaption>Časová osa Gantt.AI™</figcaption>
 	</a>
 </figure>
@@ -18,8 +18,8 @@ Pod jménem každého uživatele je v procentech uvedenojeho časové vytížen�
 Pomocí rozbalovací nabídky můžete vybrat konkrétní projekt, který vás zajímá. Tím zobrazíte pouze ty uživatele, kteří jsou v daném projektu zainteresovaní a úkoly v něm obsažené se barevně zvýrazní. Zůstanou ale viditelné úkoly i z ostatních projektů, aby bylo vidět, co ovlivnilo plánování vybraného projektu.
 
 <figure>
-	<a href="../../assets/images/gantt-vyber-projektu.jpg" title="Výběr projektu" class="glightbox">
-		<img loading="lazy" src="../../assets/images/gantt-vyber-projektu.jpg" alt="Výběr projektu" />
+	<a href="../../../assets/images/gantt-vyber-projektu.jpg" title="Výběr projektu" class="glightbox">
+		<img loading="lazy" src="../../../assets/images/gantt-vyber-projektu.jpg" alt="Výběr projektu" />
 		<figcaption>Výběr projektu</figcaption>
 	</a>
 </figure>
@@ -28,8 +28,8 @@ Pomocí rozbalovací nabídky můžete vybrat konkrétní projekt, který vás z
 Pro zobrazení konkrétního časového rozmezí zvolte datum šipkami, nebo jej rovnou upravte. Kliknutím na tlačítko „Dnes“ se rychle dostanete zpět na aktuální den.
 
 <figure>
-	<a href="../../assets/images/gantt-datum.jpg" title="Datum" class="glightbox">
-		<img loading="lazy" src="../../assets/images/gantt-datum.jpg" alt="Datum" />
+	<a href="../../../assets/images/gantt-datum.jpg" title="Datum" class="glightbox">
+		<img loading="lazy" src="../../../assets/images/gantt-datum.jpg" alt="Datum" />
 		<figcaption>Datum</figcaption>
 	</a>
 </figure>
@@ -38,8 +38,8 @@ Pro zobrazení konkrétního časového rozmezí zvolte datum šipkami, nebo jej
 Časovou osu můžete zobrazit po dnech, týdnech nebo měsících. Můžete tak získat nadhled nad celým projektem a zjistit, kdy se na projektu bude pracovat intenzivně a kdy je naplánováno méně úkolů.
 
 <figure>
-	<a href="../../assets/images/gantt-format-zobrazeni.jpg" title="Formát zobrazení" class="glightbox">
-		<img loading="lazy" src="../../assets/images/gantt-format-zobrazeni.jpg" alt="Formát zobrazení" />
+	<a href="../../../assets/images/gantt-format-zobrazeni.jpg" title="Formát zobrazení" class="glightbox">
+		<img loading="lazy" src="../../../assets/images/gantt-format-zobrazeni.jpg" alt="Formát zobrazení" />
 		<figcaption>Formát zobrazení</figcaption>
 	</a>
 </figure>
@@ -49,8 +49,8 @@ Pro zobrazení konkrétního časového rozmezí zvolte datum šipkami, nebo jej
 Časovou osu přiblížite či oddálíte pomocí lupy.
 
 <figure>
-	<a href="../../assets/images/gantt-priblizeni-a-oddaleni.jpg" title="Přiblížení a oddálení časové osy" class="glightbox">
-		<img loading="lazy" src="../../assets/images/gantt-priblizeni-a-oddaleni.jpg" alt="Přiblížení a oddálení časové osy" />
+	<a href="../../../assets/images/gantt-priblizeni-a-oddaleni.jpg" title="Přiblížení a oddálení časové osy" class="glightbox">
+		<img loading="lazy" src="../../../assets/images/gantt-priblizeni-a-oddaleni.jpg" alt="Přiblížení a oddálení časové osy" />
 		<figcaption>Přiblížení a oddálení časové osy</figcaption>
 	</a>
 </figure>
