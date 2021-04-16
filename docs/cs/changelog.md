@@ -1,5 +1,42 @@
 # Changelog
 
+## 3.5
+
+* ### ProjectFormation™
+	* Výběr, přesouvání a hromadná úprava úkolů (smazaní, změna řešitele)
+	* Přidání subprocesu do mapy skrz kontextovou nabídku
+	* Vylepšené zobrazení, ovládání a pohyb v mapě
+	* Ukládání rozmístění prvků šablon procesních map
+
+* ### Klávesové zkratky a gesta
+	* T - přidání úkolu
+	* D - přidání rozhodovacího prvku
+	* R - automatické rozmístění
+	* S - Uložení šablony mapy
+	* Delete - smazání vybraných prvků
+	* Ctrl/Cmd + Z - Zpět
+	* Ctrl/Cmd + Shift + Z - Znovu
+	* Dvojklik - úprava prvku
+	* Klik prvým tl. myši na prvek/vybrané prvky - otevření nabídky úprav
+	* Klik prvým tl. myši do volného prostoru - otevření nabídky přidání úkolu/rozhodnutí/podprocesu do daného místa
+
+
+* ### Pohyb/Zobrazení
+	* A - zobrazení celé mapy (přizpůsobení na velikost obrazovky)
+	* Šipky - pohyb do stran
+	* Cmd/Ctrl + scroll - přiblížení/oddálení na dané místo
+	* Scroll - pohyb po plátně
+	* Alt+Scroll - pohyb nahoru/dolů
+	* Shift + Scroll - pohyb doprava/doleva
+	* Pohyb dvěma prsty - pohyb po plátně
+	* Pohyb dvěma prsty od sebe/k sobě - přiblížení/oddálení mapy na dané místo
+
+
+* ### Výběr prvků
+	* Alt + Výběr myší - Nový výběr
+	* Cmd/Ctrl + Výběr myší - Přidat/Odebrat z výběru
+
+
 ## 3.4
 
 * ### Časové vytížení

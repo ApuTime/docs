@@ -1,27 +1,41 @@
 {#- This file was automatically generated - do not edit -#}
 {% extends "base.html" %}
-{% block site_nav %}{% endblock %}
 {% block content %}
 
 	{% if not "\x3ch1" in page.content %}
 		<h1>{{ page.title | default(config.site_name, true)}}</h1>
 	{% endif %}
-	<section class="tx-container">
-	<div class="md-typeset">
-		<div class="homepage-box">
-			{{ page.content}}
 
-			<div  class="hexometer-status-widget"  data-time_period="30"  data-token="2e4ee91c27e43f3f9f00559b72bcac5e37049485422086c8ff5d56542b1b461d"  data-uptime_resource_id="12787">app.aputime.com - Hexometer Status</div>
+ <div class="md-container" data-md-component="container">
+ <style>
+	@media screen and (min-width: 1220px) {
+		.md-sidebar.md-sidebar--primary {
+			display: none;
+		}
+	}
+ </style>
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
 
-			<div  class="hexometer-status-widget"  data-time_period="30"  data-token="2e4ee91c27e43f3f9f00559b72bcac5e37049485422086c8ff5d56542b1b461d"  data-uptime_resource_id="12789">api.aputime.com/general/rest/v1/alive/ - Hexometer Status</div>
+				<section class="tx-container">
+					<div class="md-typeset">
+						<div class="homepage-box">
 
-			<div  class="hexometer-status-widget"  data-time_period="30"  data-token="2e4ee91c27e43f3f9f00559b72bcac5e37049485422086c8ff5d56542b1b461d"  data-uptime_resource_id="12788">api.aputime.com/general/options/v1/alive/ - Hexometer Status</div>
 
-			<div  class="hexometer-status-widget"  data-time_period="30"  data-token="2e4ee91c27e43f3f9f00559b72bcac5e37049485422086c8ff5d56542b1b461d"  data-uptime_resource_id="12790">api.aputime.com/general/v1/realtime - Hexometer Status</div>
+							<div  class="hexometer-status-widget"  data-time_period="30"  data-token="2e4ee91c27e43f3f9f00559b72bcac5e37049485422086c8ff5d56542b1b461d"  data-uptime_resource_id="12787">app.aputime.com - Hexometer Status</div>
 
-		</div>
+							<div  class="hexometer-status-widget"  data-time_period="30"  data-token="2e4ee91c27e43f3f9f00559b72bcac5e37049485422086c8ff5d56542b1b461d"  data-uptime_resource_id="12789">api.aputime.com/general/rest/v1/alive/ - Hexometer Status</div>
+
+							<div  class="hexometer-status-widget"  data-time_period="30"  data-token="2e4ee91c27e43f3f9f00559b72bcac5e37049485422086c8ff5d56542b1b461d"  data-uptime_resource_id="12788">api.aputime.com/general/options/v1/alive/ - Hexometer Status</div>
+
+							<div  class="hexometer-status-widget"  data-time_period="30"  data-token="2e4ee91c27e43f3f9f00559b72bcac5e37049485422086c8ff5d56542b1b461d"  data-uptime_resource_id="12790">api.aputime.com/general/v1/realtime - Hexometer Status</div>
+
+						</div>
+					</div>
+				</section>
+			</div>
+		</main>
 	</div>
-	</section>
 	{% if page and page.meta %}
 		{% if page.meta.git_revision_date_localized or
 			page.meta.revision_date
