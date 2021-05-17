@@ -168,3 +168,40 @@ Uložit procesní mapu lze také více způsoby.
 		<figcaption>Paralelní úkoly za rozhodujícím prvkem</figcaption>
 	</a>
 </figure>
+
+## Pohybování se v ProjectFormation™
+
+**Klávesové zkratky a gesta pro pohodlné ovládání ProjectFormation™.**
+
+| Zkratka                               | Popis                                    |
+| ------------------------------------- | ---------------------------------------- |
+| T                   | Přidání úkolu  |
+| D                   | Přidání rozhodovacího prvku  |
+| R                   | Automatické rozmístění  |
+| S                   | Uložení šablony  |
+| Delete                   | Smazání vybraných prvků  |
+| Ctrl/Cmd + Z                   | Zpět  |
+| Ctrl/Cmd + Shift + Z                   | Znovu  |
+| Dvojklik                   | Úprava prvku  |
+| Klik prvým tl. myši na prvek/vybrané prvky | Otevření nabídky úprav  |
+| Klik prvým tl. myši do volného prostoru  | Otevření nabídky vytvoření úkolu/rozhodnutí/podprocesu   |
+
+**Pohyb a Zobrazení**
+
+| Zkratka                               | Popis                                    |
+| ------------------------------------- | ---------------------------------------- |
+| A  | Zobrazení celé mapy (přizpůsobení na velikost obrazovky)  |
+| Šipky  | Pohyb do stran  |
+| Cmd/Ctrl + scroll  | Přiblížení/oddálení na dané místo  |
+| Scroll  | Pohyb po plátně  |
+| Alt+Scroll  | Pohyb nahoru/dolů  |
+| Shift + Scroll  | Pohyb doprava/doleva  |
+| Pohyb dvěma prsty  | Pohyb po plátně  |
+| Pohyb dvěma prsty od sebe/k sobě  | Přiblížení/oddálení mapy na dané místo  |
+
+**Výběr prvků**
+
+| Zkratka                               | Popis                                    |
+| ------------------------------------- | ---------------------------------------- |
+| Alt + Přetažení myší  | Nový výběr  |
+| Cmd/Ctrl + Výběr myší  | Přidat/Odebrat z výběru  |

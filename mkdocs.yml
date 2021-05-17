@@ -142,6 +142,7 @@ nav:
     - Strávený čas: ./cs/dokumentace/straveny-cas.md
     - Štítky, kategorie a skupiny: ./cs/dokumentace/stitky-kategorie-a-skupiny.md
     - Lidé: ./cs/dokumentace/lide.md
+    - Jak nainstalovat webovou aplikaci ApuTime na mobilní telefon: ./cs/dokumentace/jak-nainstalovat-aputime-na-mobilni-telefon.md
 - Changelog:
     - Obsah: ./cs/changelog.md
 - Dostupnost aplikace:
