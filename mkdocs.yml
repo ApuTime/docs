@@ -38,6 +38,7 @@ theme:
   font: false
   features:
     - header.autohide
+    - navigation.tabs
 
   # 404 page
   static_templates:
@@ -49,8 +50,6 @@ theme:
 
   # Default values, taken from mkdocs_theme.yml
   language: cs
-  features:
-    - navigation.tabs
   palette:
     scheme: default
   font:
