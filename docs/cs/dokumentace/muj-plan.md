@@ -13,7 +13,7 @@ Sekci „Můj plán“ naleznete na levém bočním menu, hned pod první ikonko
 
 ## Vytvoření úkolu
 
-Kliknutím na tlačítko „+“ v pravém dolním rohu svého plánu otevřete okno pro vytvoření nového úkolu. Úkol můžete vytvořit i v Project Formation™ a na projektu.
+Kliknutím na tlačítko „+“ v pravém dolním rohu svého plánu otevřete okno pro vytvoření nového úkolu či události. Úkol můžete vytvořit i v Project Formation™ a na projektu.
 
 - V otevřeném okně vyplňte název úkolu.
 - Nastavte odhadovanou délku trvání úkolu.
@@ -22,10 +22,11 @@ Kliknutím na tlačítko „+“ v pravém dolním rohu svého plánu otevřete 
 - Nabídka „Přidat štítky“ slouží k označení úkolu. Štítky slouží pro lepší přehlednost a orientaci mezi úkoly (vlastní štítky lze vytvářet a editovat v sekci „Štítky a kategorie“, kterou najdete v hlavním menu aplikace).
 - Popis slouží k upřesnění zadání daného úkolu.
 - Pomocí tlačítka „Vyberte soubor“ přiložíte k úkolu jakýkoliv soubor z vašeho zařízení. Také je k dispozici možnost přidání souboru z Google Drive, OneDrive či Dropbox.
+- Můžete přidat také požadavky, které je potřeba před událostí splnit (checklist).
 - Odložený začátek slouží jako datum, od kterého se má úkol naplánovat mezi ostatní úkoly na časové ose Gantt.AI™. Pokud odložený začátek nenastavíte, úkol se naplánuje na nejbližší možnou dobu.
 - Deadline slouží jako termín pro dokončení úkolu. Umělá inteligence dle něj určuje prioritu mezi ostatními úkoly.
 
-Pro úspěšné vytvoření úkolu klikněte na tlačítko „Vytvořit“.
+Pro úspěšné vytvoření úkolu klikněte na tlačítko „Přidat“.
 
 <figure class="large_image">
 	<a href="../../../assets/images/muj-plan-vytvoreni-ukolu.jpg" title="Vytvoření úkolu" class="glightbox">
@@ -34,7 +35,23 @@ Pro úspěšné vytvoření úkolu klikněte na tlačítko „Vytvořit“.
 	</a>
 </figure>
 
-### Detail úkolu
+## Vytvoření události
+
+Kliknutím na tlačítko „+“ v pravém dolním rohu svého plánu otevřete okno pro vytvoření nového úkolu či události. Událost můžete vytvořit i v Project Formation™ a na projektu.
+
+- V otevřeném okně zvolte ikonu kalendáře s nápisem  „Událost“.
+- Zadejte název události
+- Nastavte začátek a konec události a jejich čas
+- V nabídce „Projekt“ vyberte, ke kterému projektu bude událost přiřazena.
+- Nabídka „Řešitelé“ umožňuje přiřadit uživatele k jednotlivým událostem. Kliknutím na ikonu otevřete seznam uživatelů a vyberte příslušného účastníka události. K události je možné přiřadit i více řešitelů, nebo celou skupinu. Pokud budou řešitelé na události ve stejný čas, můžete také pomocí toggle tlačítka zapnout spolupráci skupiny ve stejný čas.
+- Nabídka „Přidat štítky“ slouží k označení události. Štítky slouží pro lepší přehlednost a orientaci mezi událostmi (vlastní štítky lze vytvářet a editovat v sekci „Štítky a kategorie“, kterou najdete v hlavním menu aplikace).
+- Popis slouží k upřesnění zadání daného události.
+- Pomocí tlačítka „Vyberte soubor“ přiložíte k události jakýkoliv soubor z vašeho zařízení. Také je k dispozici možnost přidání souboru z Google Drive, OneDrive či Dropbox.
+- Můžete přidat také požadavky, které je potřeba před událostí splnit (checklist).
+
+Pro úspěšné vytvoření události klikněte na tlačítko „Přidat“.
+
+## Detail úkolu
 
 Detail úkolu otevřete kliknutím na název úkolu. Je velmi podobný nabídce, ve které úkol vytváříte. V detailu najdete všechny informace o úkolu, které také můžete rovnou upravovat.
 
