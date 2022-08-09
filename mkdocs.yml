@@ -136,8 +136,10 @@ nav:
     - Štítky, kategorie a skupiny: ./cs/dokumentace/stitky-kategorie-a-skupiny.md
     - Lidé: ./cs/dokumentace/lide.md
     - Jak nainstalovat webovou aplikaci ApuTime na mobilní telefon: ./cs/dokumentace/jak-nainstalovat-aputime-na-mobilni-telefon.md
-- Changelog: ./cs/changelog.md
-- Dostupnost aplikace: ./dostupnost-aplikace.md
+- Changelog:
+  - ./cs/changelog.md
+- Dostupnost aplikace: 
+  - ./dostupnost-aplikace.md
 
 # Extra Files
 extra_css:
