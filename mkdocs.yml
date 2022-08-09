@@ -29,7 +29,7 @@ repo_name: aputime/docs
 repo_url: https://github.com/aputime/docs
 
 # Copyright
-copyright: Copyright &copy; 2016 - 2020 ApuTime
+copyright: Copyright &copy; 2016 - 2022 APUTime
 
 # Configuration
 theme:
@@ -49,7 +49,7 @@ theme:
   search_index_only: true
 
   # Default values, taken from mkdocs_theme.yml
-  language: cs
+  language: en
   palette:
     scheme: default
   font:
@@ -70,13 +70,6 @@ plugins:
   - markdownextradata
   - minify:
       minify_html: true # TODO change to TRUE
-
-# Custom variable
-#extra:
-#  alternate:
-#    - name: English
-#      link: https://docs.aputime.com/
-#      lang: en
 
 # Extensions
 markdown_extensions:
