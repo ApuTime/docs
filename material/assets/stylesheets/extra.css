@@ -445,7 +445,7 @@ h2.homepage__block-title {
     -ms-flex-align: center;
     align-items: center;
     border-radius: 15px;
-    background-image: url(../images/kompaktni_demo.png);
+    background-image: url(../images/cs/kompaktni_demo.png);
     background-position: 50% 50%;
     background-size: cover;
 	position: relative;
@@ -526,7 +526,7 @@ h2.homepage__block-title {
 	color: #fff;
 }
 .homepage__links-ul a:after {
-	content: url('../images/arrow_icon.svg');
+	content: url('../images/cs/arrow_icon.svg');
 	display: inline-block;
 	position: absolute;
 	right: 2em;
