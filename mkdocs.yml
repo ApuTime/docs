@@ -65,6 +65,7 @@ plugins:
   - exclude-search:
       exclude:
         - typography.md
+        - en/*
   #- monorepo
   - macros
   - markdownextradata
