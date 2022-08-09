@@ -11,8 +11,8 @@ Technickou podporu můžete kontaktovat také telefonicky na čísle [+420 737 3
 Služba je zpoplatněna běžným sazebníkem vašeho operátora.
 
 <figure>
-	<a href="../../../assets/images/zakaznicka-podpora.jpg" title="Kontaktování podpory" class="glightbox">
-		<img loading="lazy" src="../../../assets/images/zakaznicka-podpora.jpg" alt="Kontaktování podpory" />
+	<a href="../../../assets/images/cs/zakaznicka-podpora.jpg" title="Kontaktování podpory" class="glightbox">
+		<img loading="lazy" src="../../../assets/images/cs/zakaznicka-podpora.jpg" alt="Kontaktování podpory" />
 		<figcaption>Kontaktování podpory</figcaption>
 	</a>
 </figure>

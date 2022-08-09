@@ -7,8 +7,8 @@ Předplatné naleznete v nabídce „Předplatné“ v pravé horní části obr
 **Upozornění**: Pro správu předplatného musíte mít přidělena práva vedení.
 
 <figure>
-	<a href="../../../assets/images/predplatne.jpg" title="Předplatné" class="glightbox">
-		<img loading="lazy" src="../../../assets/images/predplatne.jpg" alt="Předplatné" />
+	<a href="../../../assets/images/cs/predplatne.jpg" title="Předplatné" class="glightbox">
+		<img loading="lazy" src="../../../assets/images/cs/predplatne.jpg" alt="Předplatné" />
 		<figcaption>Předplatné</figcaption>
 	</a>
 </figure>
@@ -19,8 +19,8 @@ V překledu předplatného si můžete nastavit, upravit či zkontrolovat vaše 
 Předplatné si nastavíte kliknutím na tlačítko „Nastavit předplatné“. V následujícím kroku vyplňte platební údaje a potvrďte.
 
 <figure>
-	<a href="../../../assets/images/predplatne-nastaveni.jpg" title="Nastavení předplatného" class="glightbox">
-		<img loading="lazy" src="../../../assets/images/predplatne-nastaveni.jpg" alt="Nastavení předplatného" />
+	<a href="../../../assets/images/cs/predplatne-nastaveni.jpg" title="Nastavení předplatného" class="glightbox">
+		<img loading="lazy" src="../../../assets/images/cs/predplatne-nastaveni.jpg" alt="Nastavení předplatného" />
 		<figcaption>Nastavení předplatného</figcaption>
 	</a>
 </figure>
@@ -36,8 +36,8 @@ Pokud například odstraníte některého z uživatelů, dostanete za něj nevyu
 Balíček můžete také kdykoliv navýšit dle vašich potřeb.
 
 <figure>
-	<a href="../../../assets/images/predplatne-zmena-balicku.jpg" title="Výběr balíčku" class="glightbox">
-		<img loading="lazy" src="../../../assets/images/predplatne-zmena-balicku.jpg" alt="Výběr balíčku" />
+	<a href="../../../assets/images/cs/predplatne-zmena-balicku.jpg" title="Výběr balíčku" class="glightbox">
+		<img loading="lazy" src="../../../assets/images/cs/predplatne-zmena-balicku.jpg" alt="Výběr balíčku" />
 		<figcaption>Výběr balíčku</figcaption>
 	</a>
 </figure>

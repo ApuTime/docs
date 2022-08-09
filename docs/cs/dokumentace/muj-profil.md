@@ -3,8 +3,8 @@
 > Vedle nabídky naleznete také ikonu vašeho profilu. Po kliku na ní se dostanete k vašemu nastavení, podpoře, affiliate programu a podmínkám zpracování osobních údajů.
 
 <figure>
-	<a href="../../../assets/images/vas-profil/profil-rolldown.PNG" title="Můj profil">
-		<img src="../../../assets/images/vas-profil/profil-rolldown.PNG" alt="Můj profil" />
+	<a href="../../../assets/images/cs/vas-profil/profil-rolldown.PNG" title="Můj profil">
+		<img src="../../../assets/images/cs/vas-profil/profil-rolldown.PNG" alt="Můj profil" />
 	</a>
 </figure>
 

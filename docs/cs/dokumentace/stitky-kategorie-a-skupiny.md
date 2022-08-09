@@ -5,8 +5,8 @@
 Štítky a kategorie naleznete na levém bočním menu, pod ikonkou štítku. Po kliknutí se dostanete do na přehled všech existujících štítků a kategorií.
 
 <figure>
-	<a href="../../../assets/images/stitky-a-kategorie.jpg" title="Štítky, kategorie, skupiny" class="glightbox">
-		<img loading="lazy" src="../../../assets/images/stitky-a-kategorie.jpg" alt="Štítky, kategorie, skupiny" />
+	<a href="../../../assets/images/cs/stitky-a-kategorie.jpg" title="Štítky, kategorie, skupiny" class="glightbox">
+		<img loading="lazy" src="../../../assets/images/cs/stitky-a-kategorie.jpg" alt="Štítky, kategorie, skupiny" />
 		<figcaption>Štítky, kategorie, skupiny</figcaption>
 	</a>
 </figure>
@@ -20,8 +20,8 @@
 - Pro uložení klikněte na tlačítko „Přidat nový štítek/kategorii/skupinu“.
 
 <figure>
-	<a href="../../../assets/images/stitky-a-kategorie-pridani-stitku.jpg" title="Přidání štítku a kategorie" class="glightbox">
-		<img loading="lazy" src="../../../assets/images/stitky-a-kategorie-pridani-stitku.jpg" alt="Přidání štítku a kategorie" />
+	<a href="../../../assets/images/cs/stitky-a-kategorie-pridani-stitku.jpg" title="Přidání štítku a kategorie" class="glightbox">
+		<img loading="lazy" src="../../../assets/images/cs/stitky-a-kategorie-pridani-stitku.jpg" alt="Přidání štítku a kategorie" />
 		<figcaption>Přidání štítku a kategorie</figcaption>
 	</a>
 </figure>
@@ -38,8 +38,8 @@ Pokud chcete štítek, kategorii či skupinu upravit, klikněte na nabídku „V
 Provedené změny uložte tlačítkem „Potvrdit změny“.
 
 <figure>
-	<a href="../../../assets/images/stitky-a-kategorie-uprava-stitku.jpg" title="Úprava štítku a kategorie" class="glightbox">
-		<img loading="lazy" src="../../../assets/images/stitky-a-kategorie-uprava-stitku.jpg" alt="Úprava štítku a kategorie" />
+	<a href="../../../assets/images/cs/stitky-a-kategorie-uprava-stitku.jpg" title="Úprava štítku a kategorie" class="glightbox">
+		<img loading="lazy" src="../../../assets/images/cs/stitky-a-kategorie-uprava-stitku.jpg" alt="Úprava štítku a kategorie" />
 		<figcaption>Úprava štítku a kategorie</figcaption>
 	</a>
 </figure>
@@ -50,8 +50,8 @@ Pokud chcete štítek, kategorii či skupinu odstranit, klikněte na nabídku �
 Provedené změny uložte tlačítkem „Potvrdit změny“.
 
 <figure>
-	<a href="../../../assets/images/stitky-a-kategorie-odstraneni-stitku.jpg" title="Odstranění štítku, kategorie, skupiny" class="glightbox">
-		<img loading="lazy" src="../../../assets/images/stitky-a-kategorie-odstraneni-stitku.jpg" alt="Odstranění štítku, kategorie, skupiny" />
+	<a href="../../../assets/images/cs/stitky-a-kategorie-odstraneni-stitku.jpg" title="Odstranění štítku, kategorie, skupiny" class="glightbox">
+		<img loading="lazy" src="../../../assets/images/cs/stitky-a-kategorie-odstraneni-stitku.jpg" alt="Odstranění štítku, kategorie, skupiny" />
 		<figcaption>Odstranění štítku, kategorie, skupiny</figcaption>
 	</a>
 </figure>

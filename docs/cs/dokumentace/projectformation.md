@@ -11,8 +11,8 @@ V případě, že nemáte rozpracovanou žádnou mapu, zobrazí se vám okno pro
 Pokud máte mapu rozpracovanou a chcete ji z nějakého důvodu smazat a začít kreslit novou, klikněte na její název (první ikona ProjectFormation™ v panelu ovládacích prvků v pravém horním okně) a vyberte možnost „Nakreslit novou“, popř. ji můžete jen přejmenovat a pokračovat v kreslení.
 
 <figure>
-	<a href="../../../assets/images/projectformation-vytvoreni-sablony-procesu.jpg" title="Vytvoření šablony procesu" class="glightbox">
-		<img loading="lazy" src="../../../assets/images/projectformation-vytvoreni-sablony-procesu.jpg" alt="Vytvoření šablony procesu" />
+	<a href="../../../assets/images/cs/projectformation-vytvoreni-sablony-procesu.jpg" title="Vytvoření šablony procesu" class="glightbox">
+		<img loading="lazy" src="../../../assets/images/cs/projectformation-vytvoreni-sablony-procesu.jpg" alt="Vytvoření šablony procesu" />
 		<figcaption>Vytvoření šablony procesu</figcaption>
 	</a>
 </figure>
@@ -39,8 +39,8 @@ Nastavený úkol uložíte tlačítkem „Přidat úkol“.
 Vytvořený úkol se zobrazí jako dlaždice v prostředí ProjectFormation™, ke kterému můžete přidávat další úkoly procesu a tvořit návaznosti mezi nimi v rámci projektu.
 
 <figure>
-	<a href="../../../assets/images/projectformation-pridani-ukolu.jpg" title="Přidání úkolu v ProjectFormation™" class="glightbox">
-		<img loading="lazy" src="../../../assets/images/projectformation-pridani-ukolu.jpg" alt="Přidání úkolu v ProjectFormation™" />
+	<a href="../../../assets/images/cs/projectformation-pridani-ukolu.jpg" title="Přidání úkolu v ProjectFormation™" class="glightbox">
+		<img loading="lazy" src="../../../assets/images/cs/projectformation-pridani-ukolu.jpg" alt="Přidání úkolu v ProjectFormation™" />
 		<figcaption>Přidání úkolu v ProjectFormation™</figcaption>
 	</a>
 </figure>
@@ -50,8 +50,8 @@ Vytvořený úkol se zobrazí jako dlaždice v prostředí ProjectFormation™, 
 Na plovoucí liště také naleznete tlačítko „Automatické umístění“. To se hodí, když chcete dát mapě procesu po jejím nakreslení řád. Po kliknutí na toto tlačítko se vám mapa procesu sama rozestaví tak, aby byla přehledná a šly dobře vidět veškeré posloupnosti a návaznosti.
 
 <figure>
-	<a href="../../../assets/images/projectformation-automaticke-umisteni.jpg" title="Automatické umístění" class="glightbox">
-		<img loading="lazy" src="../../../assets/images/projectformation-automaticke-umisteni.jpg" alt="Automatické umístění" />
+	<a href="../../../assets/images/cs/projectformation-automaticke-umisteni.jpg" title="Automatické umístění" class="glightbox">
+		<img loading="lazy" src="../../../assets/images/cs/projectformation-automaticke-umisteni.jpg" alt="Automatické umístění" />
 		<figcaption>Automatické umístění</figcaption>
 	</a>
 </figure>
@@ -60,8 +60,8 @@ Na plovoucí liště také naleznete tlačítko „Automatické umístění“. 
 Pokud již máte nějakou procesní mapu uloženou ve svém PC, můžete ji jednoduše importovat pomocí tlačítka „Importovat”, které naleznete v plovoucí liště v pravém horním rohu po kliknutí na „Více“ (tři tečky).
 
 <figure>
-	<a href="../../../assets/images/projectformation-import-sablony-procesu.jpg" title="Import šablony procesu" class="glightbox">
-		<img loading="lazy" src="../../../assets/images/projectformation-import-sablony-procesu.jpg" alt="Import šablony procesu" />
+	<a href="../../../assets/images/cs/projectformation-import-sablony-procesu.jpg" title="Import šablony procesu" class="glightbox">
+		<img loading="lazy" src="../../../assets/images/cs/projectformation-import-sablony-procesu.jpg" alt="Import šablony procesu" />
 		<figcaption>Import šablony procesu</figcaption>
 	</a>
 </figure>
@@ -70,8 +70,8 @@ Pokud již máte nějakou procesní mapu uloženou ve svém PC, můžete ji jedn
 Pokud chcete procesní mapu exportovat (stáhnout), stačí použít tlačítko „Exportovat”, které naleznete v plovoucí liště v pravém horním rohu po kliknutí na „Více“ (tři tečky). Poté se vám procesní mapa stáhne ve formátu .json a vy si ji můžete uložit nebo třeba poslat.
 
 <figure>
-	<a href="../../../assets/images/projectformation-export-sablony-procesu.jpg" title="Export šablony procesu" class="glightbox">
-		<img loading="lazy" src="../../../assets/images/projectformation-export-sablony-procesu.jpg" alt="Export šablony procesu" />
+	<a href="../../../assets/images/cs/projectformation-export-sablony-procesu.jpg" title="Export šablony procesu" class="glightbox">
+		<img loading="lazy" src="../../../assets/images/cs/projectformation-export-sablony-procesu.jpg" alt="Export šablony procesu" />
 		<figcaption>Export šablony procesu</figcaption>
 	</a>
 </figure>
@@ -80,8 +80,8 @@ Pokud chcete procesní mapu exportovat (stáhnout), stačí použít tlačítko 
 Mapu procesu si můžete jednoduše vytisknout pomocí tlačítka „Otevřít tiskárnu”, které naleznete v plovoucí liště v pravém horním rohu po kliknutí na „Více“ (tři tečky). Poté se vám šablona vaší mapy procesu otevře v novém okně v tiskové kvalitě a vy pouze kliknete pravým tlačítkem kdekoliv v okně a vyberete možnost „Tisk“.
 
 <figure>
-	<a href="../../../assets/images/projectformation-tisk-sablony-procesu.jpg" title="Tisk šablony procesu" class="glightbox">
-		<img loading="lazy" src="../../../assets/images/projectformation-tisk-sablony-procesu.jpg" alt="Tisk šablony procesu" />
+	<a href="../../../assets/images/cs/projectformation-tisk-sablony-procesu.jpg" title="Tisk šablony procesu" class="glightbox">
+		<img loading="lazy" src="../../../assets/images/cs/projectformation-tisk-sablony-procesu.jpg" alt="Tisk šablony procesu" />
 		<figcaption>Tisk šablony procesu</figcaption>
 	</a>
 </figure>
@@ -91,8 +91,8 @@ Dlouhým kliknutím (nebo dvojklikem) na dlaždici otevřete nastavení úkolu p
 Zde můžete upravit informace o úkolu stejným způsobem, jako byste tvořili nový úkol.
 
 <figure>
-	<a href="../../../assets/images/projectformation-uprava-ukolu.jpg" title="Úprava úkolu v ProjectFormation™" class="glightbox">
-		<img loading="lazy" src="../../../assets/images/projectformation-uprava-ukolu.jpg" alt="Úprava úkolu v ProjectFormation™" />
+	<a href="../../../assets/images/cs/projectformation-uprava-ukolu.jpg" title="Úprava úkolu v ProjectFormation™" class="glightbox">
+		<img loading="lazy" src="../../../assets/images/cs/projectformation-uprava-ukolu.jpg" alt="Úprava úkolu v ProjectFormation™" />
 		<figcaption>Úprava úkolu v ProjectFormation™</figcaption>
 	</a>
 </figure>
@@ -101,8 +101,8 @@ Zde můžete upravit informace o úkolu stejným způsobem, jako byste tvořili 
 Pokud projekt obsahuje více úkolů, můžete je propojit kliknutím a tažením z bodu „End“ na dlaždici úkolu A do bodu „Start“ úkolu B (toto pak v projektu znamená, že musí být úkol A dokončen, aby se mohlo začít pracovat na úkolu B).
 
 <figure>
-	<a href="../../../assets/images/projectformation-propojeni-ukolu.jpg" title="Propojení úkolů v ProjectFormation™" class="glightbox">
-		<img loading="lazy" src="../../../assets/images/projectformation-propojeni-ukolu.jpg" alt="Propojení úkolů v ProjectFormation™" />
+	<a href="../../../assets/images/cs/projectformation-propojeni-ukolu.jpg" title="Propojení úkolů v ProjectFormation™" class="glightbox">
+		<img loading="lazy" src="../../../assets/images/cs/projectformation-propojeni-ukolu.jpg" alt="Propojení úkolů v ProjectFormation™" />
 		<figcaption>Propojení úkolů v ProjectFormation™</figcaption>
 	</a>
 </figure>
@@ -127,8 +127,8 @@ Ve vyskakovacím okně je možné nastavit následující údaje:
 Pipeline poté uložíte tlačítkem „Nastavit pipeline“.
 
 <figure>
-	<a href="../../../assets/images/projectformation-nastaveni-pipeline.jpg" title="Pipelines v ProjectFormation™" class="glightbox">
-		<img loading="lazy" src="../../../assets/images/projectformation-nastaveni-pipeline.jpg" alt="Pipelines v ProjectFormation™" />
+	<a href="../../../assets/images/cs/projectformation-nastaveni-pipeline.jpg" title="Pipelines v ProjectFormation™" class="glightbox">
+		<img loading="lazy" src="../../../assets/images/cs/projectformation-nastaveni-pipeline.jpg" alt="Pipelines v ProjectFormation™" />
 		<figcaption>Pipelines v ProjectFormation™</figcaption>
 	</a>
 </figure>
@@ -145,8 +145,8 @@ Návaznosti a propojení zde fungují stejně jako u úkolů.
 Úkoly a rozhodovací prvky můžete libovolně přesouvat (kliknutím a tažením) na pracovním plátně.
 
 <figure>
-	<a href="../../../assets/images/projectformation-rozhodovaci-prvek.jpg" title="Rozhodovací prvek v ProjectFormation™" class="glightbox">
-		<img loading="lazy" src="../../../assets/images/projectformation-rozhodovaci-prvek.jpg" alt="Rozhodovací prvek v ProjectFormation™" />
+	<a href="../../../assets/images/cs/projectformation-rozhodovaci-prvek.jpg" title="Rozhodovací prvek v ProjectFormation™" class="glightbox">
+		<img loading="lazy" src="../../../assets/images/cs/projectformation-rozhodovaci-prvek.jpg" alt="Rozhodovací prvek v ProjectFormation™" />
 		<figcaption>Rozhodovací prvek v ProjectFormation™</figcaption>
 	</a>
 </figure>
@@ -163,8 +163,8 @@ Uložit procesní mapu lze také více způsoby.
 - „Uložit jako šablonu“ = uloží mapu pro pozdější použití.
 
 <figure>
-	<a href="../../../assets/images/projectformation-rozdelovac.jpg" title="Paralelní úkoly za rozhodujícím prvkem" class="glightbox">
-		<img loading="lazy" src="../../../assets/images/projectformation-rozdelovac.jpg" alt="Paralelní úkoly za rozhodujícím prvkem" />
+	<a href="../../../assets/images/cs/projectformation-rozdelovac.jpg" title="Paralelní úkoly za rozhodujícím prvkem" class="glightbox">
+		<img loading="lazy" src="../../../assets/images/cs/projectformation-rozdelovac.jpg" alt="Paralelní úkoly za rozhodujícím prvkem" />
 		<figcaption>Paralelní úkoly za rozhodujícím prvkem</figcaption>
 	</a>
 </figure>
