@@ -8,11 +8,11 @@
 	</a>
 </figure>
 
-## Provizní program ![Můj plán](../../../assets/icons/local_activity.svg)
+## Provizní program ![Můj plán](../../assets/icons/local_activity.svg)
 
 Našim uživatelům nabízíme provizní program. Můžete doporučit APU společnostem ve vašem okolí a získat až 30% provizi z každé platby. APU se tak může stát zdrojem vašeho pasivního příjmu.
 
-## Nastavení ![Nastavení](../../../assets/icons/settings.svg)
+## Nastavení ![Nastavení](../../assets/icons/settings.svg)
 
 V nastavení můžete upravit svého avatara, jméno, e-mail, či si změnit nebo resetovat heslo.
 

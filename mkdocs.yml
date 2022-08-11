@@ -65,6 +65,7 @@ plugins:
   - exclude-search:
       exclude:
         - typography.md
+        - cs/dokumentace/muj-profil.md
         - en/*
   #- monorepo
   - macros
@@ -138,7 +139,7 @@ nav:
     - Jak nainstalovat webovou aplikaci ApuTime na mobilní telefon: ./cs/dokumentace/jak-nainstalovat-aputime-na-mobilni-telefon.md
 - Changelog:
   - ./cs/changelog.md
-- Dostupnost aplikace: 
+- Dostupnost aplikace:
   - ./dostupnost-aplikace.md
 
 # Extra Files
