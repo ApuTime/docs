@@ -149,7 +149,6 @@ extra_css:
 extra_javascript:
   - ./assets/javascripts/glightbox.min.js
   - ./assets/javascripts/extra.js
-  - //js.hsforms.net/forms/v2.js
 
 # Google Analytics
 # google_analytics: ['UA-?', 'docs.aputime.com']
