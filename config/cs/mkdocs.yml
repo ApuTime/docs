@@ -118,7 +118,7 @@ markdown_extensions:
 nav:
 #- Home: index.md
 - Dokumentace:
-    - Návody: dokumentace/navody.md
+    - Návody: dokumentace/intro.md
     - Notifikace a upozornění: dokumentace/notifikace-a-upozorneni.md
     - Záložky: dokumentace/zalozky.md
     - Podpora: dokumentace/podpora.md

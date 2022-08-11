@@ -119,7 +119,7 @@ markdown_extensions:
 nav:
 #- Home: index.md
 - Documentation:
-    - knowledge-base/how-tos.md
+    - knowledge-base/intro.md
 - Changelog:
   - changelog.md
 - Up time:
