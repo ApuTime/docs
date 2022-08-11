@@ -1,0 +1,147 @@
+# Copyright (c) 2016-2020 Martin Donath <martin.donath@squidfunk.com>
+
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to
+# deal in the Software without restriction, including without limitation the
+# rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+# sell copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+
+# The above copyright notice and this permission notice shall be included in
+# all copies or substantial portions of the Software.
+
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+# FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+# IN THE SOFTWARE.
+
+# Project information
+site_name: User documentation
+site_url: https://docs.aputime.com/
+site_author: ApuTime
+site_description:
+
+# Repository
+repo_name: aputime/docs
+repo_url: https://github.com/aputime/docs
+
+# Copyright
+copyright: Copyright &copy; 2016 - 2022 APUTime
+
+docs_dir: './../../docs/en'
+site_dir: './../../site/en'
+
+# Configuration
+theme:
+  name: null
+  custom_dir: ./../../material
+  font: false
+  features:
+    - header.autohide
+    - navigation.tabs
+
+  # 404 page
+  static_templates:
+    - 404.html
+
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+
+  # Default values, taken from mkdocs_theme.yml
+  language: en
+  palette:
+    scheme: default
+  font:
+    text: Manrope
+    code: Roboto Mono
+  favicon: assets/favicon.png
+  icon:
+    logo: logo
+
+# Plugins
+plugins:
+  - search
+  - exclude-search:
+      exclude:
+        - typography.md
+  #- monorepo
+  - macros
+  - markdownextradata
+  - minify:
+      minify_html: true # TODO change to TRUE
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - abbr
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Page tree
+nav:
+#- Home: index.md
+- Documentation:
+    - knowledge-base/how-tos.md
+- Changelog:
+  - changelog.md
+- Up time:
+  - ./dostupnost-aplikace.md
+
+# Extra Files
+extra_css:
+  - ./assets/stylesheets/glightbox.min.css
+  - ./assets/stylesheets/extra.css
+extra_javascript:
+  - ./assets/javascripts/glightbox.min.js
+  - ./assets/javascripts/extra.js
+
+extra:
+  alternate:
+    - name: Česky
+      link: /global/
+      lang: global
+    - name: English
+      link: /en/
+      lang: en
+
+# Google Analytics
+# google_analytics: ['UA-?', 'docs.aputime.com']
+google_analytics: null

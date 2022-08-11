@@ -5,8 +5,8 @@
 Sekci „Projekty“ naleznete na levém bočním menu, pod ikonkou složky. Po kliknutí se dostanete na přehled všech projektů ve firmě.
 
 <figure>
-	<a href="../../../assets/images/cs/projekty.jpg" title="Projekty" class="glightbox">
-		<img loading="lazy" src="../../../assets/images/cs/projekty.jpg" alt="Projekty" />
+	<a href="../../../assets/images/projekty.jpg" title="Projekty" class="glightbox">
+		<img loading="lazy" src="../../../assets/images/projekty.jpg" alt="Projekty" />
 		<figcaption>Projekty</figcaption>
 	</a>
 </figure>
@@ -25,8 +25,8 @@ Sekci „Projekty“ naleznete na levém bočním menu, pod ikonkou složky. Po 
 Projekt vytvoříte kliknutím na tlačítko „Vytvořit“.
 
 <figure>
-	<a href="../../../assets/images/cs/projekty-vytvoreni-projektu.jpg" title="Vytvoření projektu" class="glightbox">
-		<img loading="lazy" src="../../../assets/images/cs/projekty-vytvoreni-projektu.jpg" alt="Vytvoření projektu" />
+	<a href="../../../assets/images/projekty-vytvoreni-projektu.jpg" title="Vytvoření projektu" class="glightbox">
+		<img loading="lazy" src="../../../assets/images/projekty-vytvoreni-projektu.jpg" alt="Vytvoření projektu" />
 		<figcaption>Vytvoření projektu</figcaption>
 	</a>
 </figure>
@@ -43,8 +43,8 @@ Provedené změny vždy uložte tlačítkem „Potvrdit změny“.
 Pokud chcete projekt odstranit, na dlaždici projektu vyberte „Více“ (tři tečky) a klikněte na „Upravit“. V levém dolním rohu tabulky naleznete možnost „Smazat“. Po kliknutí bude projekt odstraněn.
 
 <figure>
-	<a href="../../../assets/images/cs/projekty-uprava-projektu.jpg" title="Úprava projektu" class="glightbox">
-		<img loading="lazy" src="../../../assets/images/cs/projekty-uprava-projektu.jpg" alt="Úprava projektu" />
+	<a href="../../../assets/images/projekty-uprava-projektu.jpg" title="Úprava projektu" class="glightbox">
+		<img loading="lazy" src="../../../assets/images/projekty-uprava-projektu.jpg" alt="Úprava projektu" />
 		<figcaption>Úprava projektu</figcaption>
 	</a>
 </figure>
@@ -58,8 +58,8 @@ Pokud chcete projekt odstranit úplně i se všemi jeho daty, na dlaždici proje
 Pokud chcete projekt archivovat i se všemi jeho daty, na dlaždici projektu klikněte na tlačítko „Více“ (tři tečky) a vyberte  „Upravit“. V dolní části plovoucího okna vidíte přepínací tlačítko, pomocí kterého projekt můžete archivovat. Kdykoliv budete potřebovat projekt a jeho úkoly znovu zobrazit, stačí na seznamu projektů kliknout na tlačítko „Více“ (tři tečky) a vybrat „Archivované“, kde se vám zobrazí seznam všech projektů, které kdy byly archivovány. Pokud budete chtít projekt obnovit, stačí na detailu projektu přesunout volbu na přepínacím tlačítku.
 
 <figure>
-	<a href="../../../assets/images/cs/projekty-archivace-odstraneni-projektu.jpg" title="Archivace/Odstranění projektu" class="glightbox">
-		<img loading="lazy" src="../../../assets/images/cs/projekty-archivace-odstraneni-projektu.jpg" alt="Archivace/Odstranění projektu" />
+	<a href="../../../assets/images/projekty-archivace-odstraneni-projektu.jpg" title="Archivace/Odstranění projektu" class="glightbox">
+		<img loading="lazy" src="../../../assets/images/projekty-archivace-odstraneni-projektu.jpg" alt="Archivace/Odstranění projektu" />
 		<figcaption>Archivace/Odstranění projektu</figcaption>
 	</a>
 </figure>
@@ -71,8 +71,8 @@ Na dlaždici každého projektu vidíte důležité informace – v jakém stavu
 Kliknutím na tlačítko „Více“ (tři tečky) otevřete nabídku, kde můžete projekt upravit, podívat se na strávený čas (zjistit kolik času bylo odpracováno na celém projektu či na jednotlivých úkolech), nebo zobrazit jeho proces v ProjectFormation™.
 
 <figure>
-	<a href="../../../assets/images/cs/projekty-dlazdice-projektu.jpg" title="Dlaždice projektu" class="glightbox">
-		<img loading="lazy" src="../../../assets/images/cs/projekty-dlazdice-projektu.jpg" alt="Dlaždice projektu" />
+	<a href="../../../assets/images/projekty-dlazdice-projektu.jpg" title="Dlaždice projektu" class="glightbox">
+		<img loading="lazy" src="../../../assets/images/projekty-dlazdice-projektu.jpg" alt="Dlaždice projektu" />
 		<figcaption>Dlaždice projektu</figcaption>
 	</a>
 </figure>
@@ -93,8 +93,8 @@ Pomocí rolovací nabídky, v levém horním rohu, se můžete jednoduše přep�
 - Detail úkolu – kliknutím na úkol otevřete jeho detail (zobrazí se veškeré informace úkolu s možností jejich úpravy)
 
 <figure>
-	<a href="../../../assets/images/cs/projekty-detail-projektu.jpg" title="Detail projektu" class="glightbox">
-		<img loading="lazy" src="../../../assets/images/cs/projekty-detail-projektu.jpg" alt="Detail projektu" />
+	<a href="../../../assets/images/projekty-detail-projektu.jpg" title="Detail projektu" class="glightbox">
+		<img loading="lazy" src="../../../assets/images/projekty-detail-projektu.jpg" alt="Detail projektu" />
 		<figcaption>Detail projektu</figcaption>
 	</a>
 </figure>
@@ -108,8 +108,8 @@ Kliknutím na tlačítko otevřete nabídku rozhodnutí. Na základě vašeho ro
 Připomenutí o čekajícím rozhodnutí v projektu obdržíte vždy také na e-mail.
 
 <figure>
-	<a href="../../../assets/images/cs/projekty-rozhodnuti-v-projektu.jpg" title="Rozhodnutí v projektu" class="glightbox">
-		<img loading="lazy" src="../../../assets/images/cs/projekty-rozhodnuti-v-projektu.jpg" alt="Rozhodnutí v projektu" />
+	<a href="../../../assets/images/projekty-rozhodnuti-v-projektu.jpg" title="Rozhodnutí v projektu" class="glightbox">
+		<img loading="lazy" src="../../../assets/images/projekty-rozhodnuti-v-projektu.jpg" alt="Rozhodnutí v projektu" />
 		<figcaption>Rozhodnutí v projektu</figcaption>
 	</a>
 </figure>
@@ -118,8 +118,8 @@ Připomenutí o čekajícím rozhodnutí v projektu obdržíte vždy také na e-
 Kliknutím na tlačítko „+“ v pravém dolním rohu projektu otevřete nabídku pro vytvoření nového úkolu. Úkol můžete vždy vytvořit také v Project Formation™ a v sekci „Můj Plán“.
 
 <figure>
-	<a href="../../../assets/images/cs/projekty-vytvoreni-ukolu-v-projektu.jpg" title="Vytvoření úkolu v projektu" class="glightbox">
-		<img loading="lazy" src="../../../assets/images/cs/projekty-vytvoreni-ukolu-v-projektu.jpg" alt="Vytvoření úkolu v projektu" />
+	<a href="../../../assets/images/projekty-vytvoreni-ukolu-v-projektu.jpg" title="Vytvoření úkolu v projektu" class="glightbox">
+		<img loading="lazy" src="../../../assets/images/projekty-vytvoreni-ukolu-v-projektu.jpg" alt="Vytvoření úkolu v projektu" />
 		<figcaption>Vytvoření úkolu v projektu</figcaption>
 	</a>
 </figure>
@@ -140,8 +140,8 @@ Seznam úkolů v projektu zobrazíte otevřením projektu (kliknutím na dlaždi
 - Upozornění na blížící se deadline. V případě, kdy se blíží překročení nastavené deadline, uvidíte oranžový vykřičník s upozorněním, za jak dlouho se deadline překročí. V případě, že již deadline překročena byla, uvidíte červený vykřičník s upozorněním, jak dlouho je již po deadline.
 
 <figure>
-	<a href="../../../assets/images/cs/projekty-seznam-ukolu-v-projektu.jpg" title="Seznam úkolů v projektu" class="glightbox">
-		<img loading="lazy" src="../../../assets/images/cs/projekty-seznam-ukolu-v-projektu.jpg" alt="Seznam úkolů v projektu" />
+	<a href="../../../assets/images/projekty-seznam-ukolu-v-projektu.jpg" title="Seznam úkolů v projektu" class="glightbox">
+		<img loading="lazy" src="../../../assets/images/projekty-seznam-ukolu-v-projektu.jpg" alt="Seznam úkolů v projektu" />
 		<figcaption>Seznam úkolů v projektu</figcaption>
 	</a>
 </figure>
@@ -157,8 +157,8 @@ Umožňuje rychlé úpravy (přesunutí do jiného projektu, označení štítky
 Upozornění: Všechny provedené změny je vždy třeba uložit tlačítkem diskety v pravém dolním rohu.
 
 <figure>
-	<a href="../../../assets/images/cs/projekty-hromadna-uprava-ukolu.jpg" title="Hromadná úprava úkolů" class="glightbox">
-		<img loading="lazy" src="../../../assets/images/cs/projekty-hromadna-uprava-ukolu.jpg" alt="Hromadná úprava úkolů" />
+	<a href="../../../assets/images/projekty-hromadna-uprava-ukolu.jpg" title="Hromadná úprava úkolů" class="glightbox">
+		<img loading="lazy" src="../../../assets/images/projekty-hromadna-uprava-ukolu.jpg" alt="Hromadná úprava úkolů" />
 		<figcaption>Hromadná úprava úkolů</figcaption>
 	</a>
 </figure>
@@ -174,8 +174,8 @@ Z vytvořeného projektu můžete vytvořit šablonu procesní mapy jejím dupli
 V ovládacích prvcích nakonec vyberte tlačítko diskety a zvolte možnost, jak chcete mapu uložit.
 
 <figure>
-	<a href="../../../assets/images/cs/projekty-vytvoreni-sablony.jpg" title="Vytvoření šablony z existujícího projektu" class="glightbox">
-		<img loading="lazy" src="../../../assets/images/cs/projekty-vytvoreni-sablony.jpg" alt="Vytvoření šablony z existujícího projektu" />
+	<a href="../../../assets/images/projekty-vytvoreni-sablony.jpg" title="Vytvoření šablony z existujícího projektu" class="glightbox">
+		<img loading="lazy" src="../../../assets/images/projekty-vytvoreni-sablony.jpg" alt="Vytvoření šablony z existujícího projektu" />
 		<figcaption>Vytvoření šablony z existujícího projektu</figcaption>
 	</a>
 </figure>
@@ -184,8 +184,8 @@ V ovládacích prvcích nakonec vyberte tlačítko diskety a zvolte možnost, ja
 Pokud již máte nějakou procesní mapu uloženou ve svém PC, můžete ji jednoduše importovat pomocí tlačítka „Importovat”, které naleznete v plovoucí liště v pravém horním rohu po kliknutí na „Více“ (tři tečky).
 
 <figure>
-	<a href="../../../assets/images/cs/projekty-import-mapy-procesu.jpg" title="Import mapy procesu" class="glightbox">
-		<img loading="lazy" src="../../../assets/images/cs/projekty-import-mapy-procesu.jpg" alt="Import mapy procesu" />
+	<a href="../../../assets/images/projekty-import-mapy-procesu.jpg" title="Import mapy procesu" class="glightbox">
+		<img loading="lazy" src="../../../assets/images/projekty-import-mapy-procesu.jpg" alt="Import mapy procesu" />
 		<figcaption>Import mapy procesu</figcaption>
 	</a>
 </figure>
@@ -194,8 +194,8 @@ Pokud již máte nějakou procesní mapu uloženou ve svém PC, můžete ji jedn
 Pokud chcete procesní mapu exportovat (stáhnout), stačí použít tlačítko „Exportovat”, které naleznete v plovoucí liště v pravém horním rohu po kliknutí na „Více“ (tři tečky). Poté se vám procesní mapa stáhne ve formátu .json a vy si ji můžete uložit nebo třeba poslat.
 
 <figure>
-	<a href="../../../assets/images/cs/projekty-export-mapy-procesu.jpg" title="Export mapy procesu" class="glightbox">
-		<img loading="lazy" src="../../../assets/images/cs/projekty-export-mapy-procesu.jpg" alt="Export mapy procesu" />
+	<a href="../../../assets/images/projekty-export-mapy-procesu.jpg" title="Export mapy procesu" class="glightbox">
+		<img loading="lazy" src="../../../assets/images/projekty-export-mapy-procesu.jpg" alt="Export mapy procesu" />
 		<figcaption>Export mapy procesu</figcaption>
 	</a>
 </figure>
@@ -204,8 +204,8 @@ Pokud chcete procesní mapu exportovat (stáhnout), stačí použít tlačítko 
 Mapu procesu si můžete jednoduše vytisknout pomocí tlačítka „Otevřít tiskárnu”, které naleznete v plovoucí liště v pravém horním rohu po kliknutí na „Více“ (tři tečky). Poté se vám vaše mapa procesu otevře v novém okně v tiskové kvalitě a vy pouze kliknete pravým tlačítkem kdekoliv v okně a vyberete možnost „Tisk“.
 
 <figure>
-	<a href="../../../assets/images/cs/projekty-tisk-mapy-procesu.jpg" title="Tisk mapy procesu" class="glightbox">
-		<img loading="lazy" src="../../../assets/images/cs/projekty-tisk-mapy-procesu.jpg" alt="Tisk mapy procesu" />
+	<a href="../../../assets/images/projekty-tisk-mapy-procesu.jpg" title="Tisk mapy procesu" class="glightbox">
+		<img loading="lazy" src="../../../assets/images/projekty-tisk-mapy-procesu.jpg" alt="Tisk mapy procesu" />
 		<figcaption>Tisk mapy procesu</figcaption>
 	</a>
 </figure>
